@@ -8,8 +8,8 @@ import VideoPlayer from '../../components/VideoPlayer/VideoPlayer';
 import MapContainer from '../../components/Map/Map';
 import data from '../../data/people';
 
-function PersonalPage() {
-  let profile = data[0];
+function PersonalPage(props) {
+  let profile = data[props.person];
   return (
     <div className="personal-page">
       <Avatar data={profile}/>
