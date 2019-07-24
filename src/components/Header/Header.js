@@ -8,9 +8,9 @@ export default class Header extends Component {
     return (
       <header>
         <div className="header-container">
-          <a href="#" className="logo">
+          <Link to="/" className="logo">
             <img src={logo} alt="logo"/>
-          </a>
+          </Link>
           <div className="header-title-container">
           <p className="header-title">Photo.by</p>
           <p className="header-subtitle">Портал фотографов Беларуси</p>
@@ -18,7 +18,7 @@ export default class Header extends Component {
           <nav className="header-links">
             <ul>
               <li>
-                <Link to="/"  className="header-link">
+                <Link to="/commonpage"  className="header-link">
                   Фотографы
                 </Link>
               </li>               

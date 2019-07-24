@@ -1,0 +1,11 @@
+footer {
+  position: relative;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  margin: 60px auto;
+}
+
+.personal-page+footer {
+  margin-top: 750px;
+}

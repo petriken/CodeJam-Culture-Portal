@@ -1,5 +1,7 @@
 import avatar_1 from '../img/person_1/avatar/ava.jpg';
 import avatar_2 from '../img/person_2/avatar/ava.jpg';
+import avatar_3 from '../img/person_3/avatar/ava.jpg';
+import avatar_4 from '../img/person_4/avatar/ava.jpg';
 
 import slide_1 from '../img/person_1/portfolio/work1.jpg';
 import slide_2 from '../img/person_1/portfolio/work2.jpg';
@@ -15,8 +17,24 @@ import slide_10 from '../img/person_2/portfolio/work4.jpg';
 import slide_11 from '../img/person_2/portfolio/work5.jpg';
 import slide_12 from '../img/person_2/portfolio/work6.jpg';
 
+import slide_13 from '../img/person_3/portfolio/work1.jpg';
+import slide_14 from '../img/person_3/portfolio/work2.jpg';
+import slide_15 from '../img/person_3/portfolio/work3.jpg';
+import slide_16 from '../img/person_3/portfolio/work4.jpg';
+import slide_17 from '../img/person_3/portfolio/work5.jpg';
+import slide_18 from '../img/person_3/portfolio/work6.jpg';
+
+import slide_19 from '../img/person_4/portfolio/work1.jpg';
+import slide_20 from '../img/person_4/portfolio/work2.jpg';
+import slide_21 from '../img/person_4/portfolio/work3.jpg';
+import slide_22 from '../img/person_4/portfolio/work4.jpg';
+import slide_23 from '../img/person_4/portfolio/work5.jpg';
+import slide_24 from '../img/person_4/portfolio/work6.jpg';
+
 import video_1 from '../video/video1.mp4';
 import video_2 from '../video/video2.mp4';
+import video_3 from '../video/video3.mp4';
+import video_4 from '../video/video4.mp4';
 
 export default [
     {
@@ -123,6 +141,132 @@ export default [
           slide_10,
           slide_11,
           slide_12
+        ]
+    },
+    {
+        id: 3,
+        name: 'Михаил Григорьевич Борозна',
+        avatar: avatar_3,
+        occupation: 'Белорусский искусствовед, художественный критик, фотограф.',
+        birthDate: '20.11.1962',
+        birthPlace: 'д.Ракушево, БССР',
+        deathDate: null,
+        deathPlace: null,
+        locationsCoords: {
+            lat: '53.902496',
+            lng: '27.561481'
+        }, 
+        video : video_3,
+        activity: [
+            {
+                date: '20.11.1962',
+                place: 'д.Ракушево, Могилёвской области',
+                description: 'Родился в д.Ракушево Круглянского района Могилёвской области.'
+            },
+            {
+                date: '1985',
+                place: 'Минск',
+                description: 'Окончил художественно-промышленный факультет Белорусского государственного театрально-художественного института.'
+            },
+            {
+                date: '1986-1992',
+                place: 'Минск',
+                description: 'Художественный редактор издательства «Беларусь».'
+            },
+            {
+                date: '1992',
+                place: 'Минск',
+                description: 'Начал преподавать в Белорусской государственной академии искусств.'
+            },
+            {
+                date: '1995',
+                place: 'Витебск',
+                description: 'Участвовал в первой своей выставке «АРТУНОДИСКУС» в г.Витебске.'
+            },
+            {
+                date: '1997',
+                place: 'Минск',
+                description: 'Первая персональная выставка работ «Один в городе» в музее Белорусской государственной академии искусств в г.Минске.'
+            },
+            {
+                date: 'с 2010',
+                place: 'Минск',
+                description: 'Ректор Белорусской государственной академии искусств. Кандидат искусствоведения, профессор кафедры истории и теории искусств, доцент. Почётный член Российской академии художеств.'
+            },
+        ],
+        works: [
+          slide_13,
+          slide_14,
+          slide_15,
+          slide_16,
+          slide_17,
+          slide_18
+        ]
+    },
+
+    {
+        id: 4,
+        name: 'Лев Урбанович Дашкевич',
+        avatar: avatar_4,
+        occupation: 'Белорусский фотограф, учёный, исследователь, публицист, педагог',
+        birthDate: '12.02.1882',
+        birthPlace: 'г.Минск, БССР',
+        deathDate: '4.12.1957',
+        deathPlace: 'г.Минск',
+        locationsCoords: {
+            lat: '53.902496',
+            lng: '27.561481'
+        },    
+        video : video_4,
+        activity: [
+            {
+                date: '12.02.1882',
+                place: 'Минск',
+                description: 'Родился в г.Минске. Происходил из дворянского рода герба “Лелива”.'
+            },
+            {
+                date: '1882-1896',
+                place: 'Минск',
+                description: 'Учился в Минской мужской гимназии.'
+            },
+            {
+                date: '1903-1911',
+                place: 'Варшава',
+                description: 'В 1903 поступил в Варшавский университет на медицинский факультет, однако в 1904 году на участие в студенческой забастовке был арестован и исключён из университета без права поступления в ВУЗы Российской империи. В 1906-1911 гг. учился во Франции на факультете филологии Университета Бургундии (Дижон). Параллельно в 1908-1909 гг. занимался на фотографическом отделении Высшей школы графических искусств в Париже. В 1911 начал публиковаться в научных изданиях.'
+            },
+            {
+                date: '1911-1920',
+                place: 'Ереван',
+                description: 'Жил в Закавказье, преподавал французский язык, физику и естествознание в гимназиях Еревана, Тифлис. В 1918 служил государственным фотографом правительства Азербайджанской республики.'
+            },
+            {
+                date: '1920-1930',
+                place: 'Минск',
+                description: 'В конце мая 1920 г. возвратился в Минск. Читал лекции по всемирной истории и фотографии в Минском институте народного образования. В 1923 участвовал в этнографической экспедиции в Игуменский и Борисовский поветы. В 1923-1924 - научный фотограф на медицинском факультете БГУ.'
+            },
+            {
+                date: '21.07.1930',
+                place: 'Минск',
+                description: 'Арестован ГПУ БССР 21 июля 19300 г. по делу «Союза освобождения Беларуси». Освобожден в сентябре 1930.'
+            },
+            {
+                date: '1941-1944',
+                place: 'Фрунза',
+                description: 'Жил в эвакуации в г. Фрунзе (ныне Бишкек, Кыргызстан), работал в медицинских учреждениях. В сентябре 1944 вернулся в Минск.'
+            },
+            {
+                date: '4.12.1957',
+                place: 'Минск',
+                description: 'Умер в городе Минске'
+            }
+        ],
+        works: [
+          slide_19,
+          slide_20,
+          slide_21,
+          slide_22,
+          slide_23,
+          slide_24
         ]
     }
 ];
