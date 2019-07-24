@@ -2,10 +2,16 @@ footer {
   position: relative;
   text-align: center;
   border-top: 1px solid #ccc;
-  padding-top: 20px;
-  margin: 60px auto;
+  padding-top: 10px;
+  margin: 20px auto 30px;
 }
 
 .personal-page+footer {
   margin-top: 750px;
+}
+
+@media (max-width: 720px){
+  footer { 
+    font-size: 16px;
+  } 
 }

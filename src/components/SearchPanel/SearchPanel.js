@@ -18,11 +18,25 @@ export default class SearchPanel extends Component {
   render() {
     return (
       <div className="search-container">
-        <input type="text"
-               className="form-control search-input"
-               placeholder="search"
-               value={this.state.term}
-               onChange={ this.onTermChange } />
+        <form className="search-panel">
+        <label>        
+          Я ищу фотографа
+          <input type="text"
+                 className="search-input"
+                 placeholder="search"
+                 value={this.state.term}
+                 onChange={ this.onTermChange } />
+        </label>
+        <label>        
+          в городе
+          <input type="text"
+                 className="search-input"
+                 placeholder="search"
+                 value={this.state.term}
+                 onChange={ this.onTermChange } />
+        </label>
+        <button className="btn-search" type="submit">Найти</button>
+        </form>
       </div>
     );
   };
