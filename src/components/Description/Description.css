@@ -1,0 +1,20 @@
+.description {
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.occupation {
+  font-size: 24px;
+}
+
+.years,
+.birth-place {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.years span,
+.birth-place span {
+  font-weight: 400;
+}
