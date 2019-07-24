@@ -7,7 +7,7 @@
 }
 
 .logo {
-  width: 200px;
+width: 200px;
 }
 
 .logo img {
@@ -40,6 +40,7 @@
   list-style: none;
   min-width: 200px;
   text-align: right;
+
 }
 
 .header-link {
