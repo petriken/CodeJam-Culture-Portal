@@ -1,0 +1,53 @@
+.common-page {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  max-width: 1200px;  
+  margin: 40px auto;
+  padding: 20px 40px;
+  border: 1px solid #ccc;
+}
+
+.common-page .avatar-container {
+  width: 280px;
+  height: 280px;
+  margin: 0;
+} 
+
+.common-page .avatar-container img {
+  width: 280px;
+  border-radius: 5px;
+}
+
+.common-page h1 {
+  font-size: 1.6em;
+  margin: 0;
+}
+
+.common-page .description {
+  justify-content: flex-start;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  padding-left: 60px;
+}
+
+.common-page .years,
+.common-page .birth-place {
+  display: none;
+}
+
+.read-more-button {
+  display: inline-block;  
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 60px;
+  margin-left: 60px;
+  border-radius: 3px;
+  border-bottom: none;
+  background: linear-gradient(to right, #c84d57, #e86971);
+  outline: none;
+}
