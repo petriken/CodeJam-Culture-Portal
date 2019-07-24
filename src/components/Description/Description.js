@@ -1,5 +1,4 @@
 import React from 'react';
-import data from '../../data/people';
 import './Description.css';
 
 function Description(props) {
