@@ -1,5 +1,6 @@
 .developer-container {
   margin: 10px 0;
+  text-align: center;
 }
 
 .developer-container img {
@@ -8,11 +9,11 @@
   border-radius: 10px;
 }
 
-.developer-container p {
-  text-align: center;
+.developer-container a {
+  color: black;
 }
 
-/* .developer-container a {
-  text-align: center;
-  width: 100%;
-} */
+.developer-container a:hover {
+  transition: .2s;
+  color: red;
+}
