@@ -25,6 +25,7 @@ class CommonPageItems extends Component {
       array = string.split('.')[1];
     } else {
       array = string.split(' ');
+      array.splice(1, 1);
     }
     return typeof array === 'string'
       ? array.match(new RegExp(`^${searchWord}`, 'i'))
@@ -37,8 +38,10 @@ class CommonPageItems extends Component {
         const term = this.props.term ? this.props.term : '';
         const city = this.props.city ? this.props.city : '';
         return (
-          <div className={`common-page 
-          ${this.checkMatch(item.name, term) && this.checkMatch(item.birthPlace, city) ? 'shown' : 'hidden'}`}
+          <div
+            className={
+              `${this.checkMatch(item.name, term) && this.checkMatch(item.birthPlace, city) ? 'common-page' : 'hidden'}`
+            }
             key={index}>
             <Avatar data={item} />
             <div className="description-container">
