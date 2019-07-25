@@ -22,11 +22,13 @@ class CommonPageItems extends Component {
     let string = item;
     let array;
     if (string.indexOf('.') !== -1) {
-      array = string.split('.');
+      array = string.split('.')[1];
     } else {
       array = string.split(' ');
     }
-    return array ? array.some(i => i.match(new RegExp(`^${searchWord}`, 'i'))) : ''
+    return typeof array === 'string'
+      ? array.match(new RegExp(`^${searchWord}`, 'i'))
+      : array.some(i => i.match(new RegExp(`^${searchWord}`, 'i')))
   };
 
   render() {
