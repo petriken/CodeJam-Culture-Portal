@@ -4,7 +4,9 @@ import Avatar from '../../components/Avatar/Avatar';
 import Description from '../../components/Description/Description';
 import Developer from '../../components/Developer/Developer';
 import data from '../../data/people';
-import avatarVitaly from './__QBzAfm4wQ.jpg';
+import avatarVitalyMikulich from '../../img/developers/VitalyMikulich.jpg';
+import avatarPetriken from '../../img/developers/petriken.png';
+import avatarIrinainina from '../../img/developers/irinainina.jpg';
 
 function MainPage(props) { 
   const date = new Date();
@@ -26,12 +28,12 @@ function MainPage(props) {
       <div className="developers-container">
         <p>Команда разработчиков</p>
         <div className="developers">
-          <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitaly}/>
-          <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitaly}/>
-          <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitaly}/>
-          <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitaly}/>
-          <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitaly}/>
-          <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitaly}/>
+          <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitalyMikulich} />
+          <Developer name="Piotr Stashukevich" gitHub="petriken" avatar={avatarPetriken} />
+          <Developer name="Irina Inina" gitHub="irinainina" avatar={avatarIrinainina} />
+          <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitalyMikulich} />
+          <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitalyMikulich} />
+          <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitalyMikulich} />
         </div>
       </div>
     </>

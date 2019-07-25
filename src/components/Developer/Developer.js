@@ -8,7 +8,7 @@ function Developer(props) {
     <div className="developer-container">
       <img src={props.avatar} alt={props.name} />
       <p className="developer-name">{props.name}</p>
-      <a href={gitHubLink} target="_blank" rel="noopener noreferrer">{props.gitHub}</a>
+      <p><a href={gitHubLink} target="_blank" rel="noopener noreferrer">{props.gitHub}</a></p>
     </div>
   )
 }
