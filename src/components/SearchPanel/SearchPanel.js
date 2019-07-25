@@ -1,14 +1,25 @@
 import React, { Component } from 'react';
 import './SearchPanel.css';
 import store from '../../store/store';
+import bg from '../../img/assets/SearchPannelBG';
 
 export default class SearchPanel extends Component {
   constructor(props) {
     super(props)
     this.state = {
       term: '',
-      city: ''
+      city: '',
+      bg: bg.bg1
     };
+  }
+
+  componentWillMount() {
+    const BGs = Object.values(bg);
+    BGs.forEach((item, i) => {
+      if (i === Math.floor(Math.random() * 10)) {
+        this.setState({ bg: item })
+      }
+    })
   }
 
   onTermChange(event) {
@@ -35,7 +46,8 @@ export default class SearchPanel extends Component {
 
   render() {
     return (
-      <div className="search-container">
+      <div className="search-container"
+        style={{ background: `url(${this.state.bg}) center center / cover` }}>
         <form className="search-panel">
           <label>
             Я ищу фотографа
