@@ -7,10 +7,8 @@ import data from '../../data/people';
 import avatarVitalyMikulich from '../../img/developers/VitalyMikulich.jpg';
 import avatarPetriken from '../../img/developers/petriken.png';
 import avatarIrinainina from '../../img/developers/irinainina.jpg';
-import avatarAlexskir from '../../img/developers/user.png';
-import avatarProtanton from '../../img/developers/user.png';
-import avatarJulanick from '../../img/developers/user.png';
-import avatarGreatorangejuice from '../../img/developers/user.png';
+import avatarAlexSkir from '../../img/developers/AlexSkir.jpg';
+import avatarJulanick from '../../img/developers/Julanick.jpg';
 
 function MainPage(props) { 
   const date = new Date();
@@ -36,10 +34,8 @@ function MainPage(props) {
           <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitalyMikulich} />
           <Developer name="Piotr Stashukevich" gitHub="petriken" avatar={avatarPetriken} />
           <Developer name="Irina Inina" gitHub="irinainina" avatar={avatarIrinainina} />
-          <Developer name="Aleksandra Skirnevskaia" gitHub="alexskir" avatar={avatarAlexskir} />
-          <Developer name="Anton Protasenya" gitHub="protanton" avatar={avatarProtanton} />
-          <Developer name="Yuliya Pakidzka" gitHub="julanick" avatar={avatarJulanick} />
-          <Developer name="Pavel Snihirou" gitHub="greatorangejuice" avatar={avatarGreatorangejuice} />
+          <Developer name="Aleksandra Skirnevskaia" gitHub="AlexSkir" avatar={avatarAlexSkir} />
+          <Developer name="Yuliya Pakidzka" gitHub="Julanick" avatar={avatarJulanick} />
         </div>
       </div>
     </>
