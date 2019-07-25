@@ -4,7 +4,7 @@ import MainPage from './containers/MainPage/MainPage';
 import CommonPage from './containers/CommonPage/CommonPage';
 import PersonalPage from './containers/PersonalPage/PersonalPage';
 import Footer from './components/Footer/Footer';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {Route, HashRouter} from 'react-router-dom';
 
 export default class App extends Component {
   state={
@@ -18,7 +18,7 @@ export default class App extends Component {
   
   render() {
     return (
-      <Router>
+      <HashRouter>
         <div>
           <Header/>  
           <Route path="/" 
@@ -34,7 +34,7 @@ export default class App extends Component {
                  exact/>
           <Footer/>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
