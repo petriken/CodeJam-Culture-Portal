@@ -25,11 +25,10 @@ class CommonPageItems extends Component {
       array = string.split('.')[1];
     } else {
       array = string.split(' ');
-      array.splice(1, 1);
     }
     return typeof array === 'string'
       ? array.match(new RegExp(`^${searchWord}`, 'i'))
-      : array.some(i => i.match(new RegExp(`^${searchWord}`, 'i')))
+      : array.some(i => i.match(new RegExp(searchWord, 'i')))
   };
 
   render() {
