@@ -1,0 +1,19 @@
+.developer-container {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.developer-container img {
+  height: 156px;
+  width: 156px;
+  border-radius: 10px;
+}
+
+.developer-container a {
+  color: black;
+}
+
+.developer-container a:hover {
+  transition: .2s;
+  color: red;
+}
