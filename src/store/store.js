@@ -2,18 +2,18 @@ import { createStore } from 'redux';
 
 const initialState = {
   term: '',
-  city: ''
+  city: '',
 };
 
 function appState(state = initialState, action) {
   switch (action.type) {
     case 'term':
       return Object.assign({}, state, {
-        term: action.value
+        term: action.value,
       });
     case 'city':
       return Object.assign({}, state, {
-        city: action.value
+        city: action.value,
       });
     default:
       return state;

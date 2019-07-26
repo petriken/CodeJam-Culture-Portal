@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 import logo from '../../img/assets/logo.png';
-import {Link} from 'react-router-dom';
 
 export default class Header extends Component {
   render() {
@@ -9,23 +9,23 @@ export default class Header extends Component {
       <header>
         <div className="header-container">
           <Link to="/" className="logo">
-            <img src={logo} alt="logo"/>
+            <img src={logo} alt="logo" />
           </Link>
           <div className="header-title-container">
-          <p className="header-title">Photo.by</p>
-          <p className="header-subtitle">Портал фотографов Беларуси</p>
+            <p className="header-title">Photo.by</p>
+            <p className="header-subtitle">Портал фотографов Беларуси</p>
           </div>
           <nav className="header-links">
             <ul>
               <li>
-                <Link to="/commonpage"  className="header-link">
+                <Link to="/commonpage" className="header-link">
                   Фотографы
                 </Link>
-              </li>               
+              </li>
             </ul>
           </nav>
         </div>
-      </header>    
+      </header>
     );
-  };
+  }
 }

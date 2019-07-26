@@ -5,11 +5,11 @@ import bg from '../../img/assets/SearchPannelBG';
 
 export default class SearchPanel extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       term: '',
       city: '',
-      bg: bg.bg1
+      bg: bg.bg1,
     };
   }
 
@@ -17,21 +17,21 @@ export default class SearchPanel extends Component {
     const BGs = Object.values(bg);
     BGs.forEach((item, i) => {
       if (i === Math.floor(Math.random() * 10)) {
-        this.setState({ bg: item })
+        this.setState({ bg: item });
       }
-    })
+    });
   }
 
   onTermChange(event) {
     this.setState({
-      term: event.target.value
+      term: event.target.value,
     });
     store.dispatch({ type: 'term', value: event.target.value });
   }
 
   onCityChange(event) {
     this.setState({
-      city: event.target.value
+      city: event.target.value,
     });
     store.dispatch({ type: 'city', value: event.target.value });
   }
@@ -39,7 +39,7 @@ export default class SearchPanel extends Component {
   onClickHandler() {
     const term = document.getElementById('termInput').value;
     const city = document.getElementById('cityInput').value;
-    this.setState({ term, city })
+    this.setState({ term, city });
     store.dispatch({ type: 'term', value: term });
     store.dispatch({ type: 'city', value: city });
   }
@@ -71,5 +71,5 @@ export default class SearchPanel extends Component {
         </form>
       </div>
     );
-  };
+  }
 }
