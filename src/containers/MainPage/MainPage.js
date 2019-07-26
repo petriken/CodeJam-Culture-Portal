@@ -1,14 +1,14 @@
-import React from 'react';
-import './MainPage.css';
-import Avatar from '../../components/Avatar/Avatar';
-import Description from '../../components/Description/Description';
-import Developer from '../../components/Developer/Developer';
-import data from '../../data/people';
-import avatarVitalyMikulich from '../../img/developers/VitalyMikulich.jpg';
-import avatarPetriken from '../../img/developers/petriken.png';
-import avatarIrinainina from '../../img/developers/irinainina.jpg';
-import avatarAlexSkir from '../../img/developers/AlexSkir.jpg';
-import avatarJulanick from '../../img/developers/Julanick.jpg';
+import React from "react";
+import "./MainPage.css";
+import Avatar from "../../components/Avatar/Avatar";
+import Description from "../../components/Description/Description";
+import Developer from "../../components/Developer/Developer";
+import data from "../../data/people";
+import avatarVitalyMikulich from "../../img/developers/VitalyMikulich.jpg";
+import avatarPetriken from "../../img/developers/petriken.jpg";
+import avatarIrinainina from "../../img/developers/irinainina.jpg";
+import avatarAlexSkir from "../../img/developers/AlexSkir.jpg";
+import avatarJulanick from "../../img/developers/Julanick.jpg";
 
 function MainPage() {
   const date = new Date();
@@ -24,7 +24,7 @@ function MainPage() {
         <p className="description-mainpage">
           <span>
             Добро пожаловать на портал <font color="red">Photo.by</font>,
-          </span>{' '}
+          </span>{" "}
           <span>посвященный фотографам Беларуси.</span>
           <span>Здесь можно найти информацию о фотографе </span>
           <span>и вдохновиться его работами.</span>
