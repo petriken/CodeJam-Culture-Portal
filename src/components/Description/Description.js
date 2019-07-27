@@ -1,6 +1,7 @@
 import React from 'react';
 import './Description.css';
 import PropTypes from 'prop-types';
+import { FormattedMessage } from 'react-intl';
 
 function Description(props) {
   return (
@@ -8,11 +9,11 @@ function Description(props) {
       <h1 className="name">{props.data.name}</h1>
       <p className="occupation">{props.data.occupation}</p>
       <p className="years">
-        Годы жизни: <span>{props.data.birthDate}</span> -{' '}
+        <FormattedMessage id="authorLifispan" /><span>{props.data.birthDate}</span> -{' '}
         <span>{props.data.deathDate}</span>
       </p>
       <p className="birth-place">
-        Место рождения: <span>{props.data.birthPlace}</span>
+        <FormattedMessage id="birthPlace" /><span>{props.data.birthPlace}</span>
       </p>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import PropTypes from 'prop-types';
 
@@ -6,7 +7,7 @@ function TimeLine(props) {
   return (
     <div>
       <h2 style={{ textAlign: 'center', color: '#e86971', fontSize: '2em' }}>
-        Биография фотографа
+        <FormattedMessage id="biography" />
       </h2>
       <Timeline lineColor={'#ddd'}>
         {props.data.activity.map((item, index) => (

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import ImageGallery from 'react-image-gallery';
 import './ImageGallery.css';
 import PropTypes from 'prop-types';
@@ -16,7 +17,7 @@ function ImageGalleryComponent(props) {
   return (
     <div>
       <h2 style={{ textAlign: 'center', color: '#e86971', fontSize: '2em' }}>
-        Фотогалерея
+        <FormattedMessage id="imageGalery" />
       </h2>
       <ImageGallery items={images} />
     </div>
