@@ -1,35 +1,50 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import './MainPage.css';
+import { FormattedMessage, FormattedHTMLMessage } from 'react-intl';
 import Avatar from '../../components/Avatar/Avatar';
 import Description from '../../components/Description/Description';
 import Developer from '../../components/Developer/Developer';
-import data from '../../data/people';
+import ru from '../../data/people';
+import en from '../../data/peopleEN';
+import be from '../../data/peopleBE';
 import avatarVitalyMikulich from '../../img/developers/VitalyMikulich.png';
-import avatarPetriken from '../../img/developers/petriken.e3b7ff7c.png';
+import avatarPetriken from '../../img/developers/petriken.jpg';
 import avatarIrinainina from '../../img/developers/irinainina.fb191d76.jpg';
 import avatarAlexSkir from '../../img/developers/AlexSkir.1a2f411d.jpg';
 import avatarJulanick from '../../img/developers/Julanick.4e8df6e1.jpg';
 
-function MainPage(props) { 
+function MainPage(props) {
+  let data;
+  if (props.lang === 'ru') {
+    data = ru;
+  } else if (props.lang === 'en') {
+    data = en;
+  } else if (props.lang === 'be') {
+    data = be;
+  }
   const date = new Date();
   const day = date.getDate();
-  const authorDay = day % data.length;  
-  let profile = data[authorDay];
+  const authorDay = day % data.length;
+  const profile = data[authorDay];
   return (
     <>
       <div className="main-page">
-        <h2 className="title-mainpage">Автор дня</h2>
-        <Avatar data={profile}/>
-        <Description data={profile}/>
+        <h2 className="title-mainpage">
+          <FormattedMessage id="todayAuthor" />
+        </h2>
+        <Avatar data={profile} />
+        <Description data={profile} />
         <p className="description-mainpage">
-          <span>Добро пожаловать на портал <font color="red">Photo.by</font>,</span> <span>посвященный фотографам Беларуси.</span> 
-          <span>Здесь можно найти информацию о фотографе </span>
-          <span>и вдохновиться его работами.</span>
+          <FormattedHTMLMessage id="welcome" />
         </p>
-        <p className="description-mainpage">Портал разработан студентами Rolling Scopes School с целью просвящения о культуре Беларуси.</p>
+        <p className="description-mainpage">
+          <FormattedMessage id="purpose" />
+        </p>
       </div>
       <div className="developers-container">
-        <p>Команда разработчиков</p>
+        <p><FormattedMessage id="developers" /></p>
         <div className="developers">
           <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitalyMikulich} />
           <Developer name="Piotr Stashukevich" gitHub="petriken" avatar={avatarPetriken} />
@@ -39,7 +54,12 @@ function MainPage(props) {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default MainPage;
+MainPage.propTypes = {
+  lang: PropTypes.string.isRequired,
+};
+
+const mapStateToProps = state => ({ lang: state.locales.lang });
+export default connect(mapStateToProps)(MainPage);

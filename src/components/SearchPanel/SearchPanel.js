@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FormattedMessage } from 'react-intl';
 import './SearchPanel.css';
 import store from '../../store/store';
 import bg from '../../img/assets/SearchPannelBG';
@@ -9,7 +10,7 @@ export default class SearchPanel extends Component {
     this.state = {
       term: '',
       city: '',
-      bg: bg.bg1,
+      bg: localStorage.getItem('bg'),
     };
   }
 
@@ -17,7 +18,12 @@ export default class SearchPanel extends Component {
     const BGs = Object.values(bg);
     BGs.forEach((item, i) => {
       if (i === Math.floor(Math.random() * 10)) {
-        this.setState({ bg: item });
+        if (localStorage.getItem('bg') && localStorage.getItem('refreshed') !== 'true') {
+          this.setState({ bg: localStorage.getItem('bg') });
+        } else {
+          this.setState({ bg: item });
+          localStorage.setItem('bg', item);
+        }
       }
     });
   }
@@ -50,8 +56,8 @@ export default class SearchPanel extends Component {
         style={{ background: `url(${this.state.bg}) center center / cover` }}>
         <form className="search-panel">
           <label>
-            Я ищу фотографа
-          <input type="text"
+            <FormattedMessage id="searchName" />
+            <input type="text"
               className="search-input"
               placeholder="search"
               id="termInput"
@@ -59,15 +65,17 @@ export default class SearchPanel extends Component {
               onChange={e => this.onTermChange(e)} />
           </label>
           <label>
-            в городе
-          <input type="text"
+            <FormattedMessage id="searchCity" />
+            <input type="text"
               className="search-input"
               placeholder="search"
               id="cityInput"
               value={this.state.city}
               onChange={e => this.onCityChange(e)} />
           </label>
-          <button className="btn-search" type="button" onClick={() => this.onClickHandler()}>Найти</button>
+          <button className="btn-search" type="button" onClick={() => this.onClickHandler()}>
+            <FormattedMessage id="searchButton" />
+          </button>
         </form>
       </div>
     );

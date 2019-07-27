@@ -5,16 +5,41 @@ import MainPage from './containers/MainPage/MainPage';
 import CommonPage from './containers/CommonPage/CommonPage';
 import PersonalPage from './containers/PersonalPage/PersonalPage';
 import Footer from './components/Footer/Footer';
+import store from './store/store';
+import messages from './translations';
 
-export default class App extends Component {
-  state = {
-    person: 0,
-  };
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      person: 0,
+      lang: 'ru',
+    };
+  }
+
+  componentWillMount() {
+    if (localStorage.getItem('lang')) {
+      const locales = {
+        lang: localStorage.getItem('lang'),
+        messages: messages[localStorage.getItem('lang')],
+      };
+      store.dispatch({ type: 'locales', value: locales });
+      this.setState({ lang: localStorage.getItem('lang') });
+    }
+    if (localStorage.getItem('person')) {
+      this.setState({ person: localStorage.getItem('person') });
+    }
+  }
+
+  componentWillUnmount() {
+    this.setState(null);
+  }
 
   onButtonClick = (event) => {
     this.setState({
       person: event.target.id,
     });
+    localStorage.setItem('person', event.target.id);
   };
 
   render() {
@@ -23,17 +48,17 @@ export default class App extends Component {
         <div>
           <Header />
           <Route
-            path="/"
+            path={`/${this.state.lang}`}
             render={() => <MainPage onButtonClick={this.onButtonClick} />}
             exact
           />
           <Route
-            path="/commonpage"
+            path={`/${this.state.lang}/commonpage`}
             render={() => <CommonPage onButtonClick={this.onButtonClick} />}
             exact
           />
           <Route
-            path="/personalpage"
+            path={`/${this.state.lang}/personalpage/person${this.state.person}`}
             render={() => <PersonalPage person={this.state.person} />}
             exact
           />
@@ -43,3 +68,5 @@ export default class App extends Component {
     );
   }
 }
+
+export default App;
