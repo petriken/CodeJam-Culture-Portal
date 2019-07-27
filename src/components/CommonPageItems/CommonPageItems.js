@@ -13,23 +13,23 @@ class CommonPageItems extends Component {
     this.state = {
       items: '',
     };
+    this.checkMatch = (item, searchWord) => {
+      const string = item;
+      let array;
+      if (string.indexOf('.') !== -1) {
+        [array] = string.split('.');
+      } else {
+        array = string.split(' ');
+      }
+      return typeof array === 'string'
+        ? array.match(new RegExp(`^${searchWord}`, 'i'))
+        : array.some(i => i.match(new RegExp(searchWord, 'i')));
+    };
   }
 
+  /* eslint-disable camelcase */
   UNSAFE_componentWillMount() {
     this.setState({ items: data });
-  }
-
-  checkMatch(item, searchWord) {
-    const string = item;
-    let array;
-    if (string.indexOf('.') !== -1) {
-      array = string.split('.')[1];
-    } else {
-      array = string.split(' ');
-    }
-    return typeof array === 'string'
-      ? array.match(new RegExp(`^${searchWord}`, 'i'))
-      : array.some(i => i.match(new RegExp(searchWord, 'i')));
   }
 
   render() {

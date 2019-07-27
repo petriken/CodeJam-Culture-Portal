@@ -4,12 +4,17 @@ import { Link } from 'react-router-dom';
 import logo from '../../img/assets/logo.png';
 
 export default class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.logo = logo;
+  }
+
   render() {
     return (
       <header>
         <div className="header-container">
           <Link to="/" className="logo">
-            <img src={logo} alt="logo" />
+            <img src={this.logo} alt="logo" />
           </Link>
           <div className="header-title-container">
             <p className="header-title">Photo.by</p>
