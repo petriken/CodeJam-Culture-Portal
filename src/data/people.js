@@ -2,6 +2,8 @@ import avatar1 from '../img/person_1/avatar/ava.jpg';
 import avatar2 from '../img/person_2/avatar/ava.jpg';
 import avatar3 from '../img/person_3/avatar/ava.jpg';
 import avatar4 from '../img/person_4/avatar/ava.jpg';
+import avatar5 from '../img/person_5/avatar/ava.jpg';
+import avatar6 from '../img/person_6/avatar/ava.jpg';
 
 import slide1 from '../img/person_1/portfolio/work1.jpg';
 import slide2 from '../img/person_1/portfolio/work2.jpg';
@@ -31,10 +33,30 @@ import slide22 from '../img/person_4/portfolio/work4.jpg';
 import slide23 from '../img/person_4/portfolio/work5.jpg';
 import slide24 from '../img/person_4/portfolio/work6.jpg';
 
+import slide25 from '../img/person_5/portfolio/work1.jpg';
+import slide26 from '../img/person_5/portfolio/work2.jpg';
+import slide27 from '../img/person_5/portfolio/work3.jpg';
+import slide28 from '../img/person_5/portfolio/work4.jpg';
+import slide29 from '../img/person_5/portfolio/work5.jpg';
+import slide30 from '../img/person_5/portfolio/work6.jpg';
+import slide31 from '../img/person_5/portfolio/work7.jpg';
+import slide32 from '../img/person_5/portfolio/work8.jpg';
+import slide33 from '../img/person_5/portfolio/work9.jpg';
+
+import slide34 from '../img/person_6/portfolio/work1.jpg';
+import slide35 from '../img/person_6/portfolio/work2.jpg';
+import slide36 from '../img/person_6/portfolio/work3.jpg';
+import slide37 from '../img/person_6/portfolio/work4.jpg';
+import slide38 from '../img/person_6/portfolio/work5.jpg';
+import slide39 from '../img/person_6/portfolio/work6.jpg';
+
+
 import video1 from '../video/video1.mp4';
 import video2 from '../video/video2.mp4';
 import video3 from '../video/video3.mp4';
 import video4 from '../video/video4.mp4';
+import video5 from '../video/video5.mp4';
+import video6 from '../video/video6.mp4';
 
 export default [
   {
@@ -141,6 +163,59 @@ export default [
   },
   {
     id: 3,
+    name: 'Борис Генделевич Берман',
+    avatar: avatar6,
+    occupation: 'Хозяин скромной аптеки и фотоателье в Вилейке, снимал родной город и своих земляков',
+    birthDate: '1881',
+    birthPlace: 'г.Ивье, Российская империя',
+    deathDate: '1940',
+    deathPlace: 'неизвестно',
+    locationsCoords: {
+      lat: '54.491400',
+      lng: '26.911100',
+    },
+    video: video6,
+    activity: [
+      {
+        date: '1881',
+        place: 'Ивье',
+        description: 'Родился в местечке Ивье Лидского уезда. С детства был увлечён фотоделом. Со временем увлечение переросло в профессиональное занятие.',
+      },
+      {
+        date: '1910-1912',
+        place: 'Вилейка',
+        description: 'Основал первое фотоателье в Вилейке. До 1925 года был единственным профессиональным фотографом в округе. ',
+      },
+      {
+        date: '1916-1921',
+        place: 'Вилейка',
+        description: 'Организовал драматический кружок в Свире, Вилейке, где ставил постановки для бедных детей и голодающих.',
+      },
+      {
+        date: '1969-1974',
+        place: 'Вилейка',
+        description: 'Фотографировал приезд президента II Речи Посполитой Игнатия Мастицкого во время посещения им Вилейского уезда.',
+      },
+      {
+        date: '18 октября 1939',
+        place: 'Вилейка',
+        description: 'Был арестован органами НКВД и содержался под стражей в Вилейской тюрьме.',
+      },
+      {
+        date: '10 августа 1940',
+        place: 'Вилейка',
+        description: 'Осужден как «социально-опасный элемент» и выслан в исправительно-трудовой лагерь «Темлаг». Дальнейшая судьба неизвестна.',
+      },
+      {
+        date: '6 июня 1989',
+        place: 'Минск',
+        description: 'Реабилитирован.',
+      },
+    ],
+    works: [slide34, slide35, slide36, slide37, slide38, slide39],
+  },
+  {
+    id: 4,
     name: 'Михаил Григорьевич Борозна',
     avatar: avatar3,
     occupation: 'Белорусский искусствовед, художественный критик, фотограф.',
@@ -200,7 +275,7 @@ export default [
   },
 
   {
-    id: 4,
+    id: 5,
     name: 'Лев Урбанович Дашкевич',
     avatar: avatar4,
     occupation:
@@ -264,4 +339,53 @@ export default [
     ],
     works: [slide19, slide20, slide21, slide22, slide23, slide24],
   },
+  {
+    id: 6,
+    name: 'Георгий Леонардович Лихтарович',
+    avatar: avatar5,
+    occupation: 'Белорусский фотограф, талантливый литератор, поэт, общественный деятель',
+    birthDate: '06.12.1947',
+    birthPlace: 'г.Минск, БССР',
+    deathDate: null,
+    deathPlace: null,
+    locationsCoords: {
+      lat: '53.902496',
+      lng: '27.561481',
+    },
+    video: video5,
+    activity: [
+      {
+        date: '06.12.1947',
+        place: 'Минск',
+        description: 'Родился в г. Минске, БССР.',
+      },
+      {
+        date: '1965-1966',
+        place: 'Минск',
+        description: 'Работал ассистентом кинооператора в Минской студии научно-популярных и хроникально-документальный фильмов.',
+      },
+      {
+        date: '1966-1968',
+        place: 'Минск',
+        description: 'Служил в войсках в п.Печи. Публиковался в периодических изданиях.',
+      },
+      {
+        date: '1969-1974',
+        place: 'Минск',
+        description: 'Работал фотографом в Институте искусствоведения, этнографии и фольклора Академии наук. Иллюстрировал первые тома «Собрание памятников истории и культуры Беларуси». ',
+      },
+      {
+        date: '1974-1992',
+        place: 'Минск',
+        description: 'В 1970-1974 гг. учился на архитектурном факультете БНТУ. С 1972 года преподавал фотографику в Театрально-художественном институте. Работал фотокорреспондентом газеты «Голос Родины».',
+      },
+      {
+        date: '2000',
+        place: 'Минск',
+        description: 'В 2000 г. издаёт фотоальбом «Добрый день, Беларусь». В 2001-2006 принимает участие в фотографических и художественных выставках. С 2004 - член Союза Белорусского государственного объединения «Фотоискусство».',
+      },
+    ],
+    works: [slide25, slide26, slide27, slide28, slide29, slide30, slide31, slide32, slide33],
+  },
+
 ];
