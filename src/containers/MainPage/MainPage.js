@@ -4,11 +4,11 @@ import Avatar from '../../components/Avatar/Avatar';
 import Description from '../../components/Description/Description';
 import Developer from '../../components/Developer/Developer';
 import data from '../../data/people';
-import avatarVitalyMikulich from '../../img/developers/VitalyMikulich.jpg';
-import avatarPetriken from '../../img/developers/petriken.png';
-import avatarIrinainina from '../../img/developers/irinainina.jpg';
-import avatarAlexSkir from '../../img/developers/AlexSkir.jpg';
-import avatarJulanick from '../../img/developers/Julanick.jpg';
+import avatarVitalyMikulich from '../../img/developers/VitalyMikulich.png';
+import avatarPetriken from '../../img/developers/petriken.e3b7ff7c.png';
+import avatarIrinainina from '../../img/developers/irinainina.fb191d76.jpg';
+import avatarAlexSkir from '../../img/developers/AlexSkir.1a2f411d.jpg';
+import avatarJulanick from '../../img/developers/Julanick.4e8df6e1.jpg';
 
 function MainPage(props) { 
   const date = new Date();
