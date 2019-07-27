@@ -1,12 +1,14 @@
 .developer-container {
   margin: 10px 0;
   text-align: center;
+  padding: 0 10px;
 }
 
 .developer-container img {
-  height: 156px;
-  width: 156px;
+  height: 168px;
+  width: 168px;
   border-radius: 10px;
+  border: 1px solid #ccc;
 }
 
 .developer-container a {
