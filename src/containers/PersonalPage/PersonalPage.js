@@ -18,7 +18,7 @@ function PersonalPage(props) {
       <Timeline data={profile} />
       <ImageGalleryComponent data={profile} />
       <VideoPlayer data={profile} />
-      <MapContainer />
+      <MapContainer data={profile} />
     </div>
   );
 }
