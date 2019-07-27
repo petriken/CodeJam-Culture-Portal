@@ -10,7 +10,7 @@ import bg9 from './bg9.jpg';
 import bg10 from './bg10.jpg';
 
 const bg = {
-  bg1, bg2, bg3, bg4, bg5, bg6, bg7, bg8, bg9, bg10
-}
+  bg1, bg2, bg3, bg4, bg5, bg6, bg7, bg8, bg9, bg10,
+};
 
 export default bg;

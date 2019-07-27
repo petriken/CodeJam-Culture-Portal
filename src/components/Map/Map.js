@@ -1,31 +1,41 @@
-import React, {Component} from 'react';
-import {Map, Marker, GoogleApiWrapper} from 'google-maps-react';
-import data from '../../data/people';
-import './Map.css'
+import React, { Component } from 'react';
+import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
+import PropTypes from 'prop-types';
 
-export class MapContainer extends Component {
+import data from '../../data/people';
+import './Map.css';
+
+class MapContainer extends Component {
   state = {
     lat: data[0].locationsCoords.lat,
     lng: data[0].locationsCoords.lng,
-  }
+  };
+
   render() {
     return (
-      <Map google={this.props.google}      
-      initialCenter={{
-            lat: this.state.lat,
-            lng: this.state.lng
-          }}
-      className={'map'}
-      zoom={11}>
+      <Map
+        google={this.props.google}
+        initialCenter={{
+          lat: this.state.lat,
+          lng: this.state.lng,
+        }}
+        className={'map'}
+        zoom={11}
+      >
         <Marker
           title={'Belarus'}
           name={'Minsk'}
-          position={{lat: this.state.lat, lng: this.state.lng}} />
+          position={{ lat: this.state.lat, lng: this.state.lng }}
+        />
       </Map>
     );
   }
 }
 
+MapContainer.propTypes = {
+  google: PropTypes.object.isRequired,
+};
+
 export default GoogleApiWrapper({
-  apiKey: ('AIzaSyCvaIfWd-OuN9oFNCRTuUTbInrnllrw4ao')
-})(MapContainer)
+  apiKey: 'AIzaSyCvaIfWd-OuN9oFNCRTuUTbInrnllrw4ao',
+})(MapContainer);
