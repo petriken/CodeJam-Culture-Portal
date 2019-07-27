@@ -3,9 +3,13 @@ import { connect } from 'react-redux';
 import './CommonPageItems.css';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import { FormattedMessage } from 'react-intl';
 import Avatar from '../Avatar/Avatar';
 import Description from '../Description/Description';
-import data from '../../data/people';
+import ru from '../../data/people';
+import en from '../../data/peopleEN';
+import be from '../../data/peopleBE';
+import store from '../../store/store';
 
 class CommonPageItems extends Component {
   constructor(props) {
@@ -17,7 +21,7 @@ class CommonPageItems extends Component {
       const string = item;
       let array;
       if (string.indexOf('.') !== -1) {
-        [array] = string.split('.');
+        [, array] = string.split('.');
       } else {
         array = string.split(' ');
       }
@@ -29,7 +33,13 @@ class CommonPageItems extends Component {
 
   /* eslint-disable camelcase */
   UNSAFE_componentWillMount() {
-    this.setState({ items: data });
+    if (this.props.lang === 'ru') {
+      this.setState({ items: ru });
+    } else if (this.props.lang === 'en') {
+      this.setState({ items: en });
+    } else if (this.props.lang === 'be') {
+      this.setState({ items: be });
+    }
   }
 
   render() {
@@ -40,7 +50,7 @@ class CommonPageItems extends Component {
         <div
           className={`${
             this.checkMatch(item.name, term)
-            && this.checkMatch(item.birthPlace, city)
+              && this.checkMatch(item.birthPlace, city)
               ? 'common-page'
               : 'hidden'
           }`}
@@ -49,14 +59,21 @@ class CommonPageItems extends Component {
           <Avatar data={item} />
           <div className="description-container">
             <Description data={item} />
-            <Link
-              to="/personalpage"
-              className="read-more-button"
-              id={index}
-              onClick={this.props.onButtonClick}
-            >
-              Узнать больше
-            </Link>
+            <FormattedMessage id="more">
+              {text => <Link
+                to={`/${this.props.lang}/personalpage/person${index}`}
+                className="read-more-button"
+                id={index}
+                onClick={(e) => {
+                  store.dispatch({ type: 'term', value: '' });
+                  store.dispatch({ type: 'city', value: '' });
+                  store.dispatch({ type: 'page', value: `/${this.props.lang}/personalpage/person${index}` });
+                  localStorage.setItem('page', `/${this.props.lang}/personalpage/person${index}`);
+                  this.props.onButtonClick(e);
+                }}>
+                {text}
+              </Link>}
+            </FormattedMessage>
           </div>
         </div>
       );
@@ -68,7 +85,9 @@ CommonPageItems.propTypes = {
   onButtonClick: PropTypes.func.isRequired,
   term: PropTypes.string.isRequired,
   city: PropTypes.string.isRequired,
+  lang: PropTypes.string.isRequired,
 };
 
-const mapStateToProps = state => ({ term: state.term, city: state.city });
+
+const mapStateToProps = state => ({ term: state.term, city: state.city, lang: state.locales.lang });
 export default connect(mapStateToProps)(CommonPageItems);
