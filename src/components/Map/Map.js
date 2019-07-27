@@ -2,14 +2,16 @@ import React, { Component } from 'react';
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
 import PropTypes from 'prop-types';
 
-import data from '../../data/people';
 import './Map.css';
 
 class MapContainer extends Component {
-  state = {
-    lat: data[0].locationsCoords.lat,
-    lng: data[0].locationsCoords.lng,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      lat: props.data.locationsCoords.lat,
+      lng: props.data.locationsCoords.lng,
+    };
+  }
 
   render() {
     return (
@@ -34,6 +36,7 @@ class MapContainer extends Component {
 
 MapContainer.propTypes = {
   google: PropTypes.object.isRequired,
+  data: PropTypes.object,
 };
 
 export default GoogleApiWrapper({

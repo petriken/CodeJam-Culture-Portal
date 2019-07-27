@@ -46,7 +46,7 @@ class PersonalPage extends Component {
         <Timeline data={this.state.profile} />
         <ImageGalleryComponent data={this.state.profile} />
         <VideoPlayer data={this.state.profile} />
-        <MapContainer />
+        <MapContainer data={this.state.profile} />
       </div>
     );
   }
