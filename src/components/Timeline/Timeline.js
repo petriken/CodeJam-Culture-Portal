@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 function TimeLine(props) {
   return (
-    <div>
+    <div id="timeline">
       <h2 style={{ textAlign: 'center', color: '#e86971', fontSize: '2em' }}>
         <FormattedMessage id="biography" />
       </h2>

@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
 import './Header.css';
 import { Link, Redirect } from 'react-router-dom';
+import Button from '@material-ui/core/Button';
+import Language from '@material-ui/icons/Language';
 import logo from '../../img/assets/logo.png';
 import ru from '../../img/assets/russia_640.png';
 import be from '../../img/assets/belarus_640.png';
@@ -103,8 +105,15 @@ class Header extends Component {
                     localStorage.setItem('page', `/${this.state.lang}/commonpage`);
                     store.dispatch({ type: 'page', value: `/${this.state.lang}/commonpage` });
                   }}>
-                  <FormattedMessage id="headerLink" />
+                    <Button variant="text" color="inherit">
+                      <FormattedMessage id="headerLink" />
+                    </Button>
                 </Link>
+              </li>
+              <li className="lng-container">
+                <Button variant="text" color="inherit">
+                  <Language/>
+                </Button>
               </li>
             </ul>
           </nav>

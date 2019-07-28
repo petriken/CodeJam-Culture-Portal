@@ -4,7 +4,7 @@ import { FormattedMessage } from 'react-intl';
 
 function Footer() {
   return (
-    <footer>
+    <footer id="footer">
       <p><FormattedMessage id="footerRights" /></p>
       <p><FormattedMessage id="footerPS" /></p>
     </footer>
