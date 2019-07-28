@@ -9,11 +9,11 @@ import Developer from '../../components/Developer/Developer';
 import ru from '../../data/people';
 import en from '../../data/peopleEN';
 import be from '../../data/peopleBE';
-import avatarVitalyMikulich from '../../img/developers/VitalyMikulich.png';
+import avatarVitalyMikulich from '../../img/developers/VitalyMikulich.jpg';
 import avatarPetriken from '../../img/developers/petriken.jpg';
-import avatarIrinainina from '../../img/developers/irinainina.fb191d76.jpg';
-import avatarAlexSkir from '../../img/developers/AlexSkir.1a2f411d.jpg';
-import avatarJulanick from '../../img/developers/Julanick.4e8df6e1.jpg';
+import avatarIrinainina from '../../img/developers/irinainina.jpg';
+import avatarAlexSkir from '../../img/developers/AlexSkir.jpg';
+import avatarJulanick from '../../img/developers/Julanick.jpg';
 
 function MainPage(props) {
   let data;
@@ -44,7 +44,7 @@ function MainPage(props) {
         </p>
       </div>
       <div className="developers-container">
-        <p><FormattedMessage id="developers" /></p>
+        <h3><FormattedMessage id="developers" /></h3>
         <div className="developers">
           <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitalyMikulich} />
           <Developer name="Piotr Stashukevich" gitHub="petriken" avatar={avatarPetriken} />

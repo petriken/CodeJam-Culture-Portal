@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import './CommonPageItems.css';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import Button from '@material-ui/core/Button';
 import { FormattedMessage } from 'react-intl';
 import Avatar from '../Avatar/Avatar';
 import Description from '../Description/Description';
@@ -59,6 +60,7 @@ class CommonPageItems extends Component {
           <Avatar data={item} />
           <div className="description-container">
             <Description data={item} />
+            <Button variant="contained">
             <FormattedMessage id="more">
               {text => <Link
                 to={`/${this.props.lang}/personalpage/person${index}`}
@@ -74,6 +76,7 @@ class CommonPageItems extends Component {
                 {text}
               </Link>}
             </FormattedMessage>
+            </Button>
           </div>
         </div>
       );

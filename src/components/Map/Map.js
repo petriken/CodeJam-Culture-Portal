@@ -15,21 +15,22 @@ class MapContainer extends Component {
 
   render() {
     return (
-      <Map
-        google={this.props.google}
-        initialCenter={{
-          lat: this.state.lat,
-          lng: this.state.lng,
-        }}
-        className={'map'}
-        zoom={11}
-      >
-        <Marker
-          title={'Belarus'}
-          name={'Minsk'}
-          position={{ lat: this.state.lat, lng: this.state.lng }}
-        />
-      </Map>
+        <Map
+          google={this.props.google}
+          initialCenter={{
+            lat: this.state.lat,
+            lng: this.state.lng,
+          }}
+          className={'map'}
+          zoom={11}
+          id="mapContainerAnkor"
+        >
+          <Marker
+            title={'Belarus'}
+            name={'Minsk'}
+            position={{ lat: this.state.lat, lng: this.state.lng }}
+          />
+        </Map>
     );
   }
 }

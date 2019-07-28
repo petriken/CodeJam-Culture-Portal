@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 function Avatar(props) {
   return (
-    <div className="avatar-container">
+    <div className="avatar-container" id="avatar">
       <img src={props.data.avatar} alt={props.data.name} />
     </div>
   );

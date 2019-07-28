@@ -1,14 +1,18 @@
 .developer-container {
   margin: 10px 0;
   text-align: center;
-  padding: 0 10px;
 }
 
 .developer-container img {
-  height: 168px;
-  width: 168px;
-  border-radius: 10px;
+  height: 156px;
+  width: 156px;
   border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.developer-container p {
+  margin: 5px;
 }
 
 .developer-container a {
