@@ -23,7 +23,8 @@ class PersonalPage extends Component {
     };
   }
 
-  componentWillMount() {
+  /* eslint-disable camelcase */
+  UNSAFE_componentWillMount() {
     let data;
     if (this.props.lang === 'ru') {
       data = ru;
@@ -40,6 +41,7 @@ class PersonalPage extends Component {
     this.props = null;
   }
 
+  /* eslint-disable class-methods-use-this */
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -47,7 +49,7 @@ class PersonalPage extends Component {
   render() {
     return (
       <div className="personal-page">
-        <PersonalPageNavigation/>
+        <PersonalPageNavigation />
         <Avatar data={this.state.profile} />
         <Description data={this.state.profile} id="description" />
         <Timeline data={this.state.profile} />
