@@ -61,14 +61,14 @@ import video6 from '../video/video6.mp4';
 export default [
   {
     id: 1,
-    name: 'English Михаил Владимирович Анемподистов',
+    name: 'Mikhail Vladimirovich Anempodists',
     avatar: avatar1,
     occupation:
-      'Белорусский художник, фотограф, дизайнер, поэт, культуролог, искусствовед',
+      'Belarusian artist, photographer, designer, poet, cultural scientist, art historian',
     birthDate: '16.03.1964',
-    birthPlace: 'г.Минск, БССР',
+    birthPlace: 'Minsk, BSSR',
     deathDate: '24.01.2018',
-    deathPlace: 'Минск',
+    deathPlace: 'Minsk',
     locationsCoords: {
       lat: '53.902496',
       lng: '27.561481',
@@ -77,70 +77,70 @@ export default [
     activity: [
       {
         date: '16.03.1964',
-        place: 'Минск',
+        place: 'Minsk',
         description:
-          'Родился в г.Минске. В детстве мечтал стать биологом, путешественником. Рано начал рисовать — свои первые рисунки Михаил размещал в энциклопедиях о животных, которые делал сам.',
+          'He was born in Minsk. In childhood I dreamed of becoming a biologist, a traveler. Early began to draw - Michael posted his first drawings in encyclopedias about animals, which he made himself.',
       },
       {
         date: '1975-1985',
-        place: 'Минск',
+        place: 'Minsk',
         description:
-          'Учился в детской народной студии изобразительного искусства в Минске.',
+          'He studied at the children"s folk art studio in Minsk.',
       },
       {
         date: '1979-1983',
-        place: 'Минск',
+        place: 'Minsk',
         description:
-          'Окончил Минское художественное училище, ныне - Минский государственный художественный колледж им. А.К. Глебова.',
+          'He graduated from the Minsk Art College, now - Minsk State Art College. A.K. Glebova.',
       },
       {
         date: '1997',
-        place: 'Минск',
+        place: 'Minsk',
         description:
-          'Стал членом Белорусского союза дизайнеров. Был дизайнером известных логотипов — в том числе, логотипа белорусской общественно-культурной кампании «Будем белорусами!», белорусского рок-фестиваля «Басовище».',
+          'He became a member of the Belarusian Union of Designers. He was a designer of well-known logos - including the logo of the Belarusian social and cultural campaign “Let"s be Belarusians!”, The Belarusian rock festival “Basovishche”.',
       },
       {
         date: '2011',
-        place: 'Минск',
-        description: 'Стал членом правления Белорусского союза дизайнеров.',
+        place: 'Minsk',
+        description: 'He became a board member of the Belarusian Union of Designers.',
       },
       {
         date: '2011',
-        place: 'Минск',
+        place: 'Minsk',
         description:
-          'Дебютировал как фотограф, презентовав фотавыставку «Under Ground»: в фотографиях сосредоточился на белорусских овощах, чтобы таким способом открыть более глубокое измерение белорусской культуры. Выбор своей тематики объяснил тем, что белорусы, как овощи, скрывают интересные вещи в себе, не показывают их вовне — нация заглубленных в себя людей: выглядят обычно, а внутри фантастические — под испачканной (от почвы) кожурой картофеля спрятано «золотое солнце».',
+          'He made his debut as a photographer, presenting the photo exhibition “Under Ground”: in photographs he focused on Belarusian vegetables in order to open a deeper dimension of Belarusian culture in this way. The choice of their subject matter was explained by the fact that Belarusians, like vegetables, hide interesting things in themselves, do not show them to the outside - a nation of people buried in themselves: they usually look, but inside they are fantastic - the “golden sun” is hidden under the skin of the potato skin.',
       },
       {
         date: '24.01.2018',
-        place: 'Минск',
-        description: 'Умер от инсульта в г.Минске.',
+        place: 'Minsk',
+        description: 'He died of a stroke in Minsk.',
       },
     ],
     works: [slide1, slide2, slide3, slide4, slide5, slide6],
     listOfWorks: [
       {
         year: '2011',
-        work: 'фотовыставка «Under Ground»: в фотографиях сосредоточился на белорусских овощах. Выбор тематики объяснил тем, что белорусы, как овощи, скрывают интересные вещи в себе, не показывают их вовне — нация заглубленных в себя людей: выглядят обычно, а внутри фантастические — под испачканной (от почвы) кожурой картофеля спрятано «золотое солнце»',
+        work: 'Photo exhibition “Under Ground”: in photos focused on Belarusian vegetables. The choice of topics was explained by the fact that Belarusians, like vegetables, hide interesting things in themselves, do not show them outside - a nation of people buried in themselves: they usually look, but inside they are fantastic - the golden sun is hidden under the skin of potatoes, soiled (from the soil)',
       },
       {
         year: '2012',
-        work: 'фотовыставка «Under Ground» в Café Galerie (Германия)',
+        work: 'Photo exhibition "Under Ground" in Café Galerie (Germany)',
       },
       {
         year: '2013',
-        work: 'фотовыставка «Under Ground» (Польша)',
+        work: 'Photo exhibition "Under Ground" (Poland)',
       },
     ],
   },
 
   {
     id: 2,
-    name: 'Владимир Сергеевич Базан',
+    name: 'Vladimir Sergeevich Bazan',
     avatar: avatar2,
     occupation:
-      'Белорусский фотограф, фотожурналист, мастер репортажной, публицистической, жанровой фотографии.',
+      'Belarusian photographer, photojournalist, master of reportage, publicistic, genre photography.',
     birthDate: '21.10.1953',
-    birthPlace: 'г.Унеча, РСФСР',
+    birthPlace: 'Unecha, RSFSR',
     deathDate: null,
     deathPlace: null,
     locationsCoords: {
@@ -151,67 +151,67 @@ export default [
     activity: [
       {
         date: '21.10.1953',
-        place: 'Унеча',
-        description: 'Родился в г.Унеча, Брянская область, РСФСР',
+        place: 'Unecha',
+        description: 'He was born in Unecha, Bryansk region, RSFSR',
       },
       {
         date: '1978',
-        place: 'Витебск',
+        place: 'Vitebsk',
         description:
-          'Окончил художественно-графический факультет Витебского педагогического института.',
+          'He graduated from the art-graphic faculty of the Vitebsk Pedagogical Institute.',
       },
       {
         date: '1980-1990',
-        place: 'Витебск',
+        place: 'Vitebsk',
         description:
-          'Работал фотографом, корреспондентом, ответственным секретарем в витебской многотиражной газете «Строитель».',
+          'He worked as a photographer, correspondent, executive secretary in the Vitebsk large-circulation newspaper “Stroitel”.',
       },
       {
         date: '1990-2007',
-        place: 'Витебск',
+        place: 'Vitebsk',
         description:
-          'Главный редактор, дизайнер и фотокорреспондент газеты «Витебский курьер». Главный редактор специального номера газеты, посвященного Первым Шагаловского дням в Витебске (1991). В середине 80-х возглавлял витебский фотоклуб «Витьба». Центральное место в творчестве занимает репортажная, публицистическая, жанровая фотография. Среди основных работ: серии «Думай, парень!» (1982-2005), «Праздник в православной церкви» (1988), «Армения. Декабрь. 1988 »,«Пионерский лагерь» (1989),«Приметы»(1989),«Чернобыльский натюрморт»(1996),«Париж! Париж! Я не хочу домой!»(2001-2007). На сегодняшний день проживает во Франции.',
+          'He became Editor-in-Chief, designer and photojournalist of the Vitebsk Courier newspaper, and he also became Editor-in-Chief of a special issue of the newspaper dedicated to the First Shagal Day in Vitebsk (1991). In the mid-80s headed the Vitebsk photo club "Vitba". Central to the work is reportage, journalistic, genre photography. The main works include the series “Think, boy!” (1982-2005), “Holiday in the Orthodox Church” (1988), “Armenia. December. 1988 "," Pioneer Camp "(1989)," Signs "(1989)," Chernobyl Still Life "(1996)," Paris! Paris! I do not want to go home! ”(2001–2007). Currently living in France.',
       },
     ],
     works: [slide7, slide8, slide9, slide10, slide11, slide12],
     listOfWorks: [
       {
         year: '1982-2005',
-        work: 'серия фоторабот «Думай, парень!»',
+        work: 'The series of photographs "Think, boy!"',
       },
       {
         year: '1988',
-        work: 'серия фоторабот  «Праздник в православной церкви»',
+        work: 'The series of photographs "Holiday in the Orthodox Church"',
       },
       {
         year: '1988',
-        work: 'серия фоторабот  «Армения. Декабрь»',
+        work: 'The series of photographic works “Armenia. December"',
       },
       {
         year: '1989',
-        work: 'серия фоторабот  «Пионерский лагерь»',
+        work: 'The series of photographs "Pioneer Camp"',
       },
       {
         year: '1989',
-        work: 'серия фоторабот «Приметы»',
+        work: 'The series of photographs "Signs"',
       },
       {
         year: '1996',
-        work: 'серия фоторабот  «Чернобыльский натюрморт»',
+        work: 'The series of photographs "Chernobyl Still Life"',
       },
       {
         year: '2001-2007',
-        work: 'серия фоторабот «Париж! Париж! Я не хочу домой!»',
+        work: 'The series of photographs "Paris! Paris! I do not want to go home!"',
       },
     ],
   },
   {
     id: 3,
-    name: 'Борис Генделевич Берман',
+    name: 'Boris Gendelevich Berman',
     avatar: avatar6,
-    occupation: 'Хозяин скромной аптеки и фотоателье в Вилейке, снимал родной город и своих земляков',
+    occupation: 'The owner of a modest pharmacy and a photo studio in Vileyka, filmed his hometown and his countrymen',
     birthDate: '1881',
-    birthPlace: 'г.Ивье, Российская империя',
+    birthPlace: 'Ivier, Russian Empire',
     deathDate: '1940',
     deathPlace: 'неизвестно',
     locationsCoords: {
@@ -222,63 +222,63 @@ export default [
     activity: [
       {
         date: '1881',
-        place: 'Ивье',
-        description: 'Родился в местечке Ивье Лидского уезда. С детства был увлечён фотоделом. Со временем увлечение переросло в профессиональное занятие.',
+        place: 'Ivier',
+        description: 'He was born in the town of Ivie of Lida county. Since childhood, was fascinated by photography. Over time, the passion developed into a professional lesson.',
       },
       {
         date: '1910-1912',
-        place: 'Вилейка',
-        description: 'Основал первое фотоателье в Вилейке. До 1925 года был единственным профессиональным фотографом в округе. ',
+        place: 'Vileyka',
+        description: 'He founded the first studio in Vileyka. Until 1925, he was the only professional photographer in the district.',
       },
       {
         date: '1916-1921',
-        place: 'Вилейка',
-        description: 'Организовал драматический кружок в Свире, Вилейке, где ставил постановки для бедных детей и голодающих.',
+        place: 'Vileyka',
+        description: 'He organized a drama group in Svir, Vileyka, where he staged plays for poor children and the hungry.',
       },
       {
         date: '1969-1974',
-        place: 'Вилейка',
-        description: 'Фотографировал приезд президента II Речи Посполитой Игнатия Мастицкого во время посещения им Вилейского уезда.',
+        place: 'Vileyka',
+        description: 'He photographed the arrival of President II of the Commonwealth Ignatius Mastitsky during his visit to Vileika County.',
       },
       {
-        date: '18 октября 1939',
-        place: 'Вилейка',
-        description: 'Был арестован органами НКВД и содержался под стражей в Вилейской тюрьме.',
+        date: '18 October 1939',
+        place: 'Vileyka',
+        description: 'He was arrested by the NKVD and held in custody in the prison of Vileyka.',
       },
       {
-        date: '10 августа 1940',
-        place: 'Вилейка',
-        description: 'Осужден как «социально-опасный элемент» и выслан в исправительно-трудовой лагерь «Темлаг». Дальнейшая судьба неизвестна.',
+        date: '10 August 1940',
+        place: 'Vileyka',
+        description: 'He was convicted as a “socially dangerous element” and sent to the Temlag Forced Labor Camp. The fate is unknown.',
       },
       {
-        date: '6 июня 1989',
-        place: 'Минск',
-        description: 'Реабилитирован.',
+        date: '6 June 1989',
+        place: 'Minsk',
+        description: 'He was rehabilitated.',
       },
     ],
     works: [slide34, slide35, slide36, slide37, slide38, slide39],
     listOfWorks: [
       {
         year: '1910—1912 ',
-        work: 'открыл первое фотоателье в г. Вилейка',
+        work: 'He opened the first photo studio in Vileika',
       },
       {
         year: '1912-1925',
-        work: 'был единственным профессиональным фотографом в округе, всего сохранилось около двадцати его фото',
+        work: 'He was the only professional photographer in the district, only about twenty of his photos remained',
       },
       {
         year: '1930',
-        work: 'фотографировал приезд президента II Речи Посполитой Игнатия Мосцицки',
+        work: 'He photographed the arrival of President II of the Commonwealth Ignatius Mostsitski',
       },
     ],
   },
   {
     id: 4,
-    name: 'Михаил Григорьевич Борозна',
+    name: 'Mikhail Grigorievich Borozna',
     avatar: avatar3,
-    occupation: 'Белорусский искусствовед, художественный критик, фотограф.',
+    occupation: 'Belarusian art historian, art critic, photographer.',
     birthDate: '20.11.1962',
-    birthPlace: 'д.Ракушево, БССР',
+    birthPlace: 'Rakushevo, BSSR',
     deathDate: null,
     deathPlace: null,
     locationsCoords: {
@@ -289,96 +289,92 @@ export default [
     activity: [
       {
         date: '20.11.1962',
-        place: 'д.Ракушево, Могилёвской области',
+        place: 'Rakushevo, Mogilyov region',
         description:
-          'Родился в д.Ракушево Круглянского района Могилёвской области.',
+          'He was born in the village of Rakushevo, Kruglyansky District, Mogilyov Region.',
       },
       {
         date: '1985',
-        place: 'Минск',
+        place: 'Minsk',
         description:
-          'Окончил художественно-промышленный факультет Белорусского государственного театрально-художественного института.',
+          'He graduated from the art-industrial faculty of the Belarusian State Theater and Art Institute.',
       },
       {
         date: '1986-1992',
-        place: 'Минск',
-        description: 'Художественный редактор издательства «Беларусь».',
+        place: 'Minsk',
+        description: 'He became Art Editor of the publishing house "Belarus".',
       },
       {
         date: '1992',
-        place: 'Минск',
+        place: 'Minsk',
         description:
-          'Начал преподавать в Белорусской государственной академии искусств.',
+          'He began teaching at the Belarusian State Academy of Arts.',
       },
       {
         date: '1995',
-        place: 'Витебск',
+        place: 'Vitebsk',
         description:
-          'Участвовал в первой своей выставке «АРТУНОДИСКУС» в г.Витебске.',
+          'He participated in his first exhibition "ARTUNODISKUS" in Vitebsk.',
       },
       {
         date: '1997',
-        place: 'Минск',
+        place: 'Minsk',
         description:
-          'Первая персональная выставка работ «Один в городе» в музее Белорусской государственной академии искусств в г.Минске.',
+          'He had the first solo exhibition of works "Alone in the City" in the Museum of the Belarusian State Academy of Arts in Minsk. ',
       },
       {
-        date: 'с 2010',
-        place: 'Минск',
+        date: 'since 2010',
+        place: 'Minsk',
         description:
-          'Ректор Белорусской государственной академии искусств. Кандидат искусствоведения, профессор кафедры истории и теории искусств, доцент. Почётный член Российской академии художеств.',
+          'He became the Rector of the Belarusian State Academy of Art as a candidate of art history, a professor at the Department of History and Theory of Arts, an associate professor. He is an honorary member of the Russian Academy of Arts.',
       },
     ],
     works: [slide13, slide14, slide15, slide16, slide17, slide18],
     listOfWorks: [
       {
         year: '1997',
-        work: '«Один в городе».  Музей Белорусской государственной академии искусств, Минск',
+        work: '"Alone in the city." Museum of the Belarusian State Academy of Arts, Minsk ',
       },
       {
         year: '1997',
-        work: '«Один в городе».  Музей Белорусской государственной академии искусств, Минск',
-      },
-      {
-        year: '1997',
-        work: '«Вечный город» — вечный...» Общество культурных связей с зарубежными странами, Минск',
+        work: '"Eternal City" is an eternal ... "Society for Cultural Relations with Foreign Countries, Minsk ',
       },
       {
         year: '1998–1999',
-        work: '«Моя Америка». Иностранное общество земли Северный Рейн-Вестфалия, Дортмунд (Германия)',
+        work: '"My America". Foreign Society of North Rhine-Westphalia, Dortmund (Germany) ',
       },
       {
         year: '2000',
-        work: '«Белый иней». Музей современного изобразительного искусства, Минск',
+        work: '"White frost". Museum of Contemporary Art, Minsk ',
       },
       {
         year: '2004',
-        work: '«Заславский променад». Заславский историко-культурный музей-заповедник, Заславль',
+        work: '"Zaslavsky promenade." Zaslavsky Historical and Cultural Museum-Reserve, Zaslavl ',
       },
       {
         year: '2006',
-        work: '«Движение треугольника». М-Галерея Института им. Гете в Минске',
+        work: '"The movement of the triangle." M-Gallery of the Institute. Goethe in Minsk',
       },
       {
         year: '2010',
-        work: '«Европа плюс» (совместно с Е.Кенигсберг). Галерея Высшей народной школы Вены-Хитцинг, Вена, Австрия',
+        work: '“Europe Plus” (jointly with E.Kenigsberg). Gallery of the National High School of Vienna-Heetzing, Vienna, Austria',
       },
       {
         year: '2010–2011',
-        work: '«Европа плюс-минус» (совместно с Е.Кенигсберг). Музей современного изобразительного искусства, Минск',
+        work: '“Europe plus or minus” (with E.Kenigsberg). Museum of Contemporary Art, Minsk',
       },
     ],
   },
   {
     id: 5,
-    name: 'Лев Урбанович Дашкевич',
+    name: 'Lev Urbanovich Dashkevich',
     avatar: avatar4,
     occupation:
-      'Белорусский фотограф, учёный, исследователь, публицист, педагог',
+      'Belarusian photographer, scientist, researcher, publicist, teacher',
     birthDate: '12.02.1882',
-    birthPlace: 'г.Минск, БССР',
+    birthPlace: 'Minsk, BSSR',
     deathDate: '4.12.1957',
-    deathPlace: 'г.Минск',
+    deathPlace: 'Minsk',
     locationsCoords: {
       lat: '53.902496',
       lng: '27.561481',
@@ -387,86 +383,86 @@ export default [
     activity: [
       {
         date: '12.02.1882',
-        place: 'Минск',
+        place: 'Minsk',
         description:
-          'Родился в г.Минске. Происходил из дворянского рода герба “Лелива”.',
+          'He was born in Minsk. It came from a noble family of the coat of arms “Leliva”.',
       },
       {
         date: '1882-1896',
-        place: 'Минск',
-        description: 'Учился в Минской мужской гимназии.',
+        place: 'Minsk',
+        description: 'He studied at the Minsk male gymnasium.',
       },
       {
         date: '1903-1911',
-        place: 'Варшава',
+        place: 'Warsaw',
         description:
-          'В 1903 поступил в Варшавский университет на медицинский факультет, однако в 1904 году на участие в студенческой забастовке был арестован и исключён из университета без права поступления в ВУЗы Российской империи. В 1906-1911 гг. учился во Франции на факультете филологии Университета Бургундии (Дижон). Параллельно в 1908-1909 гг. занимался на фотографическом отделении Высшей школы графических искусств в Париже. В 1911 начал публиковаться в научных изданиях.',
+          'He entered the University of Warsaw in 1903 at the Medical Faculty, but in 1904 he was arrested for participation in a student strike and expelled from the university without the right to enter the universities of the Russian Empire. In 1906-1911 He studied in France at the Faculty of Philology at the University of Burgundy (Dijon). In parallel, in the years 1908-1909. worked at the photographic department of the Graduate School of Graphic Arts in Paris. In 1911 he began to publish in scientific journals.',
       },
       {
         date: '1911-1920',
-        place: 'Ереван',
+        place: 'Yerevan',
         description:
-          'Жил в Закавказье, преподавал французский язык, физику и естествознание в гимназиях Еревана, Тифлис. В 1918 служил государственным фотографом правительства Азербайджанской республики.',
+          'He lived in the Caucasus, he taught French, physics and natural sciences in the gymnasiums of Yerevan, Tiflis. In 1918 he served as state photographer of the government of the Azerbaijan Republic.',
       },
       {
         date: '1920-1930',
-        place: 'Минск',
+        place: 'Minsk',
         description:
-          'В конце мая 1920 г. возвратился в Минск. Читал лекции по всемирной истории и фотографии в Минском институте народного образования. В 1923 участвовал в этнографической экспедиции в Игуменский и Борисовский поветы. В 1923-1924 - научный фотограф на медицинском факультете БГУ.',
+          'At the end of May 1920, he returned to Minsk. He has lectured on world history and photography at the Minsk Institute of Public Education. In 1923 he participated in the ethnographic expedition to the Igumen and Borisov povets. In 1923-1924 - a science photographer at the medical faculty of BSU.',
       },
       {
         date: '21.07.1930',
-        place: 'Минск',
+        place: 'Minsk',
         description:
-          'Арестован ГПУ БССР 21 июля 19300 г. по делу «Союза освобождения Беларуси». Освобожден в сентябре 1930.',
+          'He was arrested by the GPU of the BSSR on July 21, 1930 in the case of the Union of Liberation of Belarus. Released in September 1930.',
       },
       {
         date: '1941-1944',
-        place: 'Фрунза',
+        place: 'Frunza',
         description:
-          'Жил в эвакуации в г. Фрунзе (ныне Бишкек, Кыргызстан), работал в медицинских учреждениях. В сентябре 1944 вернулся в Минск.',
+          'He lived in an evacuation in Frunze (now Bishkek, Kyrgyzstan), worked in medical institutions. In September 1944 he returned to Minsk.',
       },
       {
         date: '4.12.1957',
-        place: 'Минск',
-        description: 'Умер в городе Минске',
+        place: 'Minsk',
+        description: 'He died in the city of Minsk',
       },
     ],
     works: [slide19, slide20, slide21, slide22, slide23, slide24],
     listOfWorks: [
       {
         year: '1924',
-        work: 'фотографии напечатаны в издании «Географ Европы»',
+        work: 'His photographs are published in the publication "Geographer of Europe"',
       },
       {
         year: '1926',
-        work: 'фотографии напечатаны в издании «Начальная География»',
+        work: 'His photos are published in the publication “Initial Geography”',
       },
       {
         year: '1926',
-        work: 'фотографии напечатаны в издании «Чатырохстолецьце белорусской печати»',
+        work: 'His photographs are published in the edition of the “Chatyrokholtoletstsa Belarusian Press”',
       },
       {
         year: '1928',
-        work: 'участвовал в Первой Всебелорусской выставке краеведческих фотографий и зарисовок, Минск',
+        work: 'He participated in the First All-Belarusian Exhibition of Local History Photos and Sketches, Minsk ',
       },
       {
         year: '1929',
-        work: 'фотографии напечатаны в издании «Современное белорусское искусство»',
+        work: 'His photographs were published in the publication “Contemporary Belarusian Art”',
       },
       {
         year: '1930',
-        work: 'участвовал в фотовыставке в Дрездене, Германия',
+        work: 'He participated in a photo exhibition in Dresden, Germany ',
       },
     ],
   },
   {
     id: 6,
-    name: 'Георгий Леонардович Лихтарович',
+    name: 'Georgii Leonardovich Likhtarovich',
     avatar: avatar5,
-    occupation: 'Белорусский фотограф, талантливый литератор, поэт, общественный деятель',
+    occupation: 'Belarusian photographer, talented writer, poet, public figure',
     birthDate: '06.12.1947',
-    birthPlace: 'г.Минск, БССР',
+    birthPlace: 'Minsk, BSSR',
     deathDate: null,
     deathPlace: null,
     locationsCoords: {
@@ -477,48 +473,48 @@ export default [
     activity: [
       {
         date: '06.12.1947',
-        place: 'Минск',
-        description: 'Родился в г. Минске, БССР.',
+        place: 'Minsk',
+        description: 'He was born in Minsk, BSSR.',
       },
       {
         date: '1965-1966',
-        place: 'Минск',
-        description: 'Работал ассистентом кинооператора в Минской студии научно-популярных и хроникально-документальный фильмов.',
+        place: 'Minsk',
+        description: 'He worked as an assistant cinematographer in the Minsk studio of popular science and documentary films.',
       },
       {
         date: '1966-1968',
-        place: 'Минск',
-        description: 'Служил в войсках в п.Печи. Публиковался в периодических изданиях.',
+        place: 'Minsk',
+        description: 'He served in the troops in p.Pechi. Published in periodicals.',
       },
       {
         date: '1969-1974',
-        place: 'Минск',
-        description: 'Работал фотографом в Институте искусствоведения, этнографии и фольклора Академии наук. Иллюстрировал первые тома «Собрание памятников истории и культуры Беларуси». ',
+        place: 'Minsk',
+        description: 'He worked as a photographer at the Institute of Art, Ethnography and Folklore of the Academy of Sciences. He illustrated the first volumes of the “Collection of monuments of history and culture of Belarus”.',
       },
       {
         date: '1974-1992',
-        place: 'Минск',
-        description: 'В 1970-1974 гг. учился на архитектурном факультете БНТУ. С 1972 года преподавал фотографику в Театрально-художественном институте. Работал фотокорреспондентом газеты «Голос Родины».',
+        place: 'Minsk',
+        description: 'In 1970-1974, he studied at the Faculty of Architecture of the Belarusian National Technical University. From 1972 he taught photography at the Theater and Art Institute. He worked as a press photographer of the newspaper "Voice of the Motherland."',
       },
       {
         date: '2000',
-        place: 'Минск',
-        description: 'В 2000 г. издаёт фотоальбом «Добрый день, Беларусь». В 2001-2006 принимает участие в фотографических и художественных выставках. С 2004 - член Союза Белорусского государственного объединения «Фотоискусство».',
+        place: 'Minsk',
+        description: 'In 2000, he publishes the photo album “Good afternoon, Belarus”. In 2001-2006 she takes part in photographic and art exhibitions. Since 2004 - member of the Union of Belarusian State Association "Photoart".',
       },
     ],
     works: [slide25, slide26, slide27, slide28, slide29, slide30, slide31, slide32, slide33],
     listOfWorks: [
       {
         year: '2000',
-        work: 'издал фотоальбом «Здравствуйте, Беларусь»',
+        work: 'Published a photo album "Hello, Belarus"',
       },
       {
         year: '2001-2006',
-        work: 'участие в фотографических и художественных выставках',
+        work: 'Participation in photographic and art exhibitions',
       },
       {
         year: '2004',
-        work: 'стал членом Совета Белорусского общественного объединения «Фотоискусство»',
+        work: 'He became a member of the Council of the Belarusian public association "Photoart"',
       },
     ],
   },

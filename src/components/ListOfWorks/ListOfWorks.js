@@ -3,17 +3,22 @@ import './ListOfWorks.css';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import PropTypes from 'prop-types';
+import { FormattedMessage } from 'react-intl';
 
 function ListOfWorks(props) {
   return (
     <div id="listOfWorks">
       <h2 style={{ textAlign: 'center', color: '#e86971', fontSize: '2em' }}>
-        Список произведений
+        <FormattedMessage id="listWork" />
       </h2>
       <List className="list-works">
         <ListItem button className="listitem-title listitem-container">
-          <span className="year">Дата создания</span>
-          <span className="work">Произведение</span>
+          <span className="year">
+            <FormattedMessage id="dateCreate" />
+            </span>
+          <span className="work">
+          <FormattedMessage id="workCreate" />
+          </span>
         </ListItem>
 
         {props.data.listOfWorks.map((item, index) => (
