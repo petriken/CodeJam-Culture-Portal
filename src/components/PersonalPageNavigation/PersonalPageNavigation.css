@@ -1,7 +1,7 @@
 .page-navigation {
   display: flex;
   position: fixed;
-  right: 40px;
+  right: 70px;
   top: 110px;
   z-index: 10;
   background-color: rgba(255, 255, 255, .6);
