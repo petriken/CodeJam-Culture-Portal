@@ -7,9 +7,6 @@ import { Link, Redirect } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import Language from '@material-ui/icons/Language';
 import logo from '../../img/assets/logo.png';
-import ru from '../../img/assets/russia_640.png';
-import be from '../../img/assets/belarus_640.png';
-import en from '../../img/assets/usa_640.png';
 import messages from '../../translations';
 import store from '../../store/store';
 
@@ -20,8 +17,10 @@ class Header extends Component {
     this.state = {
       activeLangButton: 'ru',
       lang: 'ru',
+      isActiveLangContainer: false,
     };
     this.page = this.props.page;
+    this.showLangContainer = this.showLangContainer.bind(this);
   }
 
   componentWillMount() {
@@ -52,6 +51,31 @@ class Header extends Component {
     return <Redirect to={this.props.page} />;
   }
 
+  showLangContainer() {
+    const langNav = document.querySelector('.lang-nav');
+    const lngCont = document.querySelector('.lng-container');
+    let hideLangContainer = () => {
+      this.setState({ isActiveLangContainer: false });
+      lngCont.style.opacity = '1';
+      langNav.style.opacity = '0';
+      langNav.style.zIndex = '-1';
+      document.removeEventListener('click', hideLangContainer);
+    };
+    hideLangContainer = hideLangContainer.bind(this);
+    document.addEventListener('click', hideLangContainer);
+    if (!this.state.isActiveLangContainer) {
+      lngCont.style.opacity = '0';
+      langNav.style.opacity = '1';
+      langNav.style.zIndex = '1';
+      this.setState({ isActiveLangContainer: true });
+    } else {
+      lngCont.style.opacity = '1';
+      langNav.style.opacity = '0';
+      langNav.style.zIndex = '-1';
+      this.setState({ isActiveLangContainer: false });
+    }
+  }
+
   render() {
     return (
       <header>
@@ -73,21 +97,21 @@ class Header extends Component {
                 className={`lang-item ${this.state.activeLangButton === 'ru' ? 'active-lang' : ''}`}
                 onClick={e => this.langClickHandler(e, 'ru', messages.ru)}
               >
-                <img className="lang-icon" src={ru} alt="РУ" />
+                Русский
               </li>
               <li
                 id="be"
                 className={`lang-item ${this.state.activeLangButton === 'be' ? 'active-lang' : ''}`}
                 onClick={e => this.langClickHandler(e, 'be', messages.be)}
               >
-                <img className="lang-icon" src={be} alt="БЕЛ" />
+                Беларуская
               </li>
               <li
                 id="en"
                 className={`lang-item ${this.state.activeLangButton === 'en' ? 'active-lang' : ''}`}
                 onClick={e => this.langClickHandler(e, 'en', messages.en)}
               >
-                <img className="lang-icon" src={en} alt="En" />
+                English
               </li>
             </ul>
           </nav>
@@ -111,7 +135,7 @@ class Header extends Component {
                 </Link>
               </li>
               <li className="lng-container">
-                <Button variant="text" color="inherit">
+                <Button variant="text" color="inherit" onClick={this.showLangContainer}>
                   <Language/>
                 </Button>
               </li>
