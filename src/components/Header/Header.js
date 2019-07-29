@@ -7,9 +7,6 @@ import { Link, Redirect } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import Language from '@material-ui/icons/Language';
 import logo from '../../img/assets/logo.jpg';
-import ru from '../../img/assets/russia_640.png';
-import be from '../../img/assets/belarus_640.png';
-import en from '../../img/assets/usa_640.png';
 import messages from '../../translations';
 import store from '../../store/store';
 

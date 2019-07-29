@@ -1,6 +1,6 @@
 @import "../../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 .image-gallery {
-  max-width: 65vw;
+  max-width: 55vw;
   margin: 60px auto;
 }
 
