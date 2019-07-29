@@ -1,0 +1,33 @@
+.title-mainpage {  
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.description-mainpage {
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.description-mainpage span {
+  display: block;
+}
+
+@media (max-width: 720px){
+  .title-mainpage {  
+    margin-top: 30px;
+    font-size: 32px;
+  }
+  
+  .description-mainpage {
+    font-size: 18px;
+  }
+  
+  .description-mainpage span {
+    display: inline;
+  }
+}

@@ -1,0 +1,6 @@
+.map {
+  position: relative;
+  max-width: 100%; 
+  max-height: 550px; 
+  margin: 60px auto;
+}
