@@ -7,9 +7,6 @@ import { Link, Redirect } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import Language from '@material-ui/icons/Language';
 import logo from '../../img/assets/logo.png';
-import ru from '../../img/assets/russia_640.png';
-import be from '../../img/assets/belarus_640.png';
-import en from '../../img/assets/usa_640.png';
 import messages from '../../translations';
 import store from '../../store/store';
 
@@ -73,21 +70,21 @@ class Header extends Component {
                 className={`lang-item ${this.state.activeLangButton === 'ru' ? 'active-lang' : ''}`}
                 onClick={e => this.langClickHandler(e, 'ru', messages.ru)}
               >
-                <img className="lang-icon" src={ru} alt="РУ" />
+
               </li>
               <li
                 id="be"
                 className={`lang-item ${this.state.activeLangButton === 'be' ? 'active-lang' : ''}`}
                 onClick={e => this.langClickHandler(e, 'be', messages.be)}
               >
-                <img className="lang-icon" src={be} alt="БЕЛ" />
+
               </li>
               <li
                 id="en"
                 className={`lang-item ${this.state.activeLangButton === 'en' ? 'active-lang' : ''}`}
                 onClick={e => this.langClickHandler(e, 'en', messages.en)}
               >
-                <img className="lang-icon" src={en} alt="En" />
+
               </li>
             </ul>
           </nav>
