@@ -120,15 +120,15 @@ export default [
     listOfWorks: [
       {
         year: '2011',
-        work: 'photo exhibition “Under Ground”: in photos focused on Belarusian vegetables. The choice of topics was explained by the fact that Belarusians, like vegetables, hide interesting things in themselves, do not show them outside - a nation of people buried in themselves: they usually look, but inside they are fantastic - the golden sun is hidden under the skin of potatoes, soiled (from the soil)',
+        work: 'Photo exhibition “Under Ground”: in photos focused on Belarusian vegetables. The choice of topics was explained by the fact that Belarusians, like vegetables, hide interesting things in themselves, do not show them outside - a nation of people buried in themselves: they usually look, but inside they are fantastic - the golden sun is hidden under the skin of potatoes, soiled (from the soil)',
       },
       {
         year: '2012',
-        work: 'photo exhibition "Under Ground" in Café Galerie (Germany)',
+        work: 'Photo exhibition "Under Ground" in Café Galerie (Germany)',
       },
       {
         year: '2013',
-        work: 'photo exhibition "Under Ground" (Poland)',
+        work: 'Photo exhibition "Under Ground" (Poland)',
       },
     ],
   },
@@ -177,31 +177,31 @@ export default [
     listOfWorks: [
       {
         year: '1982-2005',
-        work: 'a series of photographs "Think, boy!"',
+        work: 'The series of photographs "Think, boy!"',
       },
       {
         year: '1988',
-        work: 'a series of photographs "Holiday in the Orthodox Church"',
+        work: 'The series of photographs "Holiday in the Orthodox Church"',
       },
       {
         year: '1988',
-        work: 'a series of photographic works “Armenia. December"',
+        work: 'The series of photographic works “Armenia. December"',
       },
       {
         year: '1989',
-        work: 'a series of photographs "Pioneer Camp"',
+        work: 'The series of photographs "Pioneer Camp"',
       },
       {
         year: '1989',
-        work: 'a series of photographs "Signs"',
+        work: 'The series of photographs "Signs"',
       },
       {
         year: '1996',
-        work: 'a series of photographs "Chernobyl Still Life"',
+        work: 'The series of photographs "Chernobyl Still Life"',
       },
       {
         year: '2001-2007',
-        work: 'a series of photographs "Paris! Paris! I do not want to go home!"',
+        work: 'The series of photographs "Paris! Paris! I do not want to go home!"',
       },
     ],
   },
@@ -506,11 +506,11 @@ export default [
     listOfWorks: [
       {
         year: '2000',
-        work: 'published a photo album "Hello, Belarus"',
+        work: 'Published a photo album "Hello, Belarus"',
       },
       {
         year: '2001-2006',
-        work: 'participation in photographic and art exhibitions',
+        work: 'Participation in photographic and art exhibitions',
       },
       {
         year: '2004',
