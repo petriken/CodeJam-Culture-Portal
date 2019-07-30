@@ -1,7 +1,7 @@
 @import "../../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 .image-gallery {
-  max-width: 55vw;
-  margin: 60px auto;
+  max-width: 1100px;
+  margin: 40px auto;
 }
 
 .image-gallery-thumbnail {

@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import './MainPage.css';
 import { FormattedMessage, FormattedHTMLMessage } from 'react-intl';
+import SimpleSlider from '../../components/Slider/Slider';
 import Avatar from '../../components/Avatar/Avatar';
 import Description from '../../components/Description/Description';
 import Developer from '../../components/Developer/Developer';
@@ -31,6 +32,8 @@ function MainPage(props) {
   return (
     <>
       <div className="main-page">
+        <p className="main-page-title"><FormattedMessage id="headerSubtitle"/></p>
+        <SimpleSlider/>
         <h2 className="title-mainpage">
           <FormattedMessage id="todayAuthor" />
         </h2>
@@ -38,8 +41,6 @@ function MainPage(props) {
         <Description data={profile} />
         <p className="description-mainpage">
           <FormattedHTMLMessage id="welcome" />
-        </p>
-        <p className="description-mainpage">
           <FormattedMessage id="purpose" />
         </p>
       </div>

@@ -52,13 +52,20 @@ import slide37 from '../img/person_6/portfolio/work4.jpg';
 import slide38 from '../img/person_6/portfolio/work5.jpg';
 import slide39 from '../img/person_6/portfolio/work6.jpg';
 
+
 import slide40 from '../img/person_7/portfolio/work1.jpg';
 import slide41 from '../img/person_7/portfolio/work2.jpg';
 import slide42 from '../img/person_7/portfolio/work3.jpg';
 import slide43 from '../img/person_7/portfolio/work4.jpg';
+import slide44 from '../img/person_7/portfolio/work5.jpg';
+import slide45 from '../img/person_7/portfolio/work6.jpg';
 
-import slide44 from '../img/person_7/portfolio/work1.jpg';
-
+import slide46 from '../img/person_8/portfolio/work1.jpg';
+import slide47 from '../img/person_8/portfolio/work2.jpg';
+import slide48 from '../img/person_8/portfolio/work3.jpg';
+import slide49 from '../img/person_8/portfolio/work4.jpg';
+import slide50 from '../img/person_8/portfolio/work5.jpg';
+import slide51 from '../img/person_8/portfolio/work6.jpg';
 
 import video1 from '../video/video1.mp4';
 import video2 from '../video/video2.mp4';
@@ -68,6 +75,15 @@ import video5 from '../video/video5.mp4';
 import video6 from '../video/video6.mp4';
 import video7 from '../video/video7.mp4';
 import video8 from '../video/video8.mp4';
+
+import videoSrc1 from '../video/videoSrc1.jpg';
+import videoSrc2 from '../video/videoSrc2.jpg';
+import videoSrc3 from '../video/videoSrc3.jpg';
+import videoSrc4 from '../video/videoSrc4.jpg';
+import videoSrc5 from '../video/videoSrc5.jpg';
+import videoSrc6 from '../video/videoSrc6.jpg';
+import videoSrc7 from '../video/videoSrc7.jpg';
+import videoSrc8 from '../video/videoSrc8.jpg';
 
 export default [
   {
@@ -85,6 +101,7 @@ export default [
       lng: '27.561481',
     },
     video: video1,
+    videoSrc: videoSrc1,
     activity: [
       {
         date: '16.03.1964',
@@ -159,6 +176,7 @@ export default [
       lng: '30.204791',
     },
     video: video2,
+    videoSrc: videoSrc2,
     activity: [
       {
         date: '21.10.1953',
@@ -230,6 +248,7 @@ export default [
       lng: '26.911100',
     },
     video: video6,
+    videoSrc: videoSrc6,
     activity: [
       {
         date: '1881',
@@ -297,6 +316,7 @@ export default [
       lng: '27.561481',
     },
     video: video3,
+    videoSrc: videoSrc3,
     activity: [
       {
         date: '20.11.1962',
@@ -381,6 +401,85 @@ export default [
     ],
   },
   {
+    id: 7,
+    name: 'Ян Булгак',
+    avatar: avatar7,
+    occupation:
+      'Этнограф, фольклорист, писатель, фотограф.',
+    birthDate: '06.10.1876',
+    birthPlace: 'д. Осташино, Новогрудок',
+    deathDate: '04.02.1950',
+    deathPlace: 'Гижицко, Польша',
+    locationsCoords: {
+      lat: '53.902496',
+      lng: '27.561481',
+    },
+    video: video7,
+    videoSrc: videoSrc7,
+    activity: [
+      {
+        date: '06.10.1876',
+        place: 'д. Осташино',
+        description: 'Родился в д. Осташино под Новогрудком.',
+      },
+      {
+        date: '1897—1899',
+        place: 'Краков - Минск',
+        description: 'Изучал философию в Ягеллонском университете в Кракове (не закончил). Вернувшись из Кракова, жил в имении Пересека под Минском, откуда посылал корреспонденции в виленские газеты.',
+      },
+      {
+        date: '1912',
+        place: 'Вильня',
+        description: 'Открыл фотоателье в Вильне на улице Портовой 12 (сгорело в 1944; погибло около 30 тысяч негативов, часть уцелела).',
+      },
+      {
+        date: '1912—1915',
+        place: 'Вильня',
+        description: 'Фотографировал памятники архитектуры города.',
+      },
+      {
+        date: '1919',
+        place: 'Вильня',
+        description: 'Преподавал художественную фотографию на отделении изящных искусств Университета Стефана Батория. Стал одним из основателей и председателем Виленского фотоклуба.',
+      },
+      {
+        date: '1935—1939',
+        place: 'Вильня',
+        description: 'Был одним из редакторов журналов „Przegld Fotograficzny“, „Fotograf Polski“.',
+      },
+      {
+        date: '1945',
+        place: 'Варшава',
+        description: 'Переехал в Варшаву. Выполнил около тысячи фотографий разрушенной и восстанавливавшейся Варшавы, около 2 тысяч фотографий западных земель, присоединённых к Польше. В 1947 году стал учредителем Союза фотохудожников Польши и руководил им до своей смерти.',
+      },
+      {
+        date: '04.02.1950',
+        place: 'Варшава',
+        description: 'Похоронен в г. Варшава',
+      },
+    ],
+
+    works: [slide40, slide41, slide42, slide43, slide44, slide45],
+    listOfWorks: [
+      {
+        year: '1931',
+        work: 'Выпустил серию альбомов „Wędrówki fotografa“',
+      },
+      {
+        year: '1933-1935',
+        work: 'Написал статьи об эстетике и технике фотографий : «Бромовая техника», «Бромографика», «Светотехника»',
+      },
+      {
+        year: '1935',
+        work: 'Издал книгу про свое путешествие из Вильно на озеро Нарочь с 38 фотографиями',
+      },
+      {
+        year: '1951',
+        work: 'Написал книгу "Отечественная фотография" ',
+      },
+    ],
+  },
+  {
     id: 5,
     name: 'Лев Урбанович Дашкевич',
     avatar: avatar4,
@@ -395,6 +494,7 @@ export default [
       lng: '27.561481',
     },
     video: video4,
+    videoSrc: videoSrc4,
     activity: [
       {
         date: '12.02.1882',
@@ -485,6 +585,7 @@ export default [
       lng: '27.561481',
     },
     video: video5,
+    videoSrc: videoSrc5,
     activity: [
       {
         date: '06.12.1947',
@@ -533,84 +634,6 @@ export default [
       },
     ],
   },
-  {
-    id: 7,
-    name: 'Ян Булгак',
-    avatar: avatar7,
-    occupation:
-      'Этнограф, фольклорист, писатель, фотограф.',
-    birthDate: '06.10.1876',
-    birthPlace: 'д. Осташино, Новогрудок',
-    deathDate: '04.02.1950',
-    deathPlace: 'Гижицко, Польша',
-    locationsCoords: {
-      lat: '53.902496',
-      lng: '27.561481'
-    },
-    video: video7,
-    activity: [
-      {
-        date: '06.10.1876',
-        place: 'д. Осташино',
-        description: 'Родился в д. Осташино под Новогрудком.',
-      },
-      {
-        date: '1897—1899',
-        place: 'Краков - Минск',
-        description: 'Изучал философию в Ягеллонском университете в Кракове (не закончил). Вернувшись из Кракова, жил в имении Пересека под Минском, откуда посылал корреспонденции в виленские газеты.'
-    },
-    {
-        date: '1912',
-        place: 'Вильня',
-        description: 'Открыл фотоателье в Вильне на улице Портовой 12 (сгорело в 1944; погибло около 30 тысяч негативов, часть уцелела).'
-    },
-    {
-        date: '1912—1915',
-        place: 'Вильня',
-        description: 'Фотографировал памятники архитектуры города.'
-    },
-    {
-        date: '1919',
-        place: 'Вильня',
-        description: 'Преподавал художественную фотографию на отделении изящных искусств Университета Стефана Батория. Стал одним из основателей и председателем Виленского фотоклуба.'
-    },
-    {
-        date: '1935—1939',
-        place: 'Вильня',
-        description: 'Был одним из редакторов журналов „Przegld Fotograficzny“, „Fotograf Polski“.'
-    },
-    {
-        date: '1945',
-        place: 'Варшава',
-        description: 'Переехал в Варшаву. Выполнил около тысячи фотографий разрушенной и восстанавливавшейся Варшавы, около 2 тысяч фотографий западных земель, присоединённых к Польше. В 1947 году стал учредителем Союза фотохудожников Польши и руководил им до своей смерти.'
-    },
-    {
-    date: '04.02.1950',
-    place: 'Варшава',
-    description: 'Похоронен в г. Варшава',
-},
-],
-
-    works: [slide40, slide41, slide42, slide43],
-    listOfWorks: [
-      {
-        year: '1931',
-        work: 'Выпустил серию альбомов „Wędrówki fotografa“',
-      },
-      {
-        year: '1933-1935',
-        work: 'Написал статьи об эстетике и технике фотографий : «Бромовая техника», «Бромографика», «Светотехника»',
-      },
-      {
-        year: '1935',
-        work: 'Издал книгу про свое путешествие из Вильно на озеро Нарочь с 38 фотографиями',
-      },
-      {
-        year: '1951',
-        work: 'Написал книгу "Отечественная фотография" ',
-      },
-    ],
-  },
 
   {
     id: 8,
@@ -618,45 +641,46 @@ export default [
     avatar: avatar8,
     occupation:
       'Белорусский фотохудожник, член Союза журналистов Беларуси, обладатель премии на Всесоюзной выставке «Фотографика-71», лауреата международной выставки «Человек и Земля».',
-      birthDate: '07.12.1946',
-      birthPlace: 'г.Витебск',
-      deathDate: null,
-      deathPlace: null,
-      locationsCoords: {
-          lat: '55.183672',
-          lng: '30.204791'
-      },
+    birthDate: '07.12.1946',
+    birthPlace: 'г.Витебск',
+    deathDate: null,
+    deathPlace: null,
+    locationsCoords: {
+      lat: '55.183672',
+      lng: '30.204791',
+    },
     video: video8,
+    videoSrc: videoSrc8,
     activity: [
       {
         date: '07.12.1946',
         place: 'Витебск',
-        description: 'Родился в г. Витебск.'
-    },
-    {
+        description: 'Родился в г. Витебск.',
+      },
+      {
         date: '1967',
         place: 'Витебск',
-        description: 'Окончил Минское полиграфическое училище.'
-    },
-    {
+        description: 'Окончил Минское полиграфическое училище.',
+      },
+      {
         date: '1969-1983',
         place: 'Витебск',
-        description: 'Работал в Витебском областном краеведческом музее. Получил первую премию на Всесоюзной выставке «Фотографика-71» медаль лауреата на международной выставке «Человек и Земля». Награжден почетными дипломами фотосалонов в Румынии, Англии.'
-    },
-    {
+        description: 'Работал в Витебском областном краеведческом музее. Получил первую премию на Всесоюзной выставке «Фотографика-71» медаль лауреата на международной выставке «Человек и Земля». Награжден почетными дипломами фотосалонов в Румынии, Англии.',
+      },
+      {
         date: '1986-1991',
         place: 'Витебск',
-        description: 'Работал в производственном объединении «Искусство».'
-    },
-    {
+        description: 'Работал в производственном объединении «Искусство».',
+      },
+      {
         date: '1991-2007',
         place: 'Витебск',
-        description: 'Работал в редакции Областной газеты «Народное слово».'
-    },
+        description: 'Работал в редакции Областной газеты «Народное слово».',
+      },
 
-],
+    ],
 
-    works: [slide44],
+    works: [slide46, slide47, slide48, slide49, slide50, slide51],
     listOfWorks: [
       {
         year: '1971-1975',
@@ -684,6 +708,6 @@ export default [
       },
 
     ],
-  }
+  },
 
 ];

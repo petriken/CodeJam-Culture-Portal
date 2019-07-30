@@ -25,6 +25,7 @@ class MapContainer extends Component {
           zoom={11}
           id="mapContainerAnkor"
         >
+
           <Marker
             title={'Belarus'}
             name={'Minsk'}

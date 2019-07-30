@@ -8,10 +8,17 @@ import PropTypes from 'prop-types';
 function VideoPlayer(props) {
   return (
     <div id="videoPlayer" className="videoPlayer">
-      <h2 style={{ textAlign: 'center', color: '#e86971', fontSize: '2em' }}>
+      <h2
+        style={{
+          textAlign: 'center',
+          color: '#e86971',
+          fontSize: '2em',
+          marginTop: 60,
+        }}
+      >
         <FormattedMessage id="video" />
       </h2>
-      <Player playsInline poster="" src={props.data.video} />
+      <Player playsInline poster={props.data.videoSrc} src={props.data.video} />
     </div>
   );
 }

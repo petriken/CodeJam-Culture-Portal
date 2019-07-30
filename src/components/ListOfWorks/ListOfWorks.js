@@ -8,7 +8,9 @@ import { FormattedMessage } from 'react-intl';
 function ListOfWorks(props) {
   return (
     <div id="listOfWorks">
-      <h2 style={{ textAlign: 'center', color: '#e86971', fontSize: '2em' }}>
+      <h2 style={{
+        textAlign: 'center', color: '#e86971', fontSize: '2em', marginTop: 60,
+      }}>
         <FormattedMessage id="listWork" />
       </h2>
       <List className="list-works">
