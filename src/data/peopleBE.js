@@ -4,6 +4,8 @@ import avatar3 from '../img/person_3/avatar/ava.jpg';
 import avatar4 from '../img/person_4/avatar/ava.jpg';
 import avatar5 from '../img/person_5/avatar/ava.jpg';
 import avatar6 from '../img/person_6/avatar/ava.jpg';
+import avatar7 from '../img/person_7/avatar/ava.jpg';
+import avatar8 from '../img/person_8/avatar/ava.jpg';
 
 import slide1 from '../img/person_1/portfolio/work1.jpg';
 import slide2 from '../img/person_1/portfolio/work2.jpg';
@@ -50,6 +52,12 @@ import slide37 from '../img/person_6/portfolio/work4.jpg';
 import slide38 from '../img/person_6/portfolio/work5.jpg';
 import slide39 from '../img/person_6/portfolio/work6.jpg';
 
+import slide40 from '../img/person_7/portfolio/work1.jpg';
+import slide41 from '../img/person_7/portfolio/work2.jpg';
+import slide42 from '../img/person_7/portfolio/work3.jpg';
+import slide43 from '../img/person_7/portfolio/work4.jpg';
+
+import slide44 from '../img/person_8/portfolio/work1.jpg';
 
 import video1 from '../video/video1.mp4';
 import video2 from '../video/video2.mp4';
@@ -57,6 +65,9 @@ import video3 from '../video/video3.mp4';
 import video4 from '../video/video4.mp4';
 import video5 from '../video/video5.mp4';
 import video6 from '../video/video6.mp4';
+import video7 from '../video/video7.mp4';
+import video8 from '../video/video8.mp4';
+
 
 export default [
   {

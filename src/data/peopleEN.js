@@ -58,7 +58,7 @@ import slide41 from '../img/person_7/portfolio/work2.jpg';
 import slide42 from '../img/person_7/portfolio/work3.jpg';
 import slide43 from '../img/person_7/portfolio/work4.jpg';
 
-import slide44 from '../img/person_7/portfolio/work1.jpg';
+import slide44 from '../img/person_8/portfolio/work1.jpg';
 
 
 import video1 from '../video/video1.mp4';
