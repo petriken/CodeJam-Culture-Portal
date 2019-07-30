@@ -16,7 +16,9 @@ function ImageGalleryComponent(props) {
 
   return (
     <div id="imageGalleryComponent" >
-      <h2 style={{ textAlign: 'center', color: '#e86971', fontSize: '2em' }}>
+      <h2 style={{
+        textAlign: 'center', color: '#e86971', fontSize: '2em', marginTop: 60,
+      }}>
         <FormattedMessage id="imageGalery" />
       </h2>
       <ImageGallery items={images} className="images"/>

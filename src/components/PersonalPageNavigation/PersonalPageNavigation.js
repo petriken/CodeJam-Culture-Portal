@@ -11,14 +11,14 @@ import LocationOn from '@material-ui/icons/LocationOn';
 
 export default class PersonalPageNavigation extends Component {
   state = {
-    top: '114px',
+    top: '64px',
   }
 
   listenScrollEvent = () => {
-    if (window.scrollY > 107) {
+    if (window.scrollY > 67) {
       this.setState({ top: '0px' });
     } else {
-      this.setState({ top: '114px' });
+      this.setState({ top: '64px' });
     }
   }
 
@@ -56,7 +56,7 @@ export default class PersonalPageNavigation extends Component {
         </Button>
         <Button variant="contained" className="btn-navigation">
         <AnchorLink
-          offset='40'
+          offset='20'
           href='#imageGalleryComponent'
           title='imageGallery'>
           <Photo/>

@@ -1,4 +1,19 @@
-.title-mainpage {  
+.main-page-title {
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 72px;
+  line-height: 100px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.title-mainpage {
   margin-top: 40px;
   text-align: center;
   font-size: 1.8em;
@@ -6,7 +21,7 @@
 
 .description-mainpage {
   max-width: 640px;
-  margin: 40px auto;
+  margin: 40px auto 60px;
   padding: 10px;
   text-align: center;
   font-size: 24px;
@@ -33,17 +48,27 @@
   /* max-width: 1500px; */
 }
 
-@media (max-width: 720px){
-  .title-mainpage {  
+@media (max-width: 720px) {
+  .title-mainpage {
     margin-top: 30px;
     font-size: 32px;
   }
-  
+
   .description-mainpage {
     font-size: 18px;
   }
-  
+
   .description-mainpage span {
     display: inline;
+  }
+
+  .main-page-title {
+    top: 14%;
+    width: 65%;
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .main-page-title span {
+    text-align: center;
   }
 }

@@ -7,7 +7,6 @@ import avatar6 from '../img/person_6/avatar/ava.jpg';
 import avatar7 from '../img/person_7/avatar/ava.jpg';
 import avatar8 from '../img/person_8/avatar/ava.jpg';
 
-
 import slide1 from '../img/person_1/portfolio/work1.jpg';
 import slide2 from '../img/person_1/portfolio/work2.jpg';
 import slide3 from '../img/person_1/portfolio/work3.jpg';
@@ -57,9 +56,15 @@ import slide40 from '../img/person_7/portfolio/work1.jpg';
 import slide41 from '../img/person_7/portfolio/work2.jpg';
 import slide42 from '../img/person_7/portfolio/work3.jpg';
 import slide43 from '../img/person_7/portfolio/work4.jpg';
+import slide44 from '../img/person_7/portfolio/work5.jpg';
+import slide45 from '../img/person_7/portfolio/work6.jpg';
 
-import slide44 from '../img/person_8/portfolio/work1.jpg';
-
+import slide46 from '../img/person_8/portfolio/work1.jpg';
+import slide47 from '../img/person_8/portfolio/work2.jpg';
+import slide48 from '../img/person_8/portfolio/work3.jpg';
+import slide49 from '../img/person_8/portfolio/work4.jpg';
+import slide50 from '../img/person_8/portfolio/work5.jpg';
+import slide51 from '../img/person_8/portfolio/work6.jpg';
 
 import video1 from '../video/video1.mp4';
 import video2 from '../video/video2.mp4';
@@ -69,6 +74,15 @@ import video5 from '../video/video5.mp4';
 import video6 from '../video/video6.mp4';
 import video7 from '../video/video7.mp4';
 import video8 from '../video/video8.mp4';
+
+import videoSrc1 from '../video/videoSrc1.jpg';
+import videoSrc2 from '../video/videoSrc2.jpg';
+import videoSrc3 from '../video/videoSrc3.jpg';
+import videoSrc4 from '../video/videoSrc4.jpg';
+import videoSrc5 from '../video/videoSrc5.jpg';
+import videoSrc6 from '../video/videoSrc6.jpg';
+import videoSrc7 from '../video/videoSrc7.jpg';
+import videoSrc8 from '../video/videoSrc8.jpg';
 
 export default [
   {
@@ -86,6 +100,7 @@ export default [
       lng: '27.561481',
     },
     video: video1,
+    videoSrc: videoSrc1,
     activity: [
       {
         date: '16.03.1964',
@@ -96,8 +111,7 @@ export default [
       {
         date: '1975-1985',
         place: 'Minsk',
-        description:
-          'He studied at the children"s folk art studio in Minsk.',
+        description: 'He studied at the children"s folk art studio in Minsk.',
       },
       {
         date: '1979-1983',
@@ -114,7 +128,8 @@ export default [
       {
         date: '2011',
         place: 'Minsk',
-        description: 'He became a board member of the Belarusian Union of Designers.',
+        description:
+          'He became a board member of the Belarusian Union of Designers.',
       },
       {
         date: '2011',
@@ -132,7 +147,8 @@ export default [
     listOfWorks: [
       {
         year: '2011',
-        work: 'Photo exhibition “Under Ground”: in photos focused on Belarusian vegetables. The choice of topics was explained by the fact that Belarusians, like vegetables, hide interesting things in themselves, do not show them outside - a nation of people buried in themselves: they usually look, but inside they are fantastic - the golden sun is hidden under the skin of potatoes, soiled (from the soil)',
+        work:
+          'Photo exhibition “Under Ground”: in photos focused on Belarusian vegetables. The choice of topics was explained by the fact that Belarusians, like vegetables, hide interesting things in themselves, do not show them outside - a nation of people buried in themselves: they usually look, but inside they are fantastic - the golden sun is hidden under the skin of potatoes, soiled (from the soil)',
       },
       {
         year: '2012',
@@ -160,6 +176,7 @@ export default [
       lng: '30.204791',
     },
     video: video2,
+    videoSrc: videoSrc2,
     activity: [
       {
         date: '21.10.1953',
@@ -213,7 +230,8 @@ export default [
       },
       {
         year: '2001-2007',
-        work: 'The series of photographs "Paris! Paris! I do not want to go home!"',
+        work:
+          'The series of photographs "Paris! Paris! I do not want to go home!"',
       },
     ],
   },
@@ -221,7 +239,8 @@ export default [
     id: 3,
     name: 'Boris Gendelevich Berman',
     avatar: avatar6,
-    occupation: 'The owner of a modest pharmacy and a photo studio in Vileyka, filmed his hometown and his countrymen',
+    occupation:
+      'The owner of a modest pharmacy and a photo studio in Vileyka, filmed his hometown and his countrymen',
     birthDate: '1881',
     birthPlace: 'Ivier, Russian Empire',
     deathDate: '1940',
@@ -231,36 +250,43 @@ export default [
       lng: '26.911100',
     },
     video: video6,
+    videoSrc: videoSrc6,
     activity: [
       {
         date: '1881',
         place: 'Ivier',
-        description: 'He was born in the town of Ivie of Lida county. Since childhood, was fascinated by photography. Over time, the passion developed into a professional lesson.',
+        description:
+          'He was born in the town of Ivie of Lida county. Since childhood, was fascinated by photography. Over time, the passion developed into a professional lesson.',
       },
       {
         date: '1910-1912',
         place: 'Vileyka',
-        description: 'He founded the first studio in Vileyka. Until 1925, he was the only professional photographer in the district.',
+        description:
+          'He founded the first studio in Vileyka. Until 1925, he was the only professional photographer in the district.',
       },
       {
         date: '1916-1921',
         place: 'Vileyka',
-        description: 'He organized a drama group in Svir, Vileyka, where he staged plays for poor children and the hungry.',
+        description:
+          'He organized a drama group in Svir, Vileyka, where he staged plays for poor children and the hungry.',
       },
       {
         date: '1969-1974',
         place: 'Vileyka',
-        description: 'He photographed the arrival of President II of the Commonwealth Ignatius Mastitsky during his visit to Vileika County.',
+        description:
+          'He photographed the arrival of President II of the Commonwealth Ignatius Mastitsky during his visit to Vileika County.',
       },
       {
         date: '18 October 1939',
         place: 'Vileyka',
-        description: 'He was arrested by the NKVD and held in custody in the prison of Vileyka.',
+        description:
+          'He was arrested by the NKVD and held in custody in the prison of Vileyka.',
       },
       {
         date: '10 August 1940',
         place: 'Vileyka',
-        description: 'He was convicted as a “socially dangerous element” and sent to the Temlag Forced Labor Camp. The fate is unknown.',
+        description:
+          'He was convicted as a “socially dangerous element” and sent to the Temlag Forced Labor Camp. The fate is unknown.',
       },
       {
         date: '6 June 1989',
@@ -276,11 +302,13 @@ export default [
       },
       {
         year: '1912-1925',
-        work: 'He was the only professional photographer in the district, only about twenty of his photos remained',
+        work:
+          'He was the only professional photographer in the district, only about twenty of his photos remained',
       },
       {
         year: '1930',
-        work: 'He photographed the arrival of President II of the Commonwealth Ignatius Mostsitski',
+        work:
+          'He photographed the arrival of President II of the Commonwealth Ignatius Mostsitski',
       },
     ],
   },
@@ -298,6 +326,7 @@ export default [
       lng: '27.561481',
     },
     video: video3,
+    videoSrc: videoSrc3,
     activity: [
       {
         date: '20.11.1962',
@@ -345,15 +374,18 @@ export default [
     listOfWorks: [
       {
         year: '1997',
-        work: '"Alone in the city." Museum of the Belarusian State Academy of Arts, Minsk ',
+        work:
+          '"Alone in the city." Museum of the Belarusian State Academy of Arts, Minsk ',
       },
       {
         year: '1997',
-        work: '"Eternal City" is an eternal ... "Society for Cultural Relations with Foreign Countries, Minsk ',
+        work:
+          '"Eternal City" is an eternal ... "Society for Cultural Relations with Foreign Countries, Minsk ',
       },
       {
         year: '1998–1999',
-        work: '"My America". Foreign Society of North Rhine-Westphalia, Dortmund (Germany) ',
+        work:
+          '"My America". Foreign Society of North Rhine-Westphalia, Dortmund (Germany) ',
       },
       {
         year: '2000',
@@ -361,19 +393,109 @@ export default [
       },
       {
         year: '2004',
-        work: '"Zaslavsky promenade." Zaslavsky Historical and Cultural Museum-Reserve, Zaslavl ',
+        work:
+          '"Zaslavsky promenade." Zaslavsky Historical and Cultural Museum-Reserve, Zaslavl ',
       },
       {
         year: '2006',
-        work: '"The movement of the triangle." M-Gallery of the Institute. Goethe in Minsk',
+        work:
+          '"The movement of the triangle." M-Gallery of the Institute. Goethe in Minsk',
       },
       {
         year: '2010',
-        work: '“Europe Plus” (jointly with E.Kenigsberg). Gallery of the National High School of Vienna-Heetzing, Vienna, Austria',
+        work:
+          '“Europe Plus” (jointly with E.Kenigsberg). Gallery of the National High School of Vienna-Heetzing, Vienna, Austria',
       },
       {
         year: '2010–2011',
-        work: '“Europe plus or minus” (with E.Kenigsberg). Museum of Contemporary Art, Minsk',
+        work:
+          '“Europe plus or minus” (with E.Kenigsberg). Museum of Contemporary Art, Minsk',
+      },
+    ],
+  },
+
+  {
+    id: 7,
+    name: 'Jan Bulhak',
+    avatar: avatar7,
+    occupation: 'Ethnographer, folklorist, writer, photographer',
+    birthDate: '06.10.1876',
+    birthPlace: 'Ostashino, Novogrudok',
+    deathDate: '04.02.1950',
+    deathPlace: 'Gizycko, Poland',
+    locationsCoords: {
+      lat: '53.902496',
+      lng: '27.561481',
+    },
+    video: video7,
+    videoSrc: videoSrc7,
+    activity: [
+      {
+        date: '06.10.1876',
+        place: 'Ostashino',
+        description: 'He was born in D. Ostashino near Novogrudok.',
+      },
+      {
+        date: '1897—1899',
+        place: 'Krakow - Minsk',
+        description:
+          'Studied philosophy at Jagiellonian University in Krakow (not graduated). Returning from Krakow, he lived in the estate Pereseka near Minsk, where he sent correspondence to the Vilna Newspapers.',
+      },
+      {
+        date: '1912',
+        place: 'Vilna',
+        description:
+          'Opened a photo Studio in Vilna on Portovaya street 12 (burned down in 1944; about 30 thousand negatives spoiled, some survived).',
+      },
+      {
+        date: '1912—1915',
+        place: 'Vilna',
+        description: 'Photographed the architectural monuments of the city.',
+      },
+      {
+        date: '1919',
+        place: 'Vilna',
+        description:
+          'Taught art photography at the Department of fine arts of Stefan Batory University. He became one of the founders and Chairman of the Vilna photo club.',
+      },
+      {
+        date: '1935—1939',
+        place: 'Vilna',
+        description:
+          'Was one of the editors of magazines „Przegld Fotograficzny“, „Fotograf Polski“.',
+      },
+      {
+        date: '1945',
+        place: 'Warsaw',
+        description:
+          'Moved to Warsaw. He made about a thousand photos of the destroyed and recovering Warsaw, about 2 thousand photos of the Western lands attached to Poland. In 1947 he became the founder of the Union of photographers of Poland and led it until his death.',
+      },
+      {
+        date: '04.02.1950',
+        place: 'Warsaw',
+        description: 'Buried in Warsaw.',
+      },
+    ],
+
+    works: [slide40, slide41, slide42, slide43, slide44, slide45],
+    listOfWorks: [
+      {
+        year: '1931',
+        work: 'Released a series of albums „Wędrówki fotografa“',
+      },
+      {
+        year: '1933-1935',
+        work:
+          'Wrote articles on aesthetics and photographic techniques: “Bromide technology”, “Bromography”, “Light engineering”',
+      },
+      {
+        year: '1935',
+        work:
+          'Published a book about his trip from Vilna to Lake Naroch with 38 photos',
+      },
+      {
+        year: '1951',
+        work: 'Wrote the book "Patriotic Photography"',
       },
     ],
   },
@@ -392,6 +514,7 @@ export default [
       lng: '27.561481',
     },
     video: video4,
+    videoSrc: videoSrc4,
     activity: [
       {
         date: '12.02.1882',
@@ -444,7 +567,8 @@ export default [
     listOfWorks: [
       {
         year: '1924',
-        work: 'His photographs are published in the publication "Geographer of Europe"',
+        work:
+          'His photographs are published in the publication "Geographer of Europe"',
       },
       {
         year: '1926',
@@ -452,15 +576,18 @@ export default [
       },
       {
         year: '1926',
-        work: 'His photographs are published in the edition of the “Chatyrokholtoletstsa Belarusian Press”',
+        work:
+          'His photographs are published in the edition of the “Chatyrokholtoletstsa Belarusian Press”',
       },
       {
         year: '1928',
-        work: 'He participated in the First All-Belarusian Exhibition of Local History Photos and Sketches, Minsk ',
+        work:
+          'He participated in the First All-Belarusian Exhibition of Local History Photos and Sketches, Minsk ',
       },
       {
         year: '1929',
-        work: 'His photographs were published in the publication “Contemporary Belarusian Art”',
+        work:
+          'His photographs were published in the publication “Contemporary Belarusian Art”',
       },
       {
         year: '1930',
@@ -482,6 +609,7 @@ export default [
       lng: '27.561481',
     },
     video: video5,
+    videoSrc: videoSrc5,
     activity: [
       {
         date: '06.12.1947',
@@ -491,30 +619,45 @@ export default [
       {
         date: '1965-1966',
         place: 'Minsk',
-        description: 'He worked as an assistant cinematographer in the Minsk studio of popular science and documentary films.',
+        description:
+          'He worked as an assistant cinematographer in the Minsk studio of popular science and documentary films.',
       },
       {
         date: '1966-1968',
         place: 'Minsk',
-        description: 'He served in the troops in p.Pechi. Published in periodicals.',
+        description:
+          'He served in the troops in p.Pechi. Published in periodicals.',
       },
       {
         date: '1969-1974',
         place: 'Minsk',
-        description: 'He worked as a photographer at the Institute of Art, Ethnography and Folklore of the Academy of Sciences. He illustrated the first volumes of the “Collection of monuments of history and culture of Belarus”.',
+        description:
+          'He worked as a photographer at the Institute of Art, Ethnography and Folklore of the Academy of Sciences. He illustrated the first volumes of the “Collection of monuments of history and culture of Belarus”.',
       },
       {
         date: '1974-1992',
         place: 'Minsk',
-        description: 'In 1970-1974, he studied at the Faculty of Architecture of the Belarusian National Technical University. From 1972 he taught photography at the Theater and Art Institute. He worked as a press photographer of the newspaper "Voice of the Motherland."',
+        description:
+          'In 1970-1974, he studied at the Faculty of Architecture of the Belarusian National Technical University. From 1972 he taught photography at the Theater and Art Institute. He worked as a press photographer of the newspaper "Voice of the Motherland."',
       },
       {
         date: '2000',
         place: 'Minsk',
-        description: 'In 2000, he publishes the photo album “Good afternoon, Belarus”. In 2001-2006 she takes part in photographic and art exhibitions. Since 2004 - member of the Union of Belarusian State Association "Photoart".',
+        description:
+          'In 2000, he publishes the photo album “Good afternoon, Belarus”. In 2001-2006 she takes part in photographic and art exhibitions. Since 2004 - member of the Union of Belarusian State Association "Photoart".',
       },
     ],
-    works: [slide25, slide26, slide27, slide28, slide29, slide30, slide31, slide32, slide33],
+    works: [
+      slide25,
+      slide26,
+      slide27,
+      slide28,
+      slide29,
+      slide30,
+      slide31,
+      slide32,
+      slide33,
+    ],
     listOfWorks: [
       {
         year: '2000',
@@ -526,135 +669,58 @@ export default [
       },
       {
         year: '2004',
-        work: 'He became a member of the Council of the Belarusian public association "Photoart"',
+        work:
+          'He became a member of the Council of the Belarusian public association "Photoart"',
       },
     ],
   },
-
-  {
-    id: 7,
-    name: 'Jan Bulhak',
-    avatar: avatar7,
-    occupation:
-      'Ethnographer, folklorist, writer, photographer',
-    birthDate: '06.10.1876',
-    birthPlace: 'Ostashino, Novogrudok',
-    deathDate: '04.02.1950',
-    deathPlace: 'Gizycko, Poland',
-    locationsCoords: {
-      lat: '53.902496',
-      lng: '27.561481'
-    },
-    video: video7,
-    activity: [
-      {
-        date: '06.10.1876',
-        place: 'Ostashino',
-        description: 'He was born in D. Ostashino near Novogrudok.',
-      },
-      {
-        date: '1897—1899',
-        place: 'Krakow - Minsk',
-        description: 'Studied philosophy at Jagiellonian University in Krakow (not graduated). Returning from Krakow, he lived in the estate Pereseka near Minsk, where he sent correspondence to the Vilna Newspapers.'
-    },
-    {
-        date: '1912',
-        place: 'Vilna',
-        description: 'Opened a photo Studio in Vilna on Portovaya street 12 (burned down in 1944; about 30 thousand negatives spoiled, some survived).'
-    },
-    {
-        date: '1912—1915',
-        place: 'Vilna',
-        description: 'Photographed the architectural monuments of the city.'
-    },
-    {
-        date: '1919',
-        place: 'Vilna',
-        description: 'Taught art photography at the Department of fine arts of Stefan Batory University. He became one of the founders and Chairman of the Vilna photo club.'
-    },
-    {
-        date: '1935—1939',
-        place: 'Vilna',
-        description: 'Was one of the editors of magazines „Przegld Fotograficzny“, „Fotograf Polski“.'
-    },
-    {
-        date: '1945',
-        place: 'Warsaw',
-        description: 'Moved to Warsaw. He made about a thousand photos of the destroyed and recovering Warsaw, about 2 thousand photos of the Western lands attached to Poland. In 1947 he became the founder of the Union of photographers of Poland and led it until his death.'
-    },
-    {
-    date: '04.02.1950',
-    place: 'Warsaw',
-    description: 'Buried in Warsaw.',
-},
-],
-
-    works: [slide40, slide41, slide42, slide43],
-    listOfWorks: [
-      {
-        year: '1931',
-        work: 'Released a series of albums „Wędrówki fotografa“',
-      },
-      {
-        year: '1933-1935',
-        work: 'Wrote articles on aesthetics and photographic techniques: “Bromide technology”, “Bromography”, “Light engineering”',
-      },
-      {
-        year: '1935',
-        work: 'Published a book about his trip from Vilna to Lake Naroch with 38 photos',
-      },
-      {
-        year: '1951',
-        work: 'Wrote the book "Patriotic Photography"',
-      },
-    ],
-  },
-
   {
     id: 8,
     name: 'Mikhail Markovich Shmerling',
     avatar: avatar8,
     occupation:
       'Belarusian photographer, member of the Union of Journalists of Belarus. The winner at Photographics-71 all-Union exhibition and Man and Earth international exhibition.',
-      birthDate: '07.12.1946',
-      birthPlace: 'Vitebsk',
-      deathDate: null,
-      deathPlace: null,
-      locationsCoords: {
-          lat: '55.183672',
-          lng: '30.204791'
-      },
+    birthDate: '07.12.1946',
+    birthPlace: 'Vitebsk',
+    deathDate: null,
+    deathPlace: null,
+    locationsCoords: {
+      lat: '55.183672',
+      lng: '30.204791',
+    },
     video: video8,
+    videoSrc: videoSrc8,
     activity: [
       {
         date: '07.12.1946',
         place: 'Vitebsk',
-        description: 'He was born in Vitebsk.'
-    },
-    {
+        description: 'He was born in Vitebsk.',
+      },
+      {
         date: '1967',
         place: 'Vitebsk',
-        description: 'Graduated from Minsk College of Polygraphy.'
-    },
-    {
+        description: 'Graduated from Minsk College of Polygraphy.',
+      },
+      {
         date: '1969-1983',
         place: 'Vitebsk',
-        description: 'Worked at the Vitebsk regional local lore Museum. He received the first prize at the all-Union exhibition «Photography-71» medal at the international exhibition «Man and Earth”. He was awarded honorary diplomas of photo salons in Romania, England.'
-    },
-    {
+        description:
+          'Worked at the Vitebsk regional local lore Museum. He received the first prize at the all-Union exhibition «Photography-71» medal at the international exhibition «Man and Earth”. He was awarded honorary diplomas of photo salons in Romania, England.',
+      },
+      {
         date: '1986-1991',
         place: 'Vitebsk',
-        description: 'Worked in the production Association “Art”.'
-    },
-    {
+        description: 'Worked in the production Association “Art”.',
+      },
+      {
         date: '1991-2007',
         place: 'Vitebsk',
-        description: 'Worked in the editorial office of the regional newspaper “Narodnoe Slovo”.'
-    },
+        description:
+          'Worked in the editorial office of the regional newspaper “Narodnoe Slovo”.',
+      },
+    ],
 
-],
-
-    works: [slide44],
+    works: [slide46, slide47, slide48, slide49, slide50, slide51],
     listOfWorks: [
       {
         year: '1971-1975',
@@ -680,8 +746,6 @@ export default [
         year: '2010',
         work: '“Artists” ',
       },
-
     ],
-  }
-
+  },
 ];

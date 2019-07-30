@@ -6,7 +6,9 @@ import PropTypes from 'prop-types';
 function TimeLine(props) {
   return (
     <div id="timeline">
-      <h2 style={{ textAlign: 'center', color: '#e86971', fontSize: '2em' }}>
+      <h2 style={{
+        textAlign: 'center', color: '#e86971', fontSize: '2em', marginTop: 60,
+      }}>
         <FormattedMessage id="biography" />
       </h2>
       <Timeline lineColor={'#ddd'}>

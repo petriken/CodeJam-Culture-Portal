@@ -56,8 +56,15 @@ import slide40 from '../img/person_7/portfolio/work1.jpg';
 import slide41 from '../img/person_7/portfolio/work2.jpg';
 import slide42 from '../img/person_7/portfolio/work3.jpg';
 import slide43 from '../img/person_7/portfolio/work4.jpg';
+import slide44 from '../img/person_7/portfolio/work5.jpg';
+import slide45 from '../img/person_7/portfolio/work6.jpg';
 
-import slide44 from '../img/person_8/portfolio/work1.jpg';
+import slide46 from '../img/person_8/portfolio/work1.jpg';
+import slide47 from '../img/person_8/portfolio/work2.jpg';
+import slide48 from '../img/person_8/portfolio/work3.jpg';
+import slide49 from '../img/person_8/portfolio/work4.jpg';
+import slide50 from '../img/person_8/portfolio/work5.jpg';
+import slide51 from '../img/person_8/portfolio/work6.jpg';
 
 import video1 from '../video/video1.mp4';
 import video2 from '../video/video2.mp4';
@@ -68,6 +75,14 @@ import video6 from '../video/video6.mp4';
 import video7 from '../video/video7.mp4';
 import video8 from '../video/video8.mp4';
 
+import videoSrc1 from '../video/videoSrc1.jpg';
+import videoSrc2 from '../video/videoSrc2.jpg';
+import videoSrc3 from '../video/videoSrc3.jpg';
+import videoSrc4 from '../video/videoSrc4.jpg';
+import videoSrc5 from '../video/videoSrc5.jpg';
+import videoSrc6 from '../video/videoSrc6.jpg';
+import videoSrc7 from '../video/videoSrc7.jpg';
+import videoSrc8 from '../video/videoSrc8.jpg';
 
 export default [
   {
@@ -85,6 +100,7 @@ export default [
       lng: '27.561481',
     },
     video: video1,
+    videoSrc: videoSrc1,
     activity: [
       {
         date: '16.03.1964',
@@ -159,6 +175,7 @@ export default [
       lng: '30.204791',
     },
     video: video2,
+    videoSrc: videoSrc2,
     activity: [
       {
         date: '21.10.1953',
@@ -230,6 +247,7 @@ export default [
       lng: '26.911100',
     },
     video: video6,
+    videoSrc: videoSrc6,
     activity: [
       {
         date: '1881',
@@ -297,6 +315,7 @@ export default [
       lng: '27.561481',
     },
     video: video3,
+    videoSrc: videoSrc3,
     activity: [
       {
         date: '20.11.1962',
@@ -377,6 +396,85 @@ export default [
     ],
   },
   {
+    id: 7,
+    name: 'Ян Булгак',
+    avatar: avatar7,
+    occupation:
+      'Этнограф, фалькларыст, пісьменнік, фатограф.',
+    birthDate: '06.10.1876',
+    birthPlace: 'в. Асташына, Навагрудак',
+    deathDate: '04.02.1950',
+    deathPlace: 'Гіжыцко, Польшча',
+    locationsCoords: {
+      lat: '53.902496',
+      lng: '27.561481',
+    },
+    video: video7,
+    videoSrc: videoSrc7,
+    activity: [
+      {
+        date: '06.10.1876',
+        place: 'в. Асташына',
+        description: 'Нарадзіўся ў В. Асташына пад Навагрудкам.',
+      },
+      {
+        date: '1897—1899',
+        place: 'Кракаў - Мінск',
+        description: 'Вывучаў філасофію ў Ягелонскім універсітэце ў Кракаве (не скончыў). Вярнуўшыся з Кракава, жыў у маёнтку Перасека пад Мінскам, адкуль пасылаў карэспандэнцыі ў віленскія газеты.',
+      },
+      {
+        date: '1912',
+        place: 'Вільня',
+        description: 'Адкрыў фотаатэлье ў Вільні на вуліцы партовай 12 (згарэла ў 1944; загінула каля 30 тысяч негатываў, частка ацалела).',
+      },
+      {
+        date: '1912—1915',
+        place: 'Вільня',
+        description: 'Фатаграфаваў помнікі архітэктуры горада.',
+      },
+      {
+        date: '1919',
+        place: 'Вільня',
+        description: 'Выкладаў мастацкую фатаграфію на аддзяленні прыгожых мастацтваў Універсітэта Стэфана Баторыя. Стаў адным з заснавальнікаў і старшынёй Віленскага фотаклуба.',
+      },
+      {
+        date: '1935—1939',
+        place: 'Вільня',
+        description: 'Быў адным з рэдактараў часопісаў „Przegld Fotograficzny“, „Fotograf Polski“.',
+      },
+      {
+        date: '1945',
+        place: 'Варшава',
+        description: 'Пераехаў у Варшаву. Выканаў каля тысячы фатаграфій разбуранай і аднаўляльнай Варшавы, каля 2 тысяч фатаграфій заходніх зямель, далучаных да Польшчы. У 1947 годзе стаў заснавальнікам Саюза фотамастакоў Польшчы і кіраваў ім да сваёй смерці.',
+      },
+      {
+        date: '04.02.1950',
+        place: 'Варшава',
+        description: 'Пахаваны ў г.Варшава.',
+      },
+    ],
+
+    works: [slide40, slide41, slide42, slide43, slide44, slide45],
+    listOfWorks: [
+      {
+        year: '1931',
+        work: 'Зрабіў серыю альбомаў "Wędrówki fotografa"',
+      },
+      {
+        year: '1933-1935',
+        work: 'Напісаў артыкулы пра эстэтыку і тэхніцы фотаздымкаў: «Бромовая тэхніка», «Бромографика», «Святлатэхніка»',
+      },
+      {
+        year: '1935',
+        work: 'Выдаў кнігу пра сваё падарожжа з Вільні на возера Нарач з 38 фатаграфіямі',
+      },
+      {
+        year: '1951',
+        work: 'Напісаў кнігу "Айчынная фатаграфія" ',
+      },
+    ],
+  },
+  {
     id: 5,
     name: 'Леў Урбановіч Дашкевіч',
     avatar: avatar4,
@@ -391,6 +489,7 @@ export default [
       lng: '27.561481',
     },
     video: video4,
+    videoSrc: videoSrc4,
     activity: [
       {
         date: '12.02.1882',
@@ -481,6 +580,7 @@ export default [
       lng: '27.561481',
     },
     video: video5,
+    videoSrc: videoSrc5,
     activity: [
       {
         date: '06.12.1947',
@@ -529,84 +629,6 @@ export default [
       },
     ],
   },
-  {
-    id: 7,
-    name: 'Ян Булгак',
-    avatar: avatar7,
-    occupation:
-      'Этнограф, фалькларыст, пісьменнік, фатограф.',
-    birthDate: '06.10.1876',
-    birthPlace: 'в. Асташына, Навагрудак',
-    deathDate: '04.02.1950',
-    deathPlace: 'Гіжыцко, Польшча',
-    locationsCoords: {
-      lat: '53.902496',
-      lng: '27.561481'
-    },
-    video: video7,
-    activity: [
-      {
-        date: '06.10.1876',
-        place: 'в. Асташына',
-        description: 'Нарадзіўся ў В. Асташына пад Навагрудкам.',
-      },
-      {
-        date: '1897—1899',
-        place: 'Кракаў - Мінск',
-        description: 'Вывучаў філасофію ў Ягелонскім універсітэце ў Кракаве (не скончыў). Вярнуўшыся з Кракава, жыў у маёнтку Перасека пад Мінскам, адкуль пасылаў карэспандэнцыі ў віленскія газеты.'
-    },
-    {
-        date: '1912',
-        place: 'Вільня',
-        description: 'Адкрыў фотаатэлье ў Вільні на вуліцы партовай 12 (згарэла ў 1944; загінула каля 30 тысяч негатываў, частка ацалела).'
-    },
-    {
-        date: '1912—1915',
-        place: 'Вільня',
-        description: 'Фатаграфаваў помнікі архітэктуры горада.'
-    },
-    {
-        date: '1919',
-        place: 'Вільня',
-        description: 'Выкладаў мастацкую фатаграфію на аддзяленні прыгожых мастацтваў Універсітэта Стэфана Баторыя. Стаў адным з заснавальнікаў і старшынёй Віленскага фотаклуба.'
-    },
-    {
-        date: '1935—1939',
-        place: 'Вільня',
-        description: 'Быў адным з рэдактараў часопісаў „Przegld Fotograficzny“, „Fotograf Polski“.'
-    },
-    {
-        date: '1945',
-        place: 'Варшава',
-        description: 'Пераехаў у Варшаву. Выканаў каля тысячы фатаграфій разбуранай і аднаўляльнай Варшавы, каля 2 тысяч фатаграфій заходніх зямель, далучаных да Польшчы. У 1947 годзе стаў заснавальнікам Саюза фотамастакоў Польшчы і кіраваў ім да сваёй смерці.'
-    },
-    {
-    date: '04.02.1950',
-    place: 'Варшава',
-    description: 'Пахаваны ў г.Варшава.',
-},
-],
-
-    works: [slide40, slide41, slide42, slide43],
-    listOfWorks: [
-      {
-        year: '1931',
-        work: 'Зрабіў серыю альбомаў "Wędrówki fotografa"',
-      },
-      {
-        year: '1933-1935',
-        work: 'Напісаў артыкулы пра эстэтыку і тэхніцы фотаздымкаў: «Бромовая тэхніка», «Бромографика», «Святлатэхніка»',
-      },
-      {
-        year: '1935',
-        work: 'Выдаў кнігу пра сваё падарожжа з Вільні на возера Нарач з 38 фатаграфіямі',
-      },
-      {
-        year: '1951',
-        work: 'Напісаў кнігу "Айчынная фатаграфія" ',
-      },
-    ],
-  },
 
   {
     id: 8,
@@ -614,45 +636,46 @@ export default [
     avatar: avatar8,
     occupation:
       'Беларускі фотамастак, член Саюза журналістаў Беларусі. Уладальнік прэміі на Усесаюзнай выставе «Фатаграфіка-71», лаўрэата міжнароднай выставы «Чалавек і Зямля»',
-      birthDate: '07.12.1946',
-      birthPlace: 'г. Віцебск',
-      deathDate: null,
-      deathPlace: null,
-      locationsCoords: {
-          lat: '55.183672',
-          lng: '30.204791'
-      },
+    birthDate: '07.12.1946',
+    birthPlace: 'г. Віцебск',
+    deathDate: null,
+    deathPlace: null,
+    locationsCoords: {
+      lat: '55.183672',
+      lng: '30.204791',
+    },
     video: video8,
+    videoSrc: videoSrc8,
     activity: [
       {
         date: '07.12.1946',
         place: 'Віцебск',
-        description: 'Нарадзіўся ў г. Віцебск.'
-    },
-    {
+        description: 'Нарадзіўся ў г. Віцебск.',
+      },
+      {
         date: '1967',
         place: 'Віцебск',
-        description: 'Скончыў Мінскае паліграфічнае вучылішча.'
-    },
-    {
+        description: 'Скончыў Мінскае паліграфічнае вучылішча.',
+      },
+      {
         date: '1969-1983',
         place: 'Віцебск',
-        description: 'Працаваў у Віцебскім абласным краязнаўчым музеі. Атрымаў першую прэмію на Усесаюзнай выставе «Фатаграфіка-71» медаль лаўрэата на міжнароднай выставе "Чалавек і Зямля». Узнагароджаны ганаровымі дыпломамі фотосалонов ў Румыніі, Англіі.'
-    },
-    {
+        description: 'Працаваў у Віцебскім абласным краязнаўчым музеі. Атрымаў першую прэмію на Усесаюзнай выставе «Фатаграфіка-71» медаль лаўрэата на міжнароднай выставе "Чалавек і Зямля». Узнагароджаны ганаровымі дыпломамі фотосалонов ў Румыніі, Англіі.',
+      },
+      {
         date: '1986-1991',
         place: 'Віцебск',
-        description: 'Працаваў у вытворчым аб"яднанні «Мастацтва».'
-    },
-    {
+        description: 'Працаваў у вытворчым аб"яднанні «Мастацтва».',
+      },
+      {
         date: '1991-2007',
         place: 'Віцебск',
-        description: 'Працаваў у рэдакцыі абласной газеты «Народнае слова».'
-    },
+        description: 'Працаваў у рэдакцыі абласной газеты «Народнае слова».',
+      },
 
-],
+    ],
 
-    works: [slide44],
+    works: [slide46, slide47, slide48, slide49, slide50, slide51],
     listOfWorks: [
       {
         year: '1971-1975',
@@ -680,6 +703,6 @@ export default [
       },
 
     ],
-  }
+  },
 
 ];

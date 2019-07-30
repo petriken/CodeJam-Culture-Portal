@@ -3,8 +3,8 @@
   align-content: center;
   align-items: center;
   justify-content: center;
-  height: 520px;
-  border-top: 1px solid #ccc;
+  height: 580px;
+  margin-top: -60px;
 }
 
 .search-panel {
@@ -18,7 +18,7 @@
   padding: 15px 25px;
   max-width: 1200px;
   color: #fff;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .75);
 }
 
 .search-input {
