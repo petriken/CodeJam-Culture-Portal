@@ -14,6 +14,7 @@
   "searchName": "I'm looking for a photographer",
   "searchCity": "in the town",
   "searchButton": "Search",
+  "search": "Search",
   "biography": "Biography of the photographer",
   "video": "Video",
   "more": "to learn more",
@@ -25,5 +26,7 @@
   "name3": "Boris Gendelevich Berman",
   "name4": "Mikhail Grigorievich Borozna",
   "name5": "Lev Urbanovich Dashkevich",
-  "name6": "Georgii Leonardovich Likhtarovich"
+  "name6": "Georgii Leonardovich Likhtarovich",
+  "name7": "Jan Bulhak",
+  "name8": "Mikhail Markovich Shmerling"
 }

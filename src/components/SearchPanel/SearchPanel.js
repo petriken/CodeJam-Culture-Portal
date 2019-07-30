@@ -75,7 +75,8 @@ export default class SearchPanel extends Component {
               value={this.state.city}
               onChange={e => this.onCityChange(e)} />
           </label>
-          <Button variant="contained" className="btn-search" type="button" onClick={() => this.onClickHandler()}><Search/>Найти
+          <Button variant="contained" className="btn-search" type="button" onClick={() => this.onClickHandler()}><Search/>
+          <FormattedMessage id="search" />
       </Button>
         </form>
       </div>

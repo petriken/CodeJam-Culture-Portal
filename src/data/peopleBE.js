@@ -4,6 +4,8 @@ import avatar3 from '../img/person_3/avatar/ava.jpg';
 import avatar4 from '../img/person_4/avatar/ava.jpg';
 import avatar5 from '../img/person_5/avatar/ava.jpg';
 import avatar6 from '../img/person_6/avatar/ava.jpg';
+import avatar7 from '../img/person_7/avatar/ava.jpg';
+import avatar8 from '../img/person_8/avatar/ava.jpg';
 
 import slide1 from '../img/person_1/portfolio/work1.jpg';
 import slide2 from '../img/person_1/portfolio/work2.jpg';
@@ -50,6 +52,12 @@ import slide37 from '../img/person_6/portfolio/work4.jpg';
 import slide38 from '../img/person_6/portfolio/work5.jpg';
 import slide39 from '../img/person_6/portfolio/work6.jpg';
 
+import slide40 from '../img/person_7/portfolio/work1.jpg';
+import slide41 from '../img/person_7/portfolio/work2.jpg';
+import slide42 from '../img/person_7/portfolio/work3.jpg';
+import slide43 from '../img/person_7/portfolio/work4.jpg';
+
+import slide44 from '../img/person_8/portfolio/work1.jpg';
 
 import video1 from '../video/video1.mp4';
 import video2 from '../video/video2.mp4';
@@ -57,6 +65,9 @@ import video3 from '../video/video3.mp4';
 import video4 from '../video/video4.mp4';
 import video5 from '../video/video5.mp4';
 import video6 from '../video/video6.mp4';
+import video7 from '../video/video7.mp4';
+import video8 from '../video/video8.mp4';
+
 
 export default [
   {
@@ -518,5 +529,157 @@ export default [
       },
     ],
   },
+  {
+    id: 7,
+    name: 'Ян Булгак',
+    avatar: avatar7,
+    occupation:
+      'Этнограф, фалькларыст, пісьменнік, фатограф.',
+    birthDate: '06.10.1876',
+    birthPlace: 'в. Асташына, Навагрудак',
+    deathDate: '04.02.1950',
+    deathPlace: 'Гіжыцко, Польшча',
+    locationsCoords: {
+      lat: '53.902496',
+      lng: '27.561481'
+    },
+    video: video7,
+    activity: [
+      {
+        date: '06.10.1876',
+        place: 'в. Асташына',
+        description: 'Нарадзіўся ў В. Асташына пад Навагрудкам.',
+      },
+      {
+        date: '1897—1899',
+        place: 'Кракаў - Мінск',
+        description: 'Вывучаў філасофію ў Ягелонскім універсітэце ў Кракаве (не скончыў). Вярнуўшыся з Кракава, жыў у маёнтку Перасека пад Мінскам, адкуль пасылаў карэспандэнцыі ў віленскія газеты.'
+    },
+    {
+        date: '1912',
+        place: 'Вільня',
+        description: 'Адкрыў фотаатэлье ў Вільні на вуліцы партовай 12 (згарэла ў 1944; загінула каля 30 тысяч негатываў, частка ацалела).'
+    },
+    {
+        date: '1912—1915',
+        place: 'Вільня',
+        description: 'Фатаграфаваў помнікі архітэктуры горада.'
+    },
+    {
+        date: '1919',
+        place: 'Вільня',
+        description: 'Выкладаў мастацкую фатаграфію на аддзяленні прыгожых мастацтваў Універсітэта Стэфана Баторыя. Стаў адным з заснавальнікаў і старшынёй Віленскага фотаклуба.'
+    },
+    {
+        date: '1935—1939',
+        place: 'Вільня',
+        description: 'Быў адным з рэдактараў часопісаў „Przegld Fotograficzny“, „Fotograf Polski“.'
+    },
+    {
+        date: '1945',
+        place: 'Варшава',
+        description: 'Пераехаў у Варшаву. Выканаў каля тысячы фатаграфій разбуранай і аднаўляльнай Варшавы, каля 2 тысяч фатаграфій заходніх зямель, далучаных да Польшчы. У 1947 годзе стаў заснавальнікам Саюза фотамастакоў Польшчы і кіраваў ім да сваёй смерці.'
+    },
+    {
+    date: '04.02.1950',
+    place: 'Варшава',
+    description: 'Пахаваны ў г.Варшава.',
+},
+],
+
+    works: [slide40, slide41, slide42, slide43],
+    listOfWorks: [
+      {
+        year: '1931',
+        work: 'Зрабіў серыю альбомаў "Wędrówki fotografa"',
+      },
+      {
+        year: '1933-1935',
+        work: 'Напісаў артыкулы пра эстэтыку і тэхніцы фотаздымкаў: «Бромовая тэхніка», «Бромографика», «Святлатэхніка»',
+      },
+      {
+        year: '1935',
+        work: 'Выдаў кнігу пра сваё падарожжа з Вільні на возера Нарач з 38 фатаграфіямі',
+      },
+      {
+        year: '1951',
+        work: 'Напісаў кнігу "Айчынная фатаграфія" ',
+      },
+    ],
+  },
+
+  {
+    id: 8,
+    name: 'Міхаіл Маркавіч Шмерлінг',
+    avatar: avatar8,
+    occupation:
+      'Беларускі фотамастак, член Саюза журналістаў Беларусі. Уладальнік прэміі на Усесаюзнай выставе «Фатаграфіка-71», лаўрэата міжнароднай выставы «Чалавек і Зямля»',
+      birthDate: '07.12.1946',
+      birthPlace: 'г. Віцебск',
+      deathDate: null,
+      deathPlace: null,
+      locationsCoords: {
+          lat: '55.183672',
+          lng: '30.204791'
+      },
+    video: video8,
+    activity: [
+      {
+        date: '07.12.1946',
+        place: 'Віцебск',
+        description: 'Нарадзіўся ў г. Віцебск.'
+    },
+    {
+        date: '1967',
+        place: 'Віцебск',
+        description: 'Скончыў Мінскае паліграфічнае вучылішча.'
+    },
+    {
+        date: '1969-1983',
+        place: 'Віцебск',
+        description: 'Працаваў у Віцебскім абласным краязнаўчым музеі. Атрымаў першую прэмію на Усесаюзнай выставе «Фатаграфіка-71» медаль лаўрэата на міжнароднай выставе "Чалавек і Зямля». Узнагароджаны ганаровымі дыпломамі фотосалонов ў Румыніі, Англіі.'
+    },
+    {
+        date: '1986-1991',
+        place: 'Віцебск',
+        description: 'Працаваў у вытворчым аб"яднанні «Мастацтва».'
+    },
+    {
+        date: '1991-2007',
+        place: 'Віцебск',
+        description: 'Працаваў у рэдакцыі абласной газеты «Народнае слова».'
+    },
+
+],
+
+    works: [slide44],
+    listOfWorks: [
+      {
+        year: '1971-1975',
+        work: 'Серыя фатаграфій «Стары Віцебск» ',
+      },
+      {
+        year: '1975-1985',
+        work: '«Тэатр»',
+      },
+      {
+        year: '1975-2007',
+        work: '«Ветэраны. Месяц май »',
+      },
+      {
+        year: '1990',
+        work: '«Народная артыстка СССР С. Станюта»',
+      },
+      {
+        year: '2005',
+        work: '«Аўганцы» ',
+      },
+      {
+        year: '2010',
+        work: '«Мастакі»',
+      },
+
+    ],
+  }
 
 ];
