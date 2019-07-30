@@ -4,6 +4,9 @@ import avatar3 from '../img/person_3/avatar/ava.jpg';
 import avatar4 from '../img/person_4/avatar/ava.jpg';
 import avatar5 from '../img/person_5/avatar/ava.jpg';
 import avatar6 from '../img/person_6/avatar/ava.jpg';
+import avatar7 from '../img/person_7/avatar/ava.jpg';
+import avatar8 from '../img/person_8/avatar/ava.jpg';
+
 
 import slide1 from '../img/person_1/portfolio/work1.jpg';
 import slide2 from '../img/person_1/portfolio/work2.jpg';
@@ -50,6 +53,13 @@ import slide37 from '../img/person_6/portfolio/work4.jpg';
 import slide38 from '../img/person_6/portfolio/work5.jpg';
 import slide39 from '../img/person_6/portfolio/work6.jpg';
 
+import slide40 from '../img/person_7/portfolio/work1.jpg';
+import slide41 from '../img/person_7/portfolio/work2.jpg';
+import slide42 from '../img/person_7/portfolio/work3.jpg';
+import slide43 from '../img/person_7/portfolio/work4.jpg';
+
+import slide44 from '../img/person_7/portfolio/work1.jpg';
+
 
 import video1 from '../video/video1.mp4';
 import video2 from '../video/video2.mp4';
@@ -57,6 +67,8 @@ import video3 from '../video/video3.mp4';
 import video4 from '../video/video4.mp4';
 import video5 from '../video/video5.mp4';
 import video6 from '../video/video6.mp4';
+import video7 from '../video/video7.mp4';
+import video8 from '../video/video8.mp4';
 
 export default [
   {
@@ -518,5 +530,158 @@ export default [
       },
     ],
   },
+
+  {
+    id: 7,
+    name: 'Jan Bulhak',
+    avatar: avatar7,
+    occupation:
+      'Ethnographer, folklorist, writer, photographer',
+    birthDate: '06.10.1876',
+    birthPlace: 'Ostashino, Novogrudok',
+    deathDate: '04.02.1950',
+    deathPlace: 'Gizycko, Poland',
+    locationsCoords: {
+      lat: '53.902496',
+      lng: '27.561481'
+    },
+    video: video7,
+    activity: [
+      {
+        date: '06.10.1876',
+        place: 'Ostashino',
+        description: 'He was born in D. Ostashino near Novogrudok.',
+      },
+      {
+        date: '1897—1899',
+        place: 'Krakow - Minsk',
+        description: 'Studied philosophy at Jagiellonian University in Krakow (not graduated). Returning from Krakow, he lived in the estate Pereseka near Minsk, where he sent correspondence to the Vilna Newspapers.'
+    },
+    {
+        date: '1912',
+        place: 'Vilna',
+        description: 'Opened a photo Studio in Vilna on Portovaya street 12 (burned down in 1944; about 30 thousand negatives spoiled, some survived).'
+    },
+    {
+        date: '1912—1915',
+        place: 'Vilna',
+        description: 'Photographed the architectural monuments of the city.'
+    },
+    {
+        date: '1919',
+        place: 'Vilna',
+        description: 'Taught art photography at the Department of fine arts of Stefan Batory University. He became one of the founders and Chairman of the Vilna photo club.'
+    },
+    {
+        date: '1935—1939',
+        place: 'Vilna',
+        description: 'Was one of the editors of magazines „Przegld Fotograficzny“, „Fotograf Polski“.'
+    },
+    {
+        date: '1945',
+        place: 'Warsaw',
+        description: 'Moved to Warsaw. He made about a thousand photos of the destroyed and recovering Warsaw, about 2 thousand photos of the Western lands attached to Poland. In 1947 he became the founder of the Union of photographers of Poland and led it until his death.'
+    },
+    {
+    date: '04.02.1950',
+    place: 'Warsaw',
+    description: 'Buried in Warsaw.',
+},
+],
+
+    works: [slide40, slide41, slide42, slide43],
+    listOfWorks: [
+      {
+        year: '1931',
+        work: 'Released a series of albums „Wędrówki fotografa“',
+      },
+      {
+        year: '1933-1935',
+        work: 'Wrote articles on aesthetics and photographic techniques: “Bromide technology”, “Bromography”, “Light engineering”',
+      },
+      {
+        year: '1935',
+        work: 'Published a book about his trip from Vilna to Lake Naroch with 38 photos',
+      },
+      {
+        year: '1951',
+        work: 'Wrote the book "Patriotic Photography"',
+      },
+    ],
+  },
+
+  {
+    id: 8,
+    name: 'Mikhail Markovich Shmerling',
+    avatar: avatar8,
+    occupation:
+      'Belarusian photographer, member of the Union of Journalists of Belarus. The winner at Photographics-71 all-Union exhibition and Man and Earth international exhibition.',
+      birthDate: '07.12.1946',
+      birthPlace: 'Vitebsk',
+      deathDate: null,
+      deathPlace: null,
+      locationsCoords: {
+          lat: '55.183672',
+          lng: '30.204791'
+      },
+    video: video8,
+    activity: [
+      {
+        date: '07.12.1946',
+        place: 'Vitebsk',
+        description: 'He was born in Vitebsk.'
+    },
+    {
+        date: '1967',
+        place: 'Vitebsk',
+        description: 'Graduated from Minsk College of Polygraphy.'
+    },
+    {
+        date: '1969-1983',
+        place: 'Vitebsk',
+        description: 'Worked at the Vitebsk regional local lore Museum. He received the first prize at the all-Union exhibition «Photography-71» medal at the international exhibition «Man and Earth”. He was awarded honorary diplomas of photo salons in Romania, England.'
+    },
+    {
+        date: '1986-1991',
+        place: 'Vitebsk',
+        description: 'Worked in the production Association “Art”.'
+    },
+    {
+        date: '1991-2007',
+        place: 'Vitebsk',
+        description: 'Worked in the editorial office of the regional newspaper “Narodnoe Slovo”.'
+    },
+
+],
+
+    works: [slide44],
+    listOfWorks: [
+      {
+        year: '1971-1975',
+        work: 'The series of photos "Old Vitebsk"',
+      },
+      {
+        year: '1975-1985',
+        work: '“The Artist”',
+      },
+      {
+        year: '1975-2007',
+        work: '“Veterans. Month of May”',
+      },
+      {
+        year: '1990',
+        work: '“People"s artist of the USSR S. Stanyuta”  ',
+      },
+      {
+        year: '2005',
+        work: '“Afghans”',
+      },
+      {
+        year: '2010',
+        work: '“Artists” ',
+      },
+
+    ],
+  }
 
 ];
