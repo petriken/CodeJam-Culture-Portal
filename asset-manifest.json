@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-test1/static/css/main.b782f7e3.chunk.css",
-    "main.js": "/react-test1/static/js/main.2eae983f.chunk.js",
-    "main.js.map": "/react-test1/static/js/main.2eae983f.chunk.js.map",
+    "main.js": "/react-test1/static/js/main.1a576539.chunk.js",
+    "main.js.map": "/react-test1/static/js/main.1a576539.chunk.js.map",
     "runtime~main.js": "/react-test1/static/js/runtime~main.2e7cc435.js",
     "runtime~main.js.map": "/react-test1/static/js/runtime~main.2e7cc435.js.map",
     "static/css/2.b447297d.chunk.css": "/react-test1/static/css/2.b447297d.chunk.css",
     "static/js/2.a7793fa7.chunk.js": "/react-test1/static/js/2.a7793fa7.chunk.js",
     "static/js/2.a7793fa7.chunk.js.map": "/react-test1/static/js/2.a7793fa7.chunk.js.map",
     "index.html": "/react-test1/index.html",
-    "precache-manifest.f6b09f53e94db48508649d93a98641a9.js": "/react-test1/precache-manifest.f6b09f53e94db48508649d93a98641a9.js",
+    "precache-manifest.136ac2ef26b5369825d9a7e6f6b8174c.js": "/react-test1/precache-manifest.136ac2ef26b5369825d9a7e6f6b8174c.js",
     "service-worker.js": "/react-test1/service-worker.js",
     "static/css/2.b447297d.chunk.css.map": "/react-test1/static/css/2.b447297d.chunk.css.map",
     "static/css/main.b782f7e3.chunk.css.map": "/react-test1/static/css/main.b782f7e3.chunk.css.map",
