@@ -12,11 +12,11 @@ MuiList-root.list-works {
 
 
 .MuiListItem-button:nth-child(odd) {
-  background-color: #eee;
+  background-color: #eceaea;
 }
 
 .MuiListItem-button:hover {
-  background-color: #ddd !important;
+  background-color: #c9c9c9 !important;
 }
 
 .MuiListItem-button.listitem-title {

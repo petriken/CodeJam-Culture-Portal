@@ -2,11 +2,13 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import './MainPage.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { FormattedMessage, FormattedHTMLMessage } from 'react-intl';
 import SimpleSlider from '../../components/Slider/Slider';
 import Avatar from '../../components/Avatar/Avatar';
 import Description from '../../components/Description/Description';
 import Developer from '../../components/Developer/Developer';
+import MainPageNavigation from '../../components/MainPageNavigation/MainPageNavigation';
 import ru from '../../data/people';
 import en from '../../data/peopleEN';
 import be from '../../data/peopleBE';
@@ -31,20 +33,48 @@ function MainPage(props) {
   const profile = data[authorDay];
   return (
     <>
-      <div className="main-page">
-        <p className="main-page-title"><FormattedMessage id="headerSubtitle"/></p>
+      <div className="main-page"
+           id="home">
+        <div className="main-page-title">
+          <p>
+            <span className="portal"><FormattedMessage id="headerSubtitleSpan"/></span>
+            <span><FormattedMessage id="headerSubtitle"/></span>
+          </p>
+          <div className="mainpage-navigation-container">
+            <AnchorLink
+            offset='40px'
+            href='#author'>
+            <FormattedMessage id="todayAuthor" />
+          </AnchorLink>
+          <AnchorLink
+            offset='40px'
+            href='#project-info'>
+            <FormattedMessage id="infoAboutPortal" />
+          </AnchorLink>
+          <AnchorLink
+            offset='40px'
+            href='#developers'>
+            <FormattedMessage id="developers" />
+          </AnchorLink>
+          </div>
+        </div>
         <SimpleSlider/>
-        <h2 className="title-mainpage">
-          <FormattedMessage id="todayAuthor" />
-        </h2>
-        <Avatar data={profile} />
-        <Description data={profile} />
-        <p className="description-mainpage">
+        <MainPageNavigation/>
+        <section className="author-day" id="author">
+          <h2 className="title-author-day">
+            <FormattedMessage id="todayAuthor" />
+          </h2>
+          <Avatar data={profile} />
+          <Description data={profile} />
+        </section>
+        <section className="description-mainpage"
+           id="project-info">
           <FormattedHTMLMessage id="welcome" />
           <FormattedMessage id="purpose" />
-        </p>
+        </section>
       </div>
-      <div className="developers-container">
+      <div className="developers-container"
+           id="developers">
         <h3><FormattedMessage id="developers" /></h3>
         <div className="developers">
           <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitalyMikulich} />
