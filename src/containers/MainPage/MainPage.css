@@ -1,20 +1,76 @@
 .main-page-title {
+  display: flex;  
+  align-content: center;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  top: 30%;
-  width: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  font-size: 72px;
+  top: 0; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;  
+}
+
+.main-page-title p {
+  display: flex;  
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  font-size: 60px;
   line-height: 100px;
   font-weight: 700;
   color: #fff;
   text-align: center;
 }
 
-.title-mainpage {
-  margin-top: 40px;
+.main-page-title span.portal {
+  font-size: 112px;
+  line-height: 144px;
+  display: block;
+}
+
+.mainpage-navigation-container {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  left: 0; right: 0;
+  height: 50px;
+  display: flex;
+  justify-content: space-around; 
+  background-color: rgba(0, 0, 0, .6);
+  border-top: 1px solid #000;
+}
+
+.mainpage-navigation-container a {
+  width: 33%;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-overflow: clip;
+  text-align: center;
+}
+
+.author-day,
+.description-mainpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.main-page .avatar-container {
+  margin: 40px auto 20px;
+}
+
+.title-author-day {
+  margin: 20px auto;
   text-align: center;
   font-size: 1.8em;
 }
@@ -48,6 +104,13 @@
   /* max-width: 1500px; */
 }
 
+@media (max-width: 820px) {
+  .main-page-title span.portal {
+    font-size: 80px;
+    line-height: 100px;
+  }
+}
+
 @media (max-width: 720px) {
   .title-mainpage {
     margin-top: 30px;
@@ -61,14 +124,16 @@
   .description-mainpage span {
     display: inline;
   }
+}
 
-  .main-page-title {
-    top: 14%;
-    width: 65%;
-    font-size: 35px;
-    line-height: 45px;
+@media (max-width: 450px) {
+  .main-page-title span,
+  .main-page-title span.portal {
+    font-size: 40px;
+    line-height: 60px;
   }
-  .main-page-title span {
-    text-align: center;
+  
+  .mainpage-navigation-container {
+    display: none;
   }
 }

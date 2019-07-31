@@ -4,7 +4,6 @@ import './SearchPanel.css';
 import Search from '@material-ui/icons/Search';
 import Button from '@material-ui/core/Button';
 import store from '../../store/store';
-import bg from '../../img/assets/SearchPannelBG';
 
 export default class SearchPanel extends Component {
   constructor(props) {
@@ -12,23 +11,9 @@ export default class SearchPanel extends Component {
     this.state = {
       term: '',
       city: '',
-      bg: localStorage.getItem('bg'),
     };
   }
 
-  componentWillMount() {
-    const BGs = Object.values(bg);
-    BGs.forEach((item, i) => {
-      if (i === Math.floor(Math.random() * 10)) {
-        if (localStorage.getItem('bg') && localStorage.getItem('refreshed') !== 'true') {
-          this.setState({ bg: localStorage.getItem('bg') });
-        } else {
-          this.setState({ bg: item });
-          localStorage.setItem('bg', item);
-        }
-      }
-    });
-  }
 
   onTermChange(event) {
     this.setState({
@@ -54,8 +39,7 @@ export default class SearchPanel extends Component {
 
   render() {
     return (
-      <div className="search-container"
-        style={{ background: `url(${this.state.bg}) center center / cover` }}>
+      <div className="search-container">
         <form className="search-panel">
           <label>
             <FormattedMessage id="searchName" />

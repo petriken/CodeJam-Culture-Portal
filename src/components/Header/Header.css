@@ -5,36 +5,15 @@
   position: relative;
   z-index: 2;
   padding: 10px 0;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #000;
   min-height: 40px;
   width: 100%;
   margin: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-}
-
-.header-title-container {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.header-title {
-  margin: 0 auto;
-  color: #e86971;
-  font-size: 0px;
-  line-height: 40px;
-  font-weight: 700;
-}
-
-.header-subtitle {
-  padding: 0;
-  margin: 0;
-  font-size: 0;
 }
 
 .lng-icon .MuiButton-text {
   position: relative;
-
   padding: 10px;
   border-radius: 50%;
   transition: opacity 325ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
@@ -47,22 +26,16 @@
 
 .lng-icon
   .MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-colorInherit {
-  min-width: 30px !important;
+  min-width: 30px;
 }
 
 .MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-colorInherit {
-  margin: 0px !important;
+  margin: 0px;
 }
 
 .MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-colorInherit:hover {
   color: #fff;
   background-color: transparent;
-}
-
-.lng-icon .MuiButton-text:hover {
-  background: #fff;
-  color: #e86971;
-  transition: 0.3s;
 }
 
 .header-links {
@@ -82,7 +55,6 @@
   margin: 0;
   align-content: center;
   align-items: center;
-  justify-content: flex-end;
   padding-left: 0;
 }
 
@@ -114,10 +86,6 @@
   text-align: left;
 }
 
-.MuiButton-label span {
-  text-transform: capitalize !important;
-}
-
 .header-link button {
   padding: 10px 20px;
   transition: 0.3s;
@@ -134,7 +102,7 @@
   align-content: space-around;
   align-items: center;
   opacity: 0;
-  transform: translateY(-10px);
+  transform: translateY(-2px);
   transition: 1s;
   position: absolute;
   z-index: 20;
@@ -150,6 +118,12 @@
   transition: 1s;
 }
 
+.show-lang-nav {
+  opacity: 1;
+  transition: 1s;
+  transform: translateY(15px);
+}
+
 .MuiButtonBase-root.MuiButton-text.MuiButton-colorInherit {
   text-transform: capitalize;
   width: 100%;
@@ -163,10 +137,9 @@
   color: #333;
 }
 
-.show-lang-nav {
-  opacity: 1;
-  transition: 1s;
-  transform: translateY(10px);
+.lang-nav .MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-colorInherit:hover {
+  color: #333;
+  background-color: #e6eaec;
 }
 
 .lang-list {
@@ -192,7 +165,13 @@
 }
 
 .active-lang {
-  color: red !important;
+  color: #df2f3a;
+  font-size: 900;
+}
+
+.active-lang:hover {
+  color: #df2f3a;
+  font-size: 900;
 }
 
 @media (max-width: 825px) {

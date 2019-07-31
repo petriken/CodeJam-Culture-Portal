@@ -134,12 +134,7 @@ class Header extends Component {
               </Button>
             </ul>
           </nav>
-          <div className="header-title-container">
-            <p className="header-title">Photo.by</p>
-            <p className="header-subtitle">
-              <FormattedMessage id="headerSubtitle" />
-            </p>
-          </div>
+
           <nav className="header-links">
             <ul>
               <li>
