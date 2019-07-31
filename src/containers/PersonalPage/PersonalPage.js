@@ -8,6 +8,7 @@ import Timeline from '../../components/Timeline/Timeline';
 import ListOfWorks from '../../components/ListOfWorks/ListOfWorks';
 import ImageGalleryComponent from '../../components/ImageGallery/ImageGallery';
 import VideoPlayer from '../../components/VideoPlayer/VideoPlayer';
+import ModalVideo from '../../components/ModalVideo/ModalVideo';
 import MapContainer from '../../components/Map/Map';
 import PersonalPageNavigation from '../../components/PersonalPageNavigation/PersonalPageNavigation';
 import ru from '../../data/people';
@@ -51,6 +52,7 @@ class PersonalPage extends Component {
       <div className="personal-page">
         <PersonalPageNavigation />
         <Avatar data={this.state.profile} />
+        <ModalVideo data={this.state.profile} />
         <Description data={this.state.profile} id="description" />
         <Timeline data={this.state.profile} />
         <ListOfWorks data={this.state.profile} />
