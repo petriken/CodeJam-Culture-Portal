@@ -28,10 +28,14 @@ function MainPage(props) {
   } else if (props.lang === 'be') {
     data = be;
   }
-  const date = new Date();
-  const day = date.getDate();
-  const authorDay = day % data.length;
-  const profile = data[authorDay];
+
+
+  function getProfileRand() {
+    const profileRand = Math.random() * 8;
+    return Math.floor(profileRand);
+  }
+
+  const profile = data[getProfileRand()];
   return (
     <>
       <div className="main-page"
@@ -74,7 +78,7 @@ function MainPage(props) {
             <FormattedMessage id="infoAboutPortal" />
           </h2>
           <FormattedHTMLMessage id="welcome" />
-          <GridGallery />
+          <GridGallery data={profile} />
         </section>
       </div>
       <div className="developers-container"

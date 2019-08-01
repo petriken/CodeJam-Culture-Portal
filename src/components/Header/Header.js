@@ -50,6 +50,11 @@ class Header extends Component {
   toggleLangContainer() {
     const langNav = document.querySelector('.lang-nav');
     langNav.classList.toggle('show-lang-nav');
+    document.body.addEventListener('click', (event) => {
+      if (!event.target.parentElement.classList.contains('MuiSvgIcon-root')) {
+        langNav.classList.remove('show-lang-nav');
+      }
+    });
   }
 
   isRedirected() {
