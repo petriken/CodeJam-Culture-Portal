@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: AlexSkir/RSS-group10-gatsbyNetlify
-
+  
 media_folder: static/assets
 public_folder: assets
 
