@@ -8,17 +8,21 @@ function Description(props) {
   let lifeYears;
   if (props.data.deathDate === null) {
     isAlive = 'authorAlivespan';
-    lifeYears = <>
-      <FormattedMessage id={isAlive} />
-      <span>{props.data.birthDate}</span>
-    </>;
+    lifeYears = (
+      <>
+        <FormattedMessage id={isAlive} />
+        <span>{props.data.birthDate}</span>
+      </>
+    );
   } else {
     isAlive = 'authorLifispan';
-    lifeYears = <>
-      <FormattedMessage id={isAlive} />
-      <span>{props.data.birthDate}</span> -{' '}
-      <span>{props.data.deathDate}</span>
-    </>;
+    lifeYears = (
+      <>
+        <FormattedMessage id={isAlive} />
+        <span>{props.data.birthDate}</span> -{' '}
+        <span>{props.data.deathDate}</span>
+      </>
+    );
   }
 
   return (
@@ -27,7 +31,8 @@ function Description(props) {
       <p className="occupation">{props.data.occupation}</p>
       <p className="years">{lifeYears}</p>
       <p className="birth-place">
-        <FormattedMessage id="birthPlace" /><span>{props.data.birthPlace}</span>
+        <FormattedMessage id="birthPlace" />
+        <span>{props.data.birthPlace}</span>
       </p>
     </div>
   );
