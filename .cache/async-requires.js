@@ -12,7 +12,6 @@ exports.components = {
   "component---src-pages-index-js": () => import("D:\\gtsbyTest\\gatsbyNetlify\\src\\pages\\index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-ru-commonpage-js": () => import("D:\\gtsbyTest\\gatsbyNetlify\\src\\pages\\ru\\commonpage.js" /* webpackChunkName: "component---src-pages-ru-commonpage-js" */),
   "component---src-pages-ru-index-js": () => import("D:\\gtsbyTest\\gatsbyNetlify\\src\\pages\\ru\\index.js" /* webpackChunkName: "component---src-pages-ru-index-js" */),
-  "component---src-pages-ru-personalpage-js": () => import("D:\\gtsbyTest\\gatsbyNetlify\\src\\pages\\ru\\personalpage.js" /* webpackChunkName: "component---src-pages-ru-personalpage-js" */),
-  "component---src-pages-ru-personalpage-1-js": () => import("D:\\gtsbyTest\\gatsbyNetlify\\src\\pages\\ru\\personalpage&1.js" /* webpackChunkName: "component---src-pages-ru-personalpage-1-js" */)
+  "component---src-pages-ru-personalpage-js": () => import("D:\\gtsbyTest\\gatsbyNetlify\\src\\pages\\ru\\personalpage.js" /* webpackChunkName: "component---src-pages-ru-personalpage-js" */)
 }
 

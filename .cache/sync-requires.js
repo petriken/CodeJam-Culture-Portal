@@ -15,7 +15,6 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("D:\\gtsbyTest\\gatsbyNetlify\\src\\pages\\index.js"))),
   "component---src-pages-ru-commonpage-js": hot(preferDefault(require("D:\\gtsbyTest\\gatsbyNetlify\\src\\pages\\ru\\commonpage.js"))),
   "component---src-pages-ru-index-js": hot(preferDefault(require("D:\\gtsbyTest\\gatsbyNetlify\\src\\pages\\ru\\index.js"))),
-  "component---src-pages-ru-personalpage-js": hot(preferDefault(require("D:\\gtsbyTest\\gatsbyNetlify\\src\\pages\\ru\\personalpage.js"))),
-  "component---src-pages-ru-personalpage-1-js": hot(preferDefault(require("D:\\gtsbyTest\\gatsbyNetlify\\src\\pages\\ru\\personalpage&1.js")))
+  "component---src-pages-ru-personalpage-js": hot(preferDefault(require("D:\\gtsbyTest\\gatsbyNetlify\\src\\pages\\ru\\personalpage.js")))
 }
 
