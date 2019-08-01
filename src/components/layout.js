@@ -1,15 +1,21 @@
 import React from "react";
-import { Provider } from 'react-redux';
-import store from '../store/store';
+import { addLocaleData } from 'react-intl';
+import en from 'react-intl/locale-data/en';
+import be from 'react-intl/locale-data/be';
+import ru from 'react-intl/locale-data/ru';
+import ConnectedIntlProvider from '../ConnectedIntlProvider';
 
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 
+addLocaleData([...en, ...be, ...ru]);
+
 export default ({ children }) => (
-  <><Provider store={store}>
-    <Header />
-    {children}
-    <Footer />
-  </Provider>
-  </>
+  <ConnectedIntlProvider>
+    <>
+      <Header />
+      {children}
+      <Footer />
+    </>
+  </ConnectedIntlProvider>
 );

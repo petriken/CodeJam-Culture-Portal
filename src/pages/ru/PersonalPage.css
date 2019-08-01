@@ -1,0 +1,14 @@
+.personal-page {
+  width: 100%;
+  max-width: 1100px;
+  margin: 60px auto;
+}
+
+.personal-page .avatar-container {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.personal-page .description h1 {
+  margin: 20px;
+}

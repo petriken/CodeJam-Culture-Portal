@@ -1,13 +1,14 @@
 import React from 'react';
 import './Footer.css';
+import { FormattedMessage } from 'react-intl';
 
-function Footer() {  
+function Footer() {
   return (
-    <footer>
-      <p>© 2019 Photo By - белорусский культурный портал</p>
-      <p>Выполнено с любовью по заказу The Rolling Scope School</p>
-    </footer>    
-  );  
+    <footer id="footer">
+      <p><FormattedMessage id="footerRights" /></p>
+      <p><FormattedMessage id="footerPS" /></p>
+    </footer>
+  );
 }
 
 export default Footer;

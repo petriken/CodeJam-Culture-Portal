@@ -1,37 +1,30 @@
 import React, { Component } from 'react';
+import { FormattedMessage } from 'react-intl';
 import './SearchPanel.css';
+import Search from '@material-ui/icons/Search';
+import Button from '@material-ui/core/Button';
 import store from '../../store/store';
-import bg from '../../img/assets/SearchPannelBG';
 
 export default class SearchPanel extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       term: '',
       city: '',
-      bg: bg.bg1
     };
   }
 
-  componentWillMount() {
-    const BGs = Object.values(bg);
-    BGs.forEach((item, i) => {
-      if (i === Math.floor(Math.random() * 10)) {
-        this.setState({ bg: item })
-      }
-    })
-  }
 
   onTermChange(event) {
     this.setState({
-      term: event.target.value
+      term: event.target.value,
     });
     store.dispatch({ type: 'term', value: event.target.value });
   }
 
   onCityChange(event) {
     this.setState({
-      city: event.target.value
+      city: event.target.value,
     });
     store.dispatch({ type: 'city', value: event.target.value });
   }
@@ -39,19 +32,18 @@ export default class SearchPanel extends Component {
   onClickHandler() {
     const term = document.getElementById('termInput').value;
     const city = document.getElementById('cityInput').value;
-    this.setState({ term, city })
+    this.setState({ term, city });
     store.dispatch({ type: 'term', value: term });
     store.dispatch({ type: 'city', value: city });
   }
 
   render() {
     return (
-      <div className="search-container"
-        style={{ background: `url(${this.state.bg}) center center / cover` }}>
+      <div className="search-container">
         <form className="search-panel">
           <label>
-            Я ищу фотографа
-          <input type="text"
+            <FormattedMessage id="searchName" />
+            <input type="text"
               className="search-input"
               placeholder="search"
               id="termInput"
@@ -59,17 +51,19 @@ export default class SearchPanel extends Component {
               onChange={e => this.onTermChange(e)} />
           </label>
           <label>
-            в городе
-          <input type="text"
+            <FormattedMessage id="searchCity" />
+            <input type="text"
               className="search-input"
               placeholder="search"
               id="cityInput"
               value={this.state.city}
               onChange={e => this.onCityChange(e)} />
           </label>
-          <button className="btn-search" type="button" onClick={() => this.onClickHandler()}>Найти</button>
+          <Button variant="contained" className="btn-search" type="button" onClick={() => this.onClickHandler()}><Search/>
+            <FormattedMessage id="searchButton" />
+      </Button>
         </form>
       </div>
     );
-  };
+  }
 }
