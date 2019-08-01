@@ -165,12 +165,12 @@
 }
 
 .active-lang {
-  color: #df2f3a;
+  color: #009688;
   font-size: 900;
 }
 
 .active-lang:hover {
-  color: #df2f3a;
+  color: #009688;
   font-size: 900;
 }
 

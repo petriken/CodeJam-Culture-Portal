@@ -1,10 +1,13 @@
 .ModalVideo {
   display: flex;
   justify-content: center;
+  margin-bottom: 60px;
+
 }
 
 .btn-video {
   padding: 10px;
+  flex-grow: 1;
 }
 
 .MuiButtonBase-root.btn-video {
@@ -12,7 +15,7 @@
   line-height: 30px;
   text-decoration: none;
   padding: 10px 20px;
-  margin: 10px;
+  margin: 10px 0;
   border-radius: 2px;
   border-bottom: none;
   outline: none;

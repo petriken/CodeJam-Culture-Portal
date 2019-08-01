@@ -52,12 +52,12 @@ class PersonalPage extends Component {
       <div className="personal-page">
         <PersonalPageNavigation />
         <Avatar data={this.state.profile} />
-        <ModalVideo data={this.state.profile} />
         <Description data={this.state.profile} id="description" />
         <Timeline data={this.state.profile} />
         <ListOfWorks data={this.state.profile} />
         <ImageGalleryComponent data={this.state.profile} />
         <VideoPlayer data={this.state.profile} />
+        <ModalVideo data={this.state.profile} />
         <MapContainer data={this.state.profile} />
       </div>
     );

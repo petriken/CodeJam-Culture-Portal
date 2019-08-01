@@ -7,7 +7,7 @@ function TimeLine(props) {
   return (
     <div id="timeline">
       <h2 style={{
-        textAlign: 'center', color: '#e86971', fontSize: '2em', marginTop: 60,
+        textAlign: 'center', fontSize: '44px', marginTop: 60,
       }}>
         <FormattedMessage id="biography" />
       </h2>
@@ -16,7 +16,7 @@ function TimeLine(props) {
           <TimelineItem
             key={index}
             dateText={item.date}
-            dateInnerStyle={{ background: '#e86971', color: '#fff' }}
+            dateInnerStyle={{ background: '#009688', color: '#fff' }}
           >
             <h3>{item.place}</h3>
             <p>{item.description}</p>

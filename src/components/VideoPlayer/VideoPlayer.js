@@ -11,8 +11,7 @@ function VideoPlayer(props) {
       <h2
         style={{
           textAlign: 'center',
-          color: '#e86971',
-          fontSize: '2em',
+          fontSize: '44px',
           marginTop: 60,
         }}
       >

@@ -24,7 +24,7 @@ const useStyles = makeStyles(theme => ({
   paper: {
     position: 'absolute',
     width: '85vw',
-    backgroundColor: '#e86971',
+    backgroundColor: '#333',
     boxShadow: theme.shadows[5],
     padding: theme.spacing(1),
     outline: 'none',
