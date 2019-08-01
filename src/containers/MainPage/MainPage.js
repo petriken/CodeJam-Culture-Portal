@@ -35,32 +35,32 @@ function MainPage(props) {
   return (
     <>
       <div className="main-page"
-           id="home">
+        id="home">
         <div className="main-page-title">
           <p>
-            <span className="portal"><FormattedMessage id="headerSubtitleSpan"/></span>
-            <span><FormattedMessage id="headerSubtitle"/></span>
+            <span className="portal"><FormattedMessage id="headerSubtitleSpan" /></span>
+            <span><FormattedMessage id="headerSubtitle" /></span>
           </p>
           <div className="mainpage-navigation-container">
             <AnchorLink
-            offset='40px'
-            href='#author'>
-            <FormattedMessage id="todayAuthor" />
-          </AnchorLink>
-          <AnchorLink
-            offset='40px'
-            href='#project-info'>
-            <FormattedMessage id="infoAboutPortal" />
-          </AnchorLink>
-          <AnchorLink
-            offset='0px'
-            href='#developers'>
-            <FormattedMessage id="developers" />
-          </AnchorLink>
+              offset='40px'
+              href='#author'>
+              <FormattedMessage id="todayAuthor" />
+            </AnchorLink>
+            <AnchorLink
+              offset='40px'
+              href='#project-info'>
+              <FormattedMessage id="infoAboutPortal" />
+            </AnchorLink>
+            <AnchorLink
+              offset='0px'
+              href='#developers'>
+              <FormattedMessage id="developers" />
+            </AnchorLink>
           </div>
         </div>
-        <SimpleSlider/>
-        <MainPageNavigation/>
+        <SimpleSlider />
+        <MainPageNavigation />
         <section className="author-day" id="author">
           <h2 className="title-author-day">
             <FormattedMessage id="todayAuthor" />
@@ -69,16 +69,16 @@ function MainPage(props) {
           <Description data={profile} />
         </section>
         <section className="description-mainpage"
-           id="project-info">
+          id="project-info">
           <h2>
             <FormattedMessage id="infoAboutPortal" />
           </h2>
           <FormattedHTMLMessage id="welcome" />
-        <GridGallery/>
+          <GridGallery />
         </section>
       </div>
       <div className="developers-container"
-           id="developers">
+        id="developers">
         <h2><FormattedMessage id="developers" /></h2>
         <FormattedMessage id="purpose" />
         <div className="developers">

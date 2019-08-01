@@ -12,6 +12,15 @@ export default class MainPageNavigation extends Component {
     display: 'none',
   }
 
+  componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent);
+  }
+
+  componentWillUnmount() {
+    this.setState({ display: 'none' });
+    window.removeEventListener('scroll', this.listenScrollEvent);
+  }
+
   listenScrollEvent = () => {
     if (window.scrollY > window.innerHeight) {
       this.setState({
@@ -24,44 +33,40 @@ export default class MainPageNavigation extends Component {
     }
   }
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.listenScrollEvent);
-  }
-
   render() {
     return (
       <div className="mainpage-navigation"
-           style={{ display: this.state.display }}>
+        style={{ display: `${this.state.display ? this.state.display : 'none'}` }}>
         <Button variant="contained" className="btn-navigation">
-        <AnchorLink
-          href='#home'
-          title='home'>
-          <Home/>
-        </AnchorLink>
+          <AnchorLink
+            href='#home'
+            title='home'>
+            <Home />
+          </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
-        <AnchorLink
-          offset='40px'
-          href='#author'
-          title='author'>
-          <Person/>
-        </AnchorLink>
+          <AnchorLink
+            offset='40px'
+            href='#author'
+            title='author'>
+            <Person />
+          </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
-        <AnchorLink
-          offset='40px'
-          href='#project-info'
-          title='info'>
-          <Info/>
-        </AnchorLink>
+          <AnchorLink
+            offset='40px'
+            href='#project-info'
+            title='info'>
+            <Info />
+          </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
-        <AnchorLink
-          offset='0px'
-          href='#developers'
-          title='developers'>
-          <People/>
-        </AnchorLink>
+          <AnchorLink
+            offset='0px'
+            href='#developers'
+            title='developers'>
+            <People />
+          </AnchorLink>
         </Button>
       </div>
     );
