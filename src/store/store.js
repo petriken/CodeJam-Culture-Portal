@@ -5,8 +5,8 @@ const initialState = {
   term: '',
   city: '',
   locales: {
-    lang: localStorage.getItem('lang') || 'ru',
-    messages: messages[localStorage.getItem('lang')] || messages['ru'],
+    lang: typeof localStorage !== 'undefined' && localStorage.getItem('lang') ? localStorage.getItem('lang') : 'ru',
+    messages: typeof localStorage !== 'undefined' && localStorage.getItem('lang') ? messages[localStorage.getItem('lang')] : messages['ru'],
   },
   page: localStorage.getItem('page') || '/ru',
 };
