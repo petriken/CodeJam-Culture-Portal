@@ -68,6 +68,10 @@
   margin: 40px auto 0px;
 }
 
+.main-page .description h1 {
+  font-size: 32px;
+}
+
 .title-author-day {
   margin: 20px auto;
   text-align: center;

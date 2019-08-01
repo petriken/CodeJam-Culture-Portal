@@ -5,6 +5,10 @@
   padding: 20px;
 }
 
+.description h1 {
+  font-size: 44px;
+}
+
 .description p {
   margin: 15px;
 }

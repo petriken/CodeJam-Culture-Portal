@@ -20,14 +20,14 @@ MuiList-root.list-works {
 }
 
 .MuiListItem-button.listitem-title {
-  background-color: #e86971;
+  background-color: #009688;
   color: #fff;
   font-size: 22px;
   text-align: center;
 }
 
 .MuiListItem-button.listitem-title:hover {
-  background-color: #c84d57 !important;
+  background-color: #00786c !important;
   color: #fff;
   font-size: 22px;
   text-align: center;

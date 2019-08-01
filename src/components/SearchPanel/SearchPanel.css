@@ -47,14 +47,14 @@
   margin: 10px;
   border-radius: 2px;
   border-bottom: none;
-  background: linear-gradient(to right, #c84d57, #e86971);
+  background: linear-gradient(to right, #00786c, #009688);
   outline: none;
   border: none;
   transition: .3s;
 }
 
 .MuiButton-contained:hover {
-  background: linear-gradient(to right, #e86971, #e86971);
+  background: linear-gradient(to right, #009688, #009688);
   transition: .3s;
 }
 

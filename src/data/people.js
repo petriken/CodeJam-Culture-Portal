@@ -102,6 +102,7 @@ export default [
     },
     video: video1,
     videoSrc: videoSrc1,
+    videoModal: "https://youtu.be/y6CUCjsZkmU",
     activity: [
       {
         date: '16.03.1964',
