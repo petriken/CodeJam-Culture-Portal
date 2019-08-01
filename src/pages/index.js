@@ -22,8 +22,9 @@ import avatarJulanick from '../img/developers/Julanick.jpg';
 import Layout from "../components/layout";
 
 function MainPage(props) {
-  const page = localStorage.getItem('page').split('/');
-  page[1] = localStorage.getItem('lang');
+  const storedPage = localStorage.getItem('page') || '/ru/'
+  const page = storedPage.split('/');
+  page[1] = localStorage.getItem('lang') || 'ru';
   const redirecTo = page.join('/');
   navigate(
     `${redirecTo}`
