@@ -8,7 +8,7 @@ const initialState = {
     lang: typeof localStorage !== 'undefined' && localStorage.getItem('lang') ? localStorage.getItem('lang') : 'ru',
     messages: typeof localStorage !== 'undefined' && localStorage.getItem('lang') ? messages[localStorage.getItem('lang')] : messages['ru'],
   },
-  page: localStorage.getItem('page') || '/ru',
+  page: typeof localStorage !== 'undefined' && localStorage.getItem('page') ? localStorage.getItem('page') : '/ru',
 };
 
 function appState(state = initialState, action) {

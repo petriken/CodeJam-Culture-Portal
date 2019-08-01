@@ -22,9 +22,9 @@ import avatarJulanick from '../img/developers/Julanick.jpg';
 import Layout from "../components/layout";
 
 function MainPage(props) {
-  const storedPage = localStorage.getItem('page') || '/ru/'
+  const storedPage = typeof localStorage !== 'undefined' && localStorage.getItem('page') ? localStorage.getItem('page') : '/ru/';
   const page = storedPage.split('/');
-  page[1] = localStorage.getItem('lang') || 'ru';
+  page[1] = typeof localStorage !== 'undefined' && localStorage.getItem('lang') ? localStorage.getItem('lang') : 'ru';
   const redirecTo = page.join('/');
   navigate(
     `${redirecTo}`

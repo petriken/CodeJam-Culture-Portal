@@ -24,7 +24,7 @@ class Header extends Component {
 
   /* eslint-disable camelcase */
   UNSAFE_componentWillMount() {
-    if (localStorage.getItem('lang')) {
+    if (typeof localStorage !== 'undefined' && localStorage.getItem('lang')) {
       this.setState({
         lang: localStorage.getItem('lang'),
         activeLangButton: localStorage.getItem('lang'),
