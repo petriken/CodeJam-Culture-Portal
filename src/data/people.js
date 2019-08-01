@@ -145,7 +145,7 @@ export default [
         description: 'Умер от инсульта в г.Минске.',
       },
     ],
-    works: [slide1, slide2, slide3, slide4, slide5, slide6],
+    works: [{ image: slide1, description: "atat"}  , { image: slide2, description: "atat"}  , { image: slide3, description: "atat"}  , { image: slide4, description: "atat"}  , { image: slide5, description: "atat"}  , { image: slide6, description: "atat"}],
     listOfWorks: [
       {
         year: '2011',
@@ -203,7 +203,7 @@ export default [
           'Главный редактор, дизайнер и фотокорреспондент газеты «Витебский курьер». Главный редактор специального номера газеты, посвященного Первым Шагаловского дням в Витебске (1991). В середине 80-х возглавлял витебский фотоклуб «Витьба». Центральное место в творчестве занимает репортажная, публицистическая, жанровая фотография. Среди основных работ: серии «Думай, парень!» (1982-2005), «Праздник в православной церкви» (1988), «Армения. Декабрь. 1988 »,«Пионерский лагерь» (1989),«Приметы»(1989),«Чернобыльский натюрморт»(1996),«Париж! Париж! Я не хочу домой!»(2001-2007). На сегодняшний день проживает во Франции.',
       },
     ],
-    works: [slide7, slide8, slide9, slide10, slide11, slide12],
+    works: [{ image: slide7, description: "atat"}  , { image: slide8, description: "atat"}  , { image: slide9, description: "atat"}  , { image: slide10, description: "atat"}  , { image: slide11, description: "atat"}  , { image: slide12, description: "atat"}],
     listOfWorks: [
       {
         year: '1982-2005',
@@ -287,7 +287,7 @@ export default [
         description: 'Реабилитирован.',
       },
     ],
-    works: [slide34, slide35, slide36, slide37, slide38, slide39],
+    works: [{ image: slide34, description: "atat"}  , { image: slide35, description: "atat"}  , { image: slide36, description: "atat"}  , { image: slide37, description: "atat"}  , { image: slide38, description: "atat"}  , { image: slide39, description: "atat"}],
     listOfWorks: [
       {
         year: '1910—1912 ',
@@ -361,7 +361,7 @@ export default [
           'Ректор Белорусской государственной академии искусств. Кандидат искусствоведения, профессор кафедры истории и теории искусств, доцент. Почётный член Российской академии художеств.',
       },
     ],
-    works: [slide13, slide14, slide15, slide16, slide17, slide18],
+    works: [{ image: slide13, description: "atat"}  , { image: slide14, description: "atat"}  , { image: slide15, description: "atat"}  , { image: slide16, description: "atat"}  , { image: slide17, description: "atat"}  , { image: slide18, description: "atat"}],
     listOfWorks: [
       {
         year: '1997',
@@ -460,7 +460,7 @@ export default [
       },
     ],
 
-    works: [slide40, slide41, slide42, slide43, slide44, slide45],
+    works: [{ image: slide40, description: "atat"}  , { image: slide41, description: "atat"}  , { image: slide42, description: "atat"}  , { image: slide43, description: "atat"}  , { image: slide44, description: "atat"}  , { image: slide45, description: "atat"}],
     listOfWorks: [
       {
         year: '1931',
@@ -544,7 +544,7 @@ export default [
         description: 'Умер в городе Минске',
       },
     ],
-    works: [slide19, slide20, slide21, slide22, slide23, slide24],
+    works: [{ image: slide19, description: "atat"}  , { image: slide20, description: "atat"}  , { image: slide21, description: "atat"}  , { image: slide22, description: "atat"}  , { image: slide23, description: "atat"}  , { image: slide24, description: "atat"}],
     listOfWorks: [
       {
         year: '1924',
@@ -619,7 +619,7 @@ export default [
         description: 'В 2000 г. издаёт фотоальбом «Добрый день, Беларусь». В 2001-2006 принимает участие в фотографических и художественных выставках. С 2004 - член Союза Белорусского государственного объединения «Фотоискусство».',
       },
     ],
-    works: [slide25, slide26, slide27, slide28, slide29, slide30, slide31, slide32, slide33],
+    works: [{ image: slide25, description: "atat"}  , { image: slide26, description: "atat"}  , { image: slide27, description: "atat"}  , { image: slide28, description: "atat"}  , { image: slide29, description: "atat"}  , { image: slide30, description: "atat"}  , { image: slide31, description: "atat"}  , { image: slide32, description: "atat"}  , { image: slide33, description: "atat"}],
     listOfWorks: [
       {
         year: '2000',
@@ -681,7 +681,7 @@ export default [
 
     ],
 
-    works: [slide46, slide47, slide48, slide49, slide50, slide51],
+    works: [{ image: slide46, description: "atat"}  , { image: slide47, description: "atat"}  , { image: slide48, description: "atat"}  , { image: slide49, description: "atat"}  , { image: slide50, description: "atat"}  , { image: slide51, description: "atat"}],
     listOfWorks: [
       {
         year: '1971-1975',

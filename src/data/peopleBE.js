@@ -143,7 +143,7 @@ export default [
         description: 'Памёр ад інсульту ў г.Мінску.',
       },
     ],
-    works: [slide1, slide2, slide3, slide4, slide5, slide6],
+    works: [{ image: slide1, description: "atata" }, { image: slide2, description: "atata" }, { image: slide3, description: "atata" }, { image: slide4, description: "atata" }, { image: slide5, description: "atata" }, { image: slide6, description: "atata" }],
     listOfWorks: [
       {
         year: '2011',
@@ -201,7 +201,7 @@ export default [
           'Галоўны рэдактар, дызайнер і фотакарэспандэнт газеты «Віцебскі кур"eр». Галоўны рэдактар ​​спецыяльнага нумара газеты, прысвечанага Першым Шагалаўскага днях у Віцебску (1991). У сярэдзіне 80-х узначальваў віцебскі фотаклуб «Віцьба». Цэнтральнае месца ў творчасці займае рэпартажная, публіцыстычная, жанравая фатаграфія. Сярод асноўных работ: серыі «Думай, хлопец!» (1982-2005), «Свята ў праваслаўнай царкве» (1988), «Арменія. Снежань. 1988 »,« Піянерскі лагер »(1989),« Прыкметы »(1989),« Чарнобыльскі нацюрморт »(1996),« Парыж! Парыж! Я не хачу дадому! »(2001-2007). На сённяшні дзень пражывае ў Францыі.',
       },
     ],
-    works: [slide7, slide8, slide9, slide10, slide11, slide12],
+    works: [{ image: slide7, description: "atata" }, { image: slide8, description: "atata" }, { image: slide9, description: "atata" }, { image: slide10, description: "atata" }, { image: slide11, description: "atata" }, { image: slide12, description: "atata" }],
     listOfWorks: [
       {
         year: '1982-2005',
@@ -285,7 +285,7 @@ export default [
         description: 'Рэабілітаваны.',
       },
     ],
-    works: [slide34, slide35, slide36, slide37, slide38, slide39],
+    works: [{ image: slide34, description: "atata" }, { image: slide35, description: "atata" }, { image: slide36, description: "atata" }, { image: slide37, description: "atata" }, { image: slide38, description: "atata" }, { image: slide39, description: "atata" }],
     listOfWorks: [
       {
         year: '1910—1912 ',
@@ -359,7 +359,7 @@ export default [
           'Рэктар Беларускай дзяржаўнай акадэміі мастацтваў. Кандыдат мастацтвазнаўства, прафесар кафедры гісторыі і тэорыі мастацтваў, дацэнт. Ганаровы член Расійскай акадэміі мастацтваў.',
       },
     ],
-    works: [slide13, slide14, slide15, slide16, slide17, slide18],
+    works: [{ image: slide13, description: "atata" }, { image: slide14, description: "atata" }, { image: slide15, description: "atata" }, { image: slide16, description: "atata" }, { image: slide17, description: "atata" }, { image: slide18, description: "atata" }],
     listOfWorks: [
       {
         year: '1997',
@@ -454,7 +454,7 @@ export default [
       },
     ],
 
-    works: [slide40, slide41, slide42, slide43, slide44, slide45],
+    works: [{ image: slide40, description: "atata" }, { image: slide41, description: "atata" }, { image: slide42, description: "atata" }, { image: slide43, description: "atata" }, { image: slide44, description: "atata" }, { image: slide45, description: "atata" }],
     listOfWorks: [
       {
         year: '1931',
@@ -538,7 +538,7 @@ export default [
         description: 'Памёр у горадзе Мінску',
       },
     ],
-    works: [slide19, slide20, slide21, slide22, slide23, slide24],
+    works: [{ image: slide19, description: "atata" }, { image: slide20, description: "atata" }, { image: slide21, description: "atata" }, { image: slide22, description: "atata" }, { image: slide23, description: "atata" }, { image: slide24, description: "atata" }],
     listOfWorks: [
       {
         year: '1924',
@@ -613,7 +613,7 @@ export default [
         description: 'У 2000 г. выдае фотаальбом «Добры дзень, Беларусь». У 2001-2006 прымае ўдзел у фатаграфічных і мастацкіх выставах. З 2004 - член Саюза Беларускага дзяржаўнага аб"яднання "Фотамастацтва".',
       },
     ],
-    works: [slide25, slide26, slide27, slide28, slide29, slide30, slide31, slide32, slide33],
+    works: [{ image: slide25, description: "atata" }, { image: slide26, description: "atata" }, { image: slide27, description: "atata" }, { image: slide28, description: "atata" }, { image: slide29, description: "atata" }, { image: slide30, description: "atata" }, { image: slide31, description: "atata" }, { image: slide32, description: "atata" }, { image: slide33, description: "atata" }],
     listOfWorks: [
       {
         year: '2000',
@@ -675,7 +675,7 @@ export default [
 
     ],
 
-    works: [slide46, slide47, slide48, slide49, slide50, slide51],
+    works: [{ image: slide46, description: "atata" }, { image: slide47, description: "atata" }, { image: slide48, description: "atata" }, { image: slide49, description: "atata" }, { image: slide50, description: "atata" }, { image: slide51, description: "atata" }],
     listOfWorks: [
       {
         year: '1971-1975',

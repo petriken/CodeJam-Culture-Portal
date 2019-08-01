@@ -143,7 +143,7 @@ export default [
         description: 'He died of a stroke in Minsk.',
       },
     ],
-    works: [slide1, slide2, slide3, slide4, slide5, slide6],
+    works: [{ image: slide1, description: "atatat" }, { image: slide2, description: "atatat" }, { image: slide3, description: "atatat" }, { image: slide4, description: "atatat" }, { image: slide5, description: "atatat" }, { image: slide6, description: "atatat" }],
     listOfWorks: [
       {
         year: '2011',
@@ -202,7 +202,7 @@ export default [
           'He became Editor-in-Chief, designer and photojournalist of the Vitebsk Courier newspaper, and he also became Editor-in-Chief of a special issue of the newspaper dedicated to the First Shagal Day in Vitebsk (1991). In the mid-80s headed the Vitebsk photo club "Vitba". Central to the work is reportage, journalistic, genre photography. The main works include the series “Think, boy!” (1982-2005), “Holiday in the Orthodox Church” (1988), “Armenia. December. 1988 "," Pioneer Camp "(1989)," Signs "(1989)," Chernobyl Still Life "(1996)," Paris! Paris! I do not want to go home! ”(2001–2007). Currently living in France.',
       },
     ],
-    works: [slide7, slide8, slide9, slide10, slide11, slide12],
+    works: [{ image: slide7, description: "atatat" }, { image: slide8, description: "atatat" }, { image: slide9, description: "atatat" }, { image: slide10, description: "atatat" }, { image: slide11, description: "atatat" }, { image: slide12, description: "atatat" }],
     listOfWorks: [
       {
         year: '1982-2005',
@@ -294,7 +294,7 @@ export default [
         description: 'He was rehabilitated.',
       },
     ],
-    works: [slide34, slide35, slide36, slide37, slide38, slide39],
+    works: [{ image: slide34, description: "atatat" }, { image: slide35, description: "atatat" }, { image: slide36, description: "atatat" }, { image: slide37, description: "atatat" }, { image: slide38, description: "atatat" }, { image: slide39, description: "atatat" }],
     listOfWorks: [
       {
         year: '1910—1912 ',
@@ -370,7 +370,7 @@ export default [
           'He became the Rector of the Belarusian State Academy of Art as a candidate of art history, a professor at the Department of History and Theory of Arts, an associate professor. He is an honorary member of the Russian Academy of Arts.',
       },
     ],
-    works: [slide13, slide14, slide15, slide16, slide17, slide18],
+    works: [{ image: slide13, description: "atatat" }, { image: slide14, description: "atatat" }, { image: slide15, description: "atatat" }, { image: slide16, description: "atatat" }, { image: slide17, description: "atatat" }, { image: slide18, description: "atatat" }],
     listOfWorks: [
       {
         year: '1997',
@@ -477,7 +477,7 @@ export default [
       },
     ],
 
-    works: [slide40, slide41, slide42, slide43, slide44, slide45],
+    works: [{ image: slide40, description: "atatat" }, { image: slide41, description: "atatat" }, { image: slide42, description: "atatat" }, { image: slide43, description: "atatat" }, { image: slide44, description: "atatat" }, { image: slide45, description: "atatat" }],
     listOfWorks: [
       {
         year: '1931',
@@ -563,7 +563,7 @@ export default [
         description: 'He died in the city of Minsk',
       },
     ],
-    works: [slide19, slide20, slide21, slide22, slide23, slide24],
+    works: [{ image: slide19, description: "atatat" }, { image: slide20, description: "atatat" }, { image: slide21, description: "atatat" }, { image: slide22, description: "atatat" }, { image: slide23, description: "atatat" }, { image: slide24, description: "atatat" }],
     listOfWorks: [
       {
         year: '1924',
@@ -648,15 +648,15 @@ export default [
       },
     ],
     works: [
-      slide25,
-      slide26,
-      slide27,
-      slide28,
-      slide29,
-      slide30,
-      slide31,
-      slide32,
-      slide33,
+      { image: slide25, description: "atatat" },
+      { image: slide26, description: "atatat" },
+      { image: slide27, description: "atatat" },
+      { image: slide28, description: "atatat" },
+      { image: slide29, description: "atatat" },
+      { image: slide30, description: "atatat" },
+      { image: slide31, description: "atatat" },
+      { image: slide32, description: "atatat" },
+      { image: slide33, description: "atatat" },
     ],
     listOfWorks: [
       {
@@ -720,7 +720,7 @@ export default [
       },
     ],
 
-    works: [slide46, slide47, slide48, slide49, slide50, slide51],
+    works: [{ image: slide46, description: "atatat" }, { image: slide47, description: "atatat" }, { image: slide48, description: "atatat" }, { image: slide49, description: "atatat" }, { image: slide50, description: "atatat" }, { image: slide51, description: "atatat" }],
     listOfWorks: [
       {
         year: '1971-1975',
