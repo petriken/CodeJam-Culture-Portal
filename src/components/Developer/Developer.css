@@ -4,11 +4,17 @@
 }
 
 .developer-container img {
-  height: 156px;
-  width: 156px;
+  height: 220px;
+  width: 220px;
   border: 1px solid #ccc;
-  border-radius: 10px;
+  border-radius: 4px;
   margin: 20px;
+  transition: .5s;
+}
+
+.developer-container img:hover {
+  transform: scale(1.1);
+  transition: .5s;
 }
 
 .developer-container p {

@@ -9,7 +9,7 @@ function ListOfWorks(props) {
   return (
     <div id="listOfWorks">
       <h2 style={{
-        textAlign: 'center', color: '#e86971', fontSize: '2em', marginTop: 60,
+        textAlign: 'center', color: '#e86971', fontSize: '2em', marginTop: 20,
       }}>
         <FormattedMessage id="listWork" />
       </h2>
