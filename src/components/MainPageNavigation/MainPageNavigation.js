@@ -57,7 +57,7 @@ export default class MainPageNavigation extends Component {
         </Button>
         <Button variant="contained" className="btn-navigation">
         <AnchorLink
-          offset='40px'
+          offset='0px'
           href='#developers'
           title='developers'>
           <People/>

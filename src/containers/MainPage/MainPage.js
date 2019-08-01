@@ -9,6 +9,7 @@ import Avatar from '../../components/Avatar/Avatar';
 import Description from '../../components/Description/Description';
 import Developer from '../../components/Developer/Developer';
 import MainPageNavigation from '../../components/MainPageNavigation/MainPageNavigation';
+import GridGallery from '../../components/GridGalery/GridGalery';
 import ru from '../../data/people';
 import en from '../../data/peopleEN';
 import be from '../../data/peopleBE';
@@ -52,7 +53,7 @@ function MainPage(props) {
             <FormattedMessage id="infoAboutPortal" />
           </AnchorLink>
           <AnchorLink
-            offset='40px'
+            offset='0px'
             href='#developers'>
             <FormattedMessage id="developers" />
           </AnchorLink>
@@ -69,13 +70,17 @@ function MainPage(props) {
         </section>
         <section className="description-mainpage"
            id="project-info">
+          <h2>
+            <FormattedMessage id="infoAboutPortal" />
+          </h2>
           <FormattedHTMLMessage id="welcome" />
-          <FormattedMessage id="purpose" />
+        <GridGallery/>
         </section>
       </div>
       <div className="developers-container"
            id="developers">
-        <h3><FormattedMessage id="developers" /></h3>
+        <h2><FormattedMessage id="developers" /></h2>
+        <FormattedMessage id="purpose" />
         <div className="developers">
           <Developer name="Vitaly Mikulich" gitHub="VitalyMikulich" avatar={avatarVitalyMikulich} />
           <Developer name="Piotr Stashukevich" gitHub="petriken" avatar={avatarPetriken} />
