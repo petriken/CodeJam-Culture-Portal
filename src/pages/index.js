@@ -26,9 +26,11 @@ function MainPage(props) {
   const page = storedPage.split('/');
   page[1] = typeof localStorage !== 'undefined' && localStorage.getItem('lang') ? localStorage.getItem('lang') : 'ru';
   const redirecTo = page.join('/');
-  navigate(
-    `${redirecTo}`
-  )
+  if (typeof window !== 'undefined') {
+    navigate(
+      `${redirecTo}`
+    )
+  }
   let data;
   if (props.lang === 'ru') {
     data = ru;
@@ -107,4 +109,4 @@ MainPage.propTypes = {
 };
 
 const mapStateToProps = state => ({ lang: state.locales.lang });
-export default connect(state => ({ lang: state.locales.lang }), null)(MainPage);
+export default connect(mapStateToProps)(MainPage);

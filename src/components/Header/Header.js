@@ -47,9 +47,11 @@ class Header extends Component {
     const page = this.page.split('/');
     page[1] = lang;
     const redirecTo = page.join('/');
-    navigate(
-      `${redirecTo}`
-    )
+    if (typeof window !== 'undefined') {
+      navigate(
+        `${redirecTo}`
+      )
+    }
   }
 
   /* eslint-disable class-methods-use-this */
