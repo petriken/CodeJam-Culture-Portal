@@ -565,7 +565,12 @@ export default [
         description: 'Умер в городе Минске',
       },
     ],
-    works: [{ image: slide19, description: "atat"}  , { image: slide20, description: "atat"}  , { image: slide21, description: "atat"}  , { image: slide22, description: "atat"}  , { image: slide23, description: "atat"}  , { image: slide24, description: "atat"}],
+    works: [{ image: slide19, description: "Фоторабота выставки «Свет и тень» "}  ,
+    { image: slide20, description: "Фоторабота выставки «Свет и тень» "}  ,
+     { image: slide21, description: "Фоторабота выставки «Свет и тень» "}  ,
+      { image: slide22, description: "Фоторабота выставки «Свет и тень» "}  ,
+       { image: slide23, description: "Фоторабота выставки «Свет и тень» "}  ,
+       { image: slide24, description: "Фоторабота выставки «Свет и тень» "}],
     listOfWorks: [
       {
         year: '1924',
@@ -640,7 +645,15 @@ export default [
         description: 'В 2000 г. издаёт фотоальбом «Добрый день, Беларусь». В 2001-2006 принимает участие в фотографических и художественных выставках. С 2004 - член Союза Белорусского государственного объединения «Фотоискусство».',
       },
     ],
-    works: [{ image: slide25, description: "atat"}  , { image: slide26, description: "atat"}  , { image: slide27, description: "atat"}  , { image: slide28, description: "atat"}  , { image: slide29, description: "atat"}  , { image: slide30, description: "atat"}  , { image: slide31, description: "atat"}  , { image: slide32, description: "atat"}  , { image: slide33, description: "atat"}],
+    works: [{ image: slide25, description: "Фотография без названия"}  ,
+    { image: slide26, description: "Фотография без названия"}  ,
+    { image: slide27, description: "Фотография без названия"}  ,
+    { image: slide28, description: "Фотография без названия"}  ,
+     { image: slide29, description: "Фотография без названия"}  ,
+     { image: slide30, description: "Фотография без названия"}  ,
+      { image: slide31, description: "Фотография без названия"}  ,
+      { image: slide32, description: "Фотография без названия"}  ,
+       { image: slide33, description: "Фотография без названия"}],
     listOfWorks: [
       {
         year: '2000',
@@ -702,7 +715,12 @@ export default [
 
     ],
 
-    works: [{ image: slide46, description: "atat"}  , { image: slide47, description: "atat"}  , { image: slide48, description: "atat"}  , { image: slide49, description: "atat"}  , { image: slide50, description: "atat"}  , { image: slide51, description: "atat"}],
+    works: [{ image: slide46, description: "«Индюки», 1972"}  ,
+    { image: slide47, description: "Фотография без названия"}  ,
+    { image: slide48, description: "Фотография без названия"}  ,
+    { image: slide49, description: "Фотография без названия"}  ,
+    { image: slide50, description: "Фотография без названия"}  ,
+    { image: slide51, description: "Фотография без названия"}],
     listOfWorks: [
       {
         year: '1971-1975',

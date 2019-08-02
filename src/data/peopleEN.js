@@ -385,7 +385,12 @@ export default [
           'He became the Rector of the Belarusian State Academy of Art as a candidate of art history, a professor at the Department of History and Theory of Arts, an associate professor. He is an honorary member of the Russian Academy of Arts.',
       },
     ],
-    works: [{ image: slide13, description: "atatat" }, { image: slide14, description: "atatat" }, { image: slide15, description: "atatat" }, { image: slide16, description: "atatat" }, { image: slide17, description: "atatat" }, { image: slide18, description: "atatat" }],
+    works: [{ image: slide13, description: "atatat" },
+    { image: slide14, description: "atatat" },
+    { image: slide15, description: "atatat" },
+    { image: slide16, description: "atatat" },
+    { image: slide17, description: "atatat" },
+    { image: slide18, description: "atatat" }],
     listOfWorks: [
       {
         year: '1997',
@@ -583,7 +588,12 @@ export default [
         description: 'He died in the city of Minsk',
       },
     ],
-    works: [{ image: slide19, description: "atatat" }, { image: slide20, description: "atatat" }, { image: slide21, description: "atatat" }, { image: slide22, description: "atatat" }, { image: slide23, description: "atatat" }, { image: slide24, description: "atatat" }],
+    works: [{ image: slide19, description: "Photowork of the exhibition «Light and Shadow»" },
+    { image: slide20, description: "Photowork of the exhibition «Light and Shadow»" },
+     { image: slide21, description: "Photowork of the exhibition «Light and Shadow»" },
+     { image: slide22, description: "Photowork of the exhibition «Light and Shadow»" },
+     { image: slide23, description: "Photowork of the exhibition «Light and Shadow»" },
+     { image: slide24, description: "Photowork of the exhibition «Light and Shadow»" }],
     listOfWorks: [
       {
         year: '1924',
@@ -668,15 +678,15 @@ export default [
       },
     ],
     works: [
-      { image: slide25, description: "atatat" },
-      { image: slide26, description: "atatat" },
-      { image: slide27, description: "atatat" },
-      { image: slide28, description: "atatat" },
-      { image: slide29, description: "atatat" },
-      { image: slide30, description: "atatat" },
-      { image: slide31, description: "atatat" },
-      { image: slide32, description: "atatat" },
-      { image: slide33, description: "atatat" },
+      { image: slide25, description: "Untitled photo" },
+      { image: slide26, description: "Untitled photo" },
+      { image: slide27, description: "Untitled photo" },
+      { image: slide28, description: "Untitled photo" },
+      { image: slide29, description: "Untitled photo" },
+      { image: slide30, description: "Untitled photo" },
+      { image: slide31, description: "Untitled photo" },
+      { image: slide32, description: "Untitled photo" },
+      { image: slide33, description: "Untitled photo" },
     ],
     listOfWorks: [
       {
@@ -740,7 +750,12 @@ export default [
       },
     ],
 
-    works: [{ image: slide46, description: "atatat" }, { image: slide47, description: "atatat" }, { image: slide48, description: "atatat" }, { image: slide49, description: "atatat" }, { image: slide50, description: "atatat" }, { image: slide51, description: "atatat" }],
+    works: [{ image: slide46, description: "«Turkeys», 1972" },
+    { image: slide47, description: "Untitled photo" },
+    { image: slide48, description: "Untitled photo" },
+     { image: slide49, description: "Untitled photo" },
+     { image: slide50, description: "Untitled photo" },
+     { image: slide51, description: "Untitled photo" }],
     listOfWorks: [
       {
         year: '1971-1975',

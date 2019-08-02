@@ -558,7 +558,12 @@ export default [
         description: 'Памёр у горадзе Мінску',
       },
     ],
-    works: [{ image: slide19, description: "atata" }, { image: slide20, description: "atata" }, { image: slide21, description: "atata" }, { image: slide22, description: "atata" }, { image: slide23, description: "atata" }, { image: slide24, description: "atata" }],
+    works: [{ image: slide19, description: "Фотапраца з выставы «Святло і цень»" },
+    { image: slide20, description: "Фотапраца з выставы «Святло і цень»" },
+     { image: slide21, description: "Фотапраца з выставы «Святло і цень»" },
+     { image: slide22, description: "Фотапраца з выставы «Святло і цень»" },
+     { image: slide23, description: "Фотапраца з выставы «Святло і цень»" },
+     { image: slide24, description: "Фотапраца з выставы «Святло і цень»" }],
     listOfWorks: [
       {
         year: '1924',
@@ -633,7 +638,15 @@ export default [
         description: 'У 2000 г. выдае фотаальбом «Добры дзень, Беларусь». У 2001-2006 прымае ўдзел у фатаграфічных і мастацкіх выставах. З 2004 - член Саюза Беларускага дзяржаўнага аб"яднання "Фотамастацтва".',
       },
     ],
-    works: [{ image: slide25, description: "atata" }, { image: slide26, description: "atata" }, { image: slide27, description: "atata" }, { image: slide28, description: "atata" }, { image: slide29, description: "atata" }, { image: slide30, description: "atata" }, { image: slide31, description: "atata" }, { image: slide32, description: "atata" }, { image: slide33, description: "atata" }],
+    works: [{ image: slide25, description: "Фотаздымак без назвы" },
+    { image: slide26, description: "Фотаздымак без назвы" },
+    { image: slide27, description: "Фотаздымак без назвы" },
+    { image: slide28, description: "Фотаздымак без назвы" },
+    { image: slide29, description: "Фотаздымак без назвы" },
+    { image: slide30, description: "Фотаздымак без назвы" },
+    { image: slide31, description: "Фотаздымак без назвы" },
+    { image: slide32, description: "Фотаздымак без назвы" },
+    { image: slide33, description: "Фотаздымак без назвы" }],
     listOfWorks: [
       {
         year: '2000',
@@ -695,7 +708,12 @@ export default [
 
     ],
 
-    works: [{ image: slide46, description: "atata" }, { image: slide47, description: "atata" }, { image: slide48, description: "atata" }, { image: slide49, description: "atata" }, { image: slide50, description: "atata" }, { image: slide51, description: "atata" }],
+    works: [{ image: slide46, description: "«Індыкі», 1972" },
+     { image: slide47, description: "Фотаздымак без назвы" },
+     { image: slide48, description: "Фотаздымак без назвы" },
+      { image: slide49, description: "Фотаздымак без назвы" },
+      { image: slide50, description: "Фотаздымак без назвы" },
+      { image: slide51, description: "Фотаздымак без назвы" }],
     listOfWorks: [
       {
         year: '1971-1975',
