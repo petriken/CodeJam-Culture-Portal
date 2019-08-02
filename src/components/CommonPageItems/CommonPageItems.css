@@ -5,7 +5,7 @@
   align-content: flex-start;
   width: 100%;
   max-width: 1200px;
-  margin: 40px auto;
+  margin: 40px auto 60px;
   padding: 20px 40px;
   border: 1px solid #ccc;
 }
@@ -60,7 +60,8 @@
 .MuiButton-contained {
   border-radius: 3px;
   border-bottom: none;
-  background: linear-gradient(to right, #00786c, #009688);
+  background: linear-gradient(to top, #c84d57, #e86971);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
   outline: none;
   color: #fff !important;
   box-shadow: none;
@@ -68,7 +69,7 @@
 }
 
 .MuiButton-contained:hover {
-  background: linear-gradient(to right, #009688, #009688);
+  background: linear-gradient(to right, #c84d57, #c84d57);
   transition: .3s;
 }
 

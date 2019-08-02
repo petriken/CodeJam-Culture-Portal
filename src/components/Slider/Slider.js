@@ -25,8 +25,8 @@ export default function SimpleSlider() {
     arrows: false,
     autoplay: true,
     fade: true,
-    speed: 5000,
-    autoplaySpeed: 5000,
+    speed: 1000,
+    autoplaySpeed: 8000,
     pauseOnHover: false,
   };
 
