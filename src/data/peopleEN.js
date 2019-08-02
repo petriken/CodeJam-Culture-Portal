@@ -101,6 +101,7 @@ export default [
     },
     video: video1,
     videoSrc: videoSrc1,
+    videoId: 'nqFtaTVS_OI',
     activity: [
       {
         date: '16.03.1964',
@@ -177,6 +178,7 @@ export default [
     },
     video: video2,
     videoSrc: videoSrc2,
+    videoId: 'NAnQKnrH1gs',
     activity: [
       {
         date: '21.10.1953',
@@ -251,6 +253,7 @@ export default [
     },
     video: video6,
     videoSrc: videoSrc6,
+    videoId: 'zOW38EpkgA8',
     activity: [
       {
         date: '1881',
@@ -327,6 +330,8 @@ export default [
     },
     video: video3,
     videoSrc: videoSrc3,
+    videoId: 'ulIBNVRQhz0',
+    startVideo: '868',
     activity: [
       {
         date: '20.11.1962',
@@ -429,6 +434,7 @@ export default [
     },
     video: video7,
     videoSrc: videoSrc7,
+    videoId: 'CdIAvs2iFQM',
     activity: [
       {
         date: '06.10.1876',
@@ -515,6 +521,7 @@ export default [
     },
     video: video4,
     videoSrc: videoSrc4,
+    videoId: '5JS2OaHhDBA',
     activity: [
       {
         date: '12.02.1882',
@@ -610,6 +617,7 @@ export default [
     },
     video: video5,
     videoSrc: videoSrc5,
+    videoId: '_f5rIN0H4mU',
     activity: [
       {
         date: '06.12.1947',
@@ -690,6 +698,7 @@ export default [
     },
     video: video8,
     videoSrc: videoSrc8,
+    videoId: 'V1Q3b2CUKss',
     activity: [
       {
         date: '07.12.1946',
