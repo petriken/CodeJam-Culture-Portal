@@ -144,7 +144,12 @@ export default [
         description: 'He died of a stroke in Minsk.',
       },
     ],
-    works: [slide1, slide2, slide3, slide4, slide5, slide6],
+    works: [{ image: slide1, description: "The work of the exhibition «Under Ground», 2011. M.V. Anempodistov explained that Belarusians, as well as vegetables, hide the most interesting things inside. Outside, they usually look like potatoes smeared in the ground, and inside under the peel is the “golden sun”." },
+    { image: slide2, description: "The work of the exhibition «Under Ground», 2011" },
+    { image: slide3, description: "The work of the exhibition «Under Ground», 2011" },
+    { image: slide4, description: "The work of the exhibition «Under Ground», 2011" },
+     { image: slide5, description: "The work of the exhibition «Under Ground», 2011" },
+     { image: slide6, description: "The work of the exhibition «Under Ground», 2011" }],
     listOfWorks: [
       {
         year: '2011',
@@ -204,7 +209,12 @@ export default [
           'He became Editor-in-Chief, designer and photojournalist of the Vitebsk Courier newspaper, and he also became Editor-in-Chief of a special issue of the newspaper dedicated to the First Shagal Day in Vitebsk (1991). In the mid-80s headed the Vitebsk photo club "Vitba". Central to the work is reportage, journalistic, genre photography. The main works include the series “Think, boy!” (1982-2005), “Holiday in the Orthodox Church” (1988), “Armenia. December. 1988 "," Pioneer Camp "(1989)," Signs "(1989)," Chernobyl Still Life "(1996)," Paris! Paris! I do not want to go home! ”(2001–2007). Currently living in France.',
       },
     ],
-    works: [slide7, slide8, slide9, slide10, slide11, slide12],
+    works: [{ image: slide7, description: "Stroll" },
+    { image: slide8, description: "Vitebsk.Evening" },
+     { image: slide9, description: "Tuileries Garden" },
+      { image: slide10, description: "The monks" },
+      { image: slide11, description: "Paris: Avenue du Père Lachaise" },
+      { image: slide12, description: "Evening" }],
     listOfWorks: [
       {
         year: '1982-2005',
@@ -297,7 +307,12 @@ export default [
         description: 'He was rehabilitated.',
       },
     ],
-    works: [slide34, slide35, slide36, slide37, slide38, slide39],
+    works: [{ image: slide34, description: "On Vileika street" },
+    { image: slide35, description: "High water on Pilsudsky Street, 1930" },
+    { image: slide36, description: "Synagogue" },
+    { image: slide37, description: "Pilsudski Street, 1930" },
+    { image: slide38, description: "Chapel, 1930" },
+    { image: slide39, description: "Photo from the archive of the museum of local lore" }],
     listOfWorks: [
       {
         year: '1910—1912 ',
@@ -375,7 +390,12 @@ export default [
           'He became the Rector of the Belarusian State Academy of Art as a candidate of art history, a professor at the Department of History and Theory of Arts, an associate professor. He is an honorary member of the Russian Academy of Arts.',
       },
     ],
-    works: [slide13, slide14, slide15, slide16, slide17, slide18],
+    works: [{ image: slide13, description: "Village" },
+    { image: slide14, description: "Quiet abode" },
+    { image: slide15, description: "Childhood" },
+    { image: slide16, description: "Silence" },
+    { image: slide17, description: "Devastation" },
+    { image: slide18, description: "Over eternal peace" }],
     listOfWorks: [
       {
         year: '1997',
@@ -483,7 +503,12 @@ export default [
       },
     ],
 
-    works: [slide40, slide41, slide42, slide43, slide44, slide45],
+    works: [{ image: slide40, description: "The estate of the Bulgakov clan in Dobosn. Early Twentieth century." },
+    { image: slide41, description: "Fishing boats on the lake Naroch. Early Twentieth century." },
+    { image: slide42, description: "Winter morning. Early Twentieth century." },
+    { image: slide43, description: "Church in Ishkoldi. Early Twentieth century." },
+    { image: slide44, description: "Grodno. Early Twentieth century." },
+    { image: slide45, description: "The road in the vicinity of Porokhonsk. Early Twentieth century." }],
     listOfWorks: [
       {
         year: '1931',
@@ -570,7 +595,12 @@ export default [
         description: 'He died in the city of Minsk',
       },
     ],
-    works: [slide19, slide20, slide21, slide22, slide23, slide24],
+    works: [{ image: slide19, description: "Photowork of the exhibition «Light and Shadow»" },
+    { image: slide20, description: "Photowork of the exhibition «Light and Shadow»" },
+     { image: slide21, description: "Photowork of the exhibition «Light and Shadow»" },
+     { image: slide22, description: "Photowork of the exhibition «Light and Shadow»" },
+     { image: slide23, description: "Photowork of the exhibition «Light and Shadow»" },
+     { image: slide24, description: "Photowork of the exhibition «Light and Shadow»" }],
     listOfWorks: [
       {
         year: '1924',
@@ -656,15 +686,15 @@ export default [
       },
     ],
     works: [
-      slide25,
-      slide26,
-      slide27,
-      slide28,
-      slide29,
-      slide30,
-      slide31,
-      slide32,
-      slide33,
+      { image: slide25, description: "National Library of Belarus" },
+      { image: slide26, description: "Minsk. Red church" },
+      { image: slide27, description: "In two dimensions" },
+      { image: slide28, description: "Minsk. Independence Square" },
+      { image: slide29, description: "National Library of Belarus" },
+      { image: slide30, description: "Minsk. Little Church" },
+      { image: slide31, description: "Minsk Opera theater" },
+      { image: slide32, description: "Nemiga. Swisloch" },
+      { image: slide33, description: "Station Square" },
     ],
     listOfWorks: [
       {
@@ -729,7 +759,12 @@ export default [
       },
     ],
 
-    works: [slide46, slide47, slide48, slide49, slide50, slide51],
+    works: [{ image: slide46, description: "«Turkeys», 1972" },
+    { image: slide47, description: "Untitled photo" },
+    { image: slide48, description: "This is me, Lord" },
+     { image: slide49, description: "Untitled photo" },
+     { image: slide50, description: "This is me, Lord" },
+     { image: slide51, description: "Spiders" }],
     listOfWorks: [
       {
         year: '1971-1975',

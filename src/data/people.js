@@ -145,7 +145,12 @@ export default [
         description: 'Умер от инсульта в г.Минске.',
       },
     ],
-    works: [slide1, slide2, slide3, slide4, slide5, slide6],
+    works: [{ image: slide1, description: 'Работа выставки «Under Ground», 2011.  М.В.Анемподистов объяснил, что белорусы также, как и овощи, прячут самое интересное внутри. Снаружи выглядят обычно, как картошка, измазанная в земле, а внутри под кожурой — «золотое солнце». ' },
+      { image: slide2, description: 'Работа выставки «Under Ground», 2011' },
+      { image: slide3, description: 'Работа выставки «Under Ground», 2011' },
+      { image: slide4, description: 'Работа выставки «Under Ground», 2011' },
+      { image: slide5, description: 'Работа выставки «Under Ground», 2011' },
+      { image: slide6, description: 'Работа выставки «Under Ground», 2011' }],
     listOfWorks: [
       {
         year: '2011',
@@ -205,7 +210,12 @@ export default [
           'Главный редактор, дизайнер и фотокорреспондент газеты «Витебский курьер». Главный редактор специального номера газеты, посвященного Первым Шагаловского дням в Витебске (1991). В середине 80-х возглавлял витебский фотоклуб «Витьба». Центральное место в творчестве занимает репортажная, публицистическая, жанровая фотография. Среди основных работ: серии «Думай, парень!» (1982-2005), «Праздник в православной церкви» (1988), «Армения. Декабрь. 1988 »,«Пионерский лагерь» (1989),«Приметы»(1989),«Чернобыльский натюрморт»(1996),«Париж! Париж! Я не хочу домой!»(2001-2007). На сегодняшний день проживает во Франции.',
       },
     ],
-    works: [slide7, slide8, slide9, slide10, slide11, slide12],
+    works: [{ image: slide7, description: 'Прогулка' },
+      { image: slide8, description: 'Витебск.Вечер' },
+      { image: slide9, description: 'Сад Тюильри' },
+      { image: slide10, description: 'Монахи' },
+      { image: slide11, description: 'Париж: Avenue du Père Lachaise' },
+      { image: slide12, description: 'Вечер' }],
     listOfWorks: [
       {
         year: '1982-2005',
@@ -297,7 +307,12 @@ export default [
         description: 'Реабилитирован.',
       },
     ],
-    works: [slide34, slide35, slide36, slide37, slide38, slide39],
+    works: [{ image: slide34, description: 'На улице Вилейки' },
+      { image: slide35, description: 'Паводок на улице Пилсудского . 1930 г.' },
+      { image: slide36, description: 'Синагога' },
+      { image: slide37, description: 'Улица Пилсудского, 1930 гг.' },
+      { image: slide38, description: 'Часовня, 1930' },
+      { image: slide39, description: 'Фото из архива краеведческого музея' }],
     listOfWorks: [
       {
         year: '1910—1912 ',
@@ -375,7 +390,12 @@ export default [
           'Ректор Белорусской государственной академии искусств. Кандидат искусствоведения, профессор кафедры истории и теории искусств, доцент. Почётный член Российской академии художеств.',
       },
     ],
-    works: [slide13, slide14, slide15, slide16, slide17, slide18],
+    works: [{ image: slide13, description: 'Деревня' },
+      { image: slide14, description: 'Тихая обитель' },
+      { image: slide15, description: 'Детство' },
+      { image: slide16, description: 'Тишина' },
+      { image: slide17, description: 'Разруха' },
+      { image: slide18, description: 'Над вечным покоем' }],
     listOfWorks: [
       {
         year: '1997',
@@ -487,7 +507,13 @@ export default [
       },
     ],
 
-    works: [slide40, slide41, slide42, slide43, slide44, slide45],
+    works: [{ image: slide40, description: 'Усадьба рода Булгаков в Добосне. Нач. ХХ века.' },
+      { image: slide41, description: 'Рыбацкие лодки на озере Нарочь. Нач. ХХ века.' },
+      { image: slide42, description: 'Зимнее утро. Нач. ХХ века.' },
+      { image: slide43, description: 'Костел в Ишкольди. Нач. ХХ века.' },
+      { image: slide44, description: 'Гродно. Нач. ХХ века.' },
+      { image: slide45, description: 'Дорога в окрестностях Порохонска. Нач. ХХ века.' },
+    ],
     listOfWorks: [
       {
         year: '1931',
@@ -574,7 +600,12 @@ export default [
         description: 'Умер в городе Минске',
       },
     ],
-    works: [slide19, slide20, slide21, slide22, slide23, slide24],
+    works: [{ image: slide19, description: 'Фоторабота выставки «Свет и тень» ' },
+      { image: slide20, description: 'Фоторабота выставки «Свет и тень» ' },
+      { image: slide21, description: 'Фоторабота выставки «Свет и тень» ' },
+      { image: slide22, description: 'Фоторабота выставки «Свет и тень» ' },
+      { image: slide23, description: 'Фоторабота выставки «Свет и тень» ' },
+      { image: slide24, description: 'Фоторабота выставки «Свет и тень» ' }],
     listOfWorks: [
       {
         year: '1924',
@@ -659,17 +690,15 @@ export default [
           'В 2000 г. издаёт фотоальбом «Добрый день, Беларусь». В 2001-2006 принимает участие в фотографических и художественных выставках. С 2004 - член Союза Белорусского государственного объединения «Фотоискусство».',
       },
     ],
-    works: [
-      slide25,
-      slide26,
-      slide27,
-      slide28,
-      slide29,
-      slide30,
-      slide31,
-      slide32,
-      slide33,
-    ],
+    works: [{ image: slide25, description: 'Национальная библиотека Беларуси' },
+      { image: slide26, description: 'Минск. Красный костёл' },
+      { image: slide27, description: 'В двух измерениях' },
+      { image: slide28, description: 'Минск. Площадь Независимости' },
+      { image: slide29, description: 'Национальная библиотека Беларуси' },
+      { image: slide30, description: 'Минск. Маленькая церквушка' },
+      { image: slide31, description: 'Минск.Оперный театр' },
+      { image: slide32, description: 'Немига. Свислочь' },
+      { image: slide33, description: 'Вокзальная площадь' }],
     listOfWorks: [
       {
         year: '2000',
@@ -733,7 +762,12 @@ export default [
       },
     ],
 
-    works: [slide46, slide47, slide48, slide49, slide50, slide51],
+    works: [{ image: slide46, description: '«Индюки», 1972' },
+      { image: slide47, description: 'Фотография без названия' },
+      { image: slide48, description: '«Это я, господи»' },
+      { image: slide49, description: 'Григорий Бородулин' },
+      { image: slide50, description: '«Это я, господи»' },
+      { image: slide51, description: 'Пауки' }],
     listOfWorks: [
       {
         year: '1971-1975',

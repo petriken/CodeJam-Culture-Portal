@@ -144,7 +144,12 @@ export default [
         description: 'Памёр ад інсульту ў г.Мінску.',
       },
     ],
-    works: [slide1, slide2, slide3, slide4, slide5, slide6],
+    works: [{ image: slide1, description: 'Праца выставы «Under Ground», 2011. М.В.Анемпадыстаў патлумачыў, што беларусы таксама, як і гародніна, хаваюць самае цікавае ўнутры. Звонку выглядаюць звычайна, як бульбачка, размаляваная ў зямлі, а ўнутры пад лупінай - «залатое сонца».' },
+      { image: slide2, description: 'Праца выставы «Under Ground», 2011' },
+      { image: slide3, description: 'Праца выставы «Under Ground», 2011' },
+      { image: slide4, description: 'Праца выставы «Under Ground», 2011' },
+      { image: slide5, description: 'Праца выставы «Under Ground», 2011' },
+      { image: slide6, description: 'Праца выставы «Under Ground», 2011' }],
     listOfWorks: [
       {
         year: '2011',
@@ -204,7 +209,12 @@ export default [
           'Галоўны рэдактар, дызайнер і фотакарэспандэнт газеты «Віцебскі кур"eр». Галоўны рэдактар ​​спецыяльнага нумара газеты, прысвечанага Першым Шагалаўскага днях у Віцебску (1991). У сярэдзіне 80-х узначальваў віцебскі фотаклуб «Віцьба». Цэнтральнае месца ў творчасці займае рэпартажная, публіцыстычная, жанравая фатаграфія. Сярод асноўных работ: серыі «Думай, хлопец!» (1982-2005), «Свята ў праваслаўнай царкве» (1988), «Арменія. Снежань. 1988 »,« Піянерскі лагер »(1989),« Прыкметы »(1989),« Чарнобыльскі нацюрморт »(1996),« Парыж! Парыж! Я не хачу дадому! »(2001-2007). На сённяшні дзень пражывае ў Францыі.',
       },
     ],
-    works: [slide7, slide8, slide9, slide10, slide11, slide12],
+    works: [{ image: slide7, description: 'Шпацыр' },
+      { image: slide8, description: 'Віцебск.Вечар' },
+      { image: slide9, description: 'Сад Цюільры' },
+      { image: slide10, description: 'Манахі' },
+      { image: slide11, description: 'Парыж: Avenue du Père Lachaise ' },
+      { image: slide12, description: 'Вечар' }],
     listOfWorks: [
       {
         year: '1982-2005',
@@ -296,7 +306,12 @@ export default [
         description: 'Рэабілітаваны.',
       },
     ],
-    works: [slide34, slide35, slide36, slide37, slide38, slide39],
+    works: [{ image: slide34, description: 'На вуліцы Вілейкі' },
+      { image: slide35, description: 'Паводка на вуліцы Пілсудскага. 1930 г.' },
+      { image: slide36, description: 'Сінагога' },
+      { image: slide37, description: 'Вуліца Пілсудскага, 1930 гг.' },
+      { image: slide38, description: 'Каплічка, 1930-я гг.' },
+      { image: slide39, description: 'Фота з архіва краязнаўчага музея' }],
     listOfWorks: [
       {
         year: '1910—1912 ',
@@ -374,7 +389,12 @@ export default [
           'Рэктар Беларускай дзяржаўнай акадэміі мастацтваў. Кандыдат мастацтвазнаўства, прафесар кафедры гісторыі і тэорыі мастацтваў, дацэнт. Ганаровы член Расійскай акадэміі мастацтваў.',
       },
     ],
-    works: [slide13, slide14, slide15, slide16, slide17, slide18],
+    works: [{ image: slide13, description: 'Вёска' },
+      { image: slide14, description: 'Ціхая мясціна' },
+      { image: slide15, description: 'Дзяцінства' },
+      { image: slide16, description: 'Цішыня' },
+      { image: slide17, description: 'Разруха' },
+      { image: slide18, description: 'Над вечным спакоем' }],
     listOfWorks: [
       {
         year: '1997',
@@ -480,7 +500,12 @@ export default [
       },
     ],
 
-    works: [slide40, slide41, slide42, slide43, slide44, slide45],
+    works: [{ image: slide40, description: 'Сядзіба роду Булгакаў у Дабосне. Пач. ХХ стагоддзя.' },
+      { image: slide41, description: 'Рыбацкія лодкі на возеры Нарач. Пач. ХХ стагоддзя.' },
+      { image: slide42, description: 'Зімовая раніца. Пач. ХХ стагоддзя.' },
+      { image: slide43, description: 'Касцёл у Ішкалдзі. Пач. ХХ стагоддзя.' },
+      { image: slide44, description: 'Гродна. Пач. ХХ стагоддзя.' },
+      { image: slide45, description: 'Дарога ў ваколіцах Порохонска. Пач. ХХ стагоддзя.' }],
     listOfWorks: [
       {
         year: '1931',
@@ -566,7 +591,12 @@ export default [
         description: 'Памёр у горадзе Мінску',
       },
     ],
-    works: [slide19, slide20, slide21, slide22, slide23, slide24],
+    works: [{ image: slide19, description: 'Фотапраца з выставы «Святло і цень»' },
+      { image: slide20, description: 'Фотапраца з выставы «Святло і цень»' },
+      { image: slide21, description: 'Фотапраца з выставы «Святло і цень»' },
+      { image: slide22, description: 'Фотапраца з выставы «Святло і цень»' },
+      { image: slide23, description: 'Фотапраца з выставы «Святло і цень»' },
+      { image: slide24, description: 'Фотапраца з выставы «Святло і цень»' }],
     listOfWorks: [
       {
         year: '1924',
@@ -651,17 +681,15 @@ export default [
           'У 2000 г. выдае фотаальбом «Добры дзень, Беларусь». У 2001-2006 прымае ўдзел у фатаграфічных і мастацкіх выставах. З 2004 - член Саюза Беларускага дзяржаўнага аб"яднання "Фотамастацтва".',
       },
     ],
-    works: [
-      slide25,
-      slide26,
-      slide27,
-      slide28,
-      slide29,
-      slide30,
-      slide31,
-      slide32,
-      slide33,
-    ],
+    works: [{ image: slide25, description: 'Нацыянальная бібліятэка Беларусі' },
+      { image: slide26, description: 'Менск. чырвоны касцёл' },
+      { image: slide27, description: 'У двух вымярэннях' },
+      { image: slide28, description: 'Менск. Плошча Незалежнасці' },
+      { image: slide29, description: 'Нацыянальная бібліятэка Беларусі' },
+      { image: slide30, description: 'Менск. Маленькая цэркаўка' },
+      { image: slide31, description: 'Менск. Оперны тэатр' },
+      { image: slide32, description: 'Няміга. Свіслач' },
+      { image: slide33, description: 'Вакзальная плошча' }],
     listOfWorks: [
       {
         year: '2000',
@@ -725,7 +753,12 @@ export default [
       },
     ],
 
-    works: [slide46, slide47, slide48, slide49, slide50, slide51],
+    works: [{ image: slide46, description: '«Індыкі», 1972' },
+      { image: slide47, description: 'Фотаздымак без назвы' },
+      { image: slide48, description: '«Гэта я, божа»' },
+      { image: slide49, description: 'Рыгор Барадулін' },
+      { image: slide50, description: '«Гэта я, божа»' },
+      { image: slide51, description: 'Павукі' }],
     listOfWorks: [
       {
         year: '1971-1975',
