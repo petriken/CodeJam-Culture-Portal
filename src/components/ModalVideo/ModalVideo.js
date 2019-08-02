@@ -1,13 +1,13 @@
 import React from 'react';
 import './ModalVideo.css';
 import { FormattedMessage } from 'react-intl';
-import { Player } from 'video-react';
 import '../../../node_modules/video-react/dist/video-react.css';
 import PropTypes from 'prop-types';
 import Modal from '@material-ui/core/Modal';
 import { makeStyles } from '@material-ui/core/styles';
 
 import Button from '@material-ui/core/Button';
+import YouTube from 'react-youtube';
 
 function getModalStyle() {
   const top = 50;
@@ -23,7 +23,6 @@ function getModalStyle() {
 const useStyles = makeStyles(theme => ({
   paper: {
     position: 'absolute',
-    width: '85vw',
     backgroundColor: '#333',
     boxShadow: theme.shadows[5],
     padding: theme.spacing(1),
@@ -32,6 +31,17 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function ModalVideo(props) {
+  const { videoId } = props.data;
+
+  const videoOpts = {
+    height: window.innerWidth > 960 ? '585' : window.innerWidth / 1.641 - '50',
+    width: window.innerWidth > 960 ? '960' : window.innerWidth - '50',
+    playerVars: {
+      autoplay: 1,
+      start: props.data.startVideo ? props.data.startVideo : '0',
+    },
+  };
+
   const classes = useStyles();
   // getModalStyle is not a pure function, we roll the style only on the first render
   const [modalStyle] = React.useState(getModalStyle);
@@ -49,12 +59,7 @@ export default function ModalVideo(props) {
     <div id="ModalVideo" className="ModalVideo">
       <Modal open={open} onClose={handleClose}>
         <div className={classes.paper} style={modalStyle}>
-          <Player
-            playsInline
-            poster={props.data.videoSrc}
-            src={props.data.video}
-            autoPlay
-          />
+          <YouTube opts={videoOpts} videoId={videoId} />
         </div>
       </Modal>
       <Button
