@@ -91,4 +91,4 @@ CommonPageItems.propTypes = {
 
 
 const mapStateToProps = state => ({ term: state.term, city: state.city, lang: state.locales.lang });
-export default connect(mapStateToProps)(CommonPageItems);
+export default connect(state => ({ term: state.term, city: state.city, lang: state.locales.lang }), null)(CommonPageItems);

@@ -165,4 +165,4 @@ Header.propTypes = {
 };
 
 const mapStateToProps = state => ({ page: state.page });
-export default connect(mapStateToProps)(Header);
+export default connect(state => ({ page: state.page }), null)(Header);
