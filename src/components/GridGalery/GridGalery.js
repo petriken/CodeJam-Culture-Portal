@@ -14,10 +14,10 @@ class GridGallery extends React.Component {
       thumbnail: props.data.works[0].image,
       thumbnailWidth: 543,
       thumbnailHeight: 300,
-      caption: `${messages[this.props.lang].caption1}, ${props.data.name}`,
+      caption: `${props.data.works[0].description}, ${props.data.name}`,
       tags: [{
-        value: `${messages[this.props.lang].caption1}, ${props.data.name}`,
-        title: `${messages[this.props.lang].caption1}, ${props.data.name}`,
+        value: `${props.data.works[0].description}, ${props.data.name}`,
+        title: `${props.data.works[0].description}, ${props.data.name}`,
       }],
     },
     {
@@ -25,10 +25,10 @@ class GridGallery extends React.Component {
       thumbnail: props.data.works[1].image,
       thumbnailWidth: 662,
       thumbnailHeight: 300,
-      caption: `${messages[this.props.lang].caption2}, ${props.data.name}`,
+      caption: `${props.data.works[1].description}, ${props.data.name}`,
       tags: [{
-        value: `${messages[this.props.lang].caption2}, ${props.data.name}`,
-        title: `${messages[this.props.lang].caption2}, ${props.data.name}`,
+        value: `${props.data.works[1].description}, ${props.data.name}`,
+        title: `${props.data.works[1].description}, ${props.data.name}`,
       }],
     },
 
@@ -37,10 +37,10 @@ class GridGallery extends React.Component {
       thumbnail: props.data.works[2].image,
       thumbnailWidth: 640,
       thumbnailHeight: 300,
-      caption: `${messages[this.props.lang].caption3}, ${props.data.name}`,
+      caption: `${props.data.works[2].description}, ${props.data.name}`,
       tags: [{
-        value: `${messages[this.props.lang].caption3}, ${props.data.name}`,
-        title: `${messages[this.props.lang].caption3}, ${props.data.name}`,
+        value: `${props.data.works[2].description}, ${props.data.name}`,
+        title: `${props.data.works[2].description}, ${props.data.name}`,
       }],
     },
     {
@@ -48,10 +48,10 @@ class GridGallery extends React.Component {
       thumbnail: props.data.works[3].image,
       thumbnailWidth: 566,
       thumbnailHeight: 300,
-      caption: `${messages[this.props.lang].caption4}, ${props.data.name}`,
+      caption: `${props.data.works[3].description}, ${props.data.name}`,
       tags: [{
-        value: `${messages[this.props.lang].caption4}, ${props.data.name}`,
-        title: `${messages[this.props.lang].caption4}, ${props.data.name}`,
+        value: `${props.data.works[3].description}, ${props.data.name}`,
+        title: `${props.data.works[3].description}, ${props.data.name}`,
       }],
     },
     {
@@ -59,10 +59,10 @@ class GridGallery extends React.Component {
       thumbnail: props.data.works[4].image,
       thumbnailWidth: 564,
       thumbnailHeight: 300,
-      caption: `${messages[this.props.lang].caption5}, ${props.data.name}`,
+      caption: `${props.data.works[4].description}, ${props.data.name}`,
       tags: [{
-        value: `${messages[this.props.lang].caption5}, ${props.data.name}`,
-        title: `${messages[this.props.lang].caption5}, ${props.data.name}`,
+        value: `${props.data.works[4].description}, ${props.data.name}`,
+        title: `${props.data.works[4].description}, ${props.data.name}`,
       }],
     },
     {
@@ -70,10 +70,10 @@ class GridGallery extends React.Component {
       thumbnail: props.data.works[5].image,
       thumbnailWidth: 642,
       thumbnailHeight: 300,
-      caption: `${messages[this.props.lang].caption6}, ${props.data.name}`,
+      caption: `${props.data.works[5].description}, ${props.data.name}`,
       tags: [{
-        value: `${messages[this.props.lang].caption6}, ${props.data.name}`,
-        title: `${messages[this.props.lang].caption6}, ${props.data.name}`,
+        value: `${props.data.works[5].description}, ${props.data.name}`,
+        title: `${props.data.works[5].description}, ${props.data.name}`,
       }],
     }];
   }
