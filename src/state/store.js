@@ -11,7 +11,7 @@ const initialState = {
   page: typeof localStorage !== 'undefined' && localStorage.getItem('page') ? localStorage.getItem('page') : '/ru',
 };
 
-function appState(state = initialState, action) {
+export default (state = initialState, action) => {
   switch (action.type) {
     case 'term':
       return Object.assign({}, state, {
@@ -34,6 +34,3 @@ function appState(state = initialState, action) {
   }
 }
 
-const store = createStore(appState);
-
-export default store;

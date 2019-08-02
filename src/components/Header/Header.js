@@ -8,7 +8,7 @@ import { navigate } from "gatsby";
 import Button from '@material-ui/core/Button';
 import Language from '@material-ui/icons/Language';
 import messages from '../../translations';
-import store from '../../store/store';
+import store from '../../state/store';
 
 class Header extends Component {
   constructor(props) {

@@ -10,7 +10,7 @@ import Description from '../Description/Description';
 import ru from '../../data/people';
 import en from '../../data/peopleEN';
 import be from '../../data/peopleBE';
-import store from '../../store/store';
+import store from '../../state/store';
 
 class CommonPageItems extends Component {
   constructor(props) {

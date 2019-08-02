@@ -3,7 +3,7 @@ import { FormattedMessage } from 'react-intl';
 import './SearchPanel.css';
 import Search from '@material-ui/icons/Search';
 import Button from '@material-ui/core/Button';
-import store from '../../store/store';
+import store from '../../state/store';
 
 export default class SearchPanel extends Component {
   constructor(props) {
@@ -59,9 +59,9 @@ export default class SearchPanel extends Component {
               value={this.state.city}
               onChange={e => this.onCityChange(e)} />
           </label>
-          <Button variant="contained" className="btn-search" type="button" onClick={() => this.onClickHandler()}><Search/>
+          <Button variant="contained" className="btn-search" type="button" onClick={() => this.onClickHandler()}><Search />
             <FormattedMessage id="searchButton" />
-      </Button>
+          </Button>
         </form>
       </div>
     );
