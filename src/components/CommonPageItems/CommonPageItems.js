@@ -10,7 +10,7 @@ import Description from '../Description/Description';
 import ru from '../../data/people';
 import en from '../../data/peopleEN';
 import be from '../../data/peopleBE';
-import store from '../../state/store';
+import store from '../../store/store';
 
 class CommonPageItems extends Component {
   constructor(props) {
@@ -91,4 +91,4 @@ CommonPageItems.propTypes = {
 
 
 const mapStateToProps = state => ({ term: state.term, city: state.city, lang: state.locales.lang });
-export default connect(state => ({ term: state.term, city: state.city, lang: state.locales.lang }), null)(CommonPageItems);
+export default connect(mapStateToProps)(CommonPageItems);

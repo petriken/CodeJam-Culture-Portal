@@ -8,7 +8,7 @@ import { navigate } from "gatsby";
 import Button from '@material-ui/core/Button';
 import Language from '@material-ui/icons/Language';
 import messages from '../../translations';
-import store from '../../state/store';
+import store from '../../store/store';
 
 class Header extends Component {
   constructor(props) {
@@ -165,4 +165,4 @@ Header.propTypes = {
 };
 
 const mapStateToProps = state => ({ page: state.page });
-export default connect(state => ({ page: state.store.page }), null)(Header);
+export default connect(mapStateToProps)(Header);

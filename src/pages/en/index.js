@@ -99,4 +99,4 @@ MainPage.propTypes = {
 };
 
 const mapStateToProps = state => ({ lang: state.locales.lang });
-export default connect(state => ({ lang: state.locales.lang }), null)(MainPage);
+export default connect(mapStateToProps)(MainPage);

@@ -3,7 +3,7 @@ import { FormattedMessage } from 'react-intl';
 import './SearchPanel.css';
 import Search from '@material-ui/icons/Search';
 import Button from '@material-ui/core/Button';
-import store from '../../state/store';
+import store from '../../store/store';
 
 export default class SearchPanel extends Component {
   constructor(props) {
