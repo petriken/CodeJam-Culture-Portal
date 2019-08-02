@@ -69,8 +69,10 @@ function MainPage(props) {
           <h2 className="title-author-day">
             <FormattedMessage id="todayAuthor" />
           </h2>
-          <Avatar data={profile} />
-          <Description data={profile} />
+          <div className="">
+            <Avatar data={profile} />
+            <Description data={profile} />
+          </div>
         </section>
         <section className="description-mainpage"
           id="project-info">
