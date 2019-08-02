@@ -385,12 +385,12 @@ export default [
           'He became the Rector of the Belarusian State Academy of Art as a candidate of art history, a professor at the Department of History and Theory of Arts, an associate professor. He is an honorary member of the Russian Academy of Arts.',
       },
     ],
-    works: [{ image: slide13, description: "atatat" },
-    { image: slide14, description: "atatat" },
-    { image: slide15, description: "atatat" },
-    { image: slide16, description: "atatat" },
-    { image: slide17, description: "atatat" },
-    { image: slide18, description: "atatat" }],
+    works: [{ image: slide13, description: "Village" },
+    { image: slide14, description: "Quiet abode" },
+    { image: slide15, description: "Childhood" },
+    { image: slide16, description: "Silence" },
+    { image: slide17, description: "Devastation" },
+    { image: slide18, description: "Over eternal peace" }],
     listOfWorks: [
       {
         year: '1997',
@@ -678,15 +678,15 @@ export default [
       },
     ],
     works: [
-      { image: slide25, description: "Untitled photo" },
-      { image: slide26, description: "Untitled photo" },
-      { image: slide27, description: "Untitled photo" },
-      { image: slide28, description: "Untitled photo" },
-      { image: slide29, description: "Untitled photo" },
-      { image: slide30, description: "Untitled photo" },
-      { image: slide31, description: "Untitled photo" },
-      { image: slide32, description: "Untitled photo" },
-      { image: slide33, description: "Untitled photo" },
+      { image: slide25, description: "National Library of Belarus" },
+      { image: slide26, description: "Minsk. Red church" },
+      { image: slide27, description: "In two dimensions" },
+      { image: slide28, description: "Minsk. Independence Square" },
+      { image: slide29, description: "National Library of Belarus" },
+      { image: slide30, description: "Minsk. Little Church" },
+      { image: slide31, description: "Minsk Opera theater" },
+      { image: slide32, description: "Nemiga. Swisloch" },
+      { image: slide33, description: "Station Square" },
     ],
     listOfWorks: [
       {
@@ -752,10 +752,10 @@ export default [
 
     works: [{ image: slide46, description: "«Turkeys», 1972" },
     { image: slide47, description: "Untitled photo" },
-    { image: slide48, description: "Untitled photo" },
+    { image: slide48, description: "This is me, Lord" },
      { image: slide49, description: "Untitled photo" },
-     { image: slide50, description: "Untitled photo" },
-     { image: slide51, description: "Untitled photo" }],
+     { image: slide50, description: "This is me, Lord" },
+     { image: slide51, description: "Spiders" }],
     listOfWorks: [
       {
         year: '1971-1975',

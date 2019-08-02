@@ -374,7 +374,12 @@ export default [
           'Рэктар Беларускай дзяржаўнай акадэміі мастацтваў. Кандыдат мастацтвазнаўства, прафесар кафедры гісторыі і тэорыі мастацтваў, дацэнт. Ганаровы член Расійскай акадэміі мастацтваў.',
       },
     ],
-    works: [{ image: slide13, description: "atata" }, { image: slide14, description: "atata" }, { image: slide15, description: "atata" }, { image: slide16, description: "atata" }, { image: slide17, description: "atata" }, { image: slide18, description: "atata" }],
+    works: [{ image: slide13, description: "Вёска" },
+    { image: slide14, description: "Ціхая мясціна" },
+    { image: slide15, description: "Дзяцінства" },
+    { image: slide16, description: "Цішыня" },
+    { image: slide17, description: "Разруха" },
+    { image: slide18, description: "Над вечным спакоем" }],
     listOfWorks: [
       {
         year: '1997',
@@ -638,15 +643,15 @@ export default [
         description: 'У 2000 г. выдае фотаальбом «Добры дзень, Беларусь». У 2001-2006 прымае ўдзел у фатаграфічных і мастацкіх выставах. З 2004 - член Саюза Беларускага дзяржаўнага аб"яднання "Фотамастацтва".',
       },
     ],
-    works: [{ image: slide25, description: "Фотаздымак без назвы" },
-    { image: slide26, description: "Фотаздымак без назвы" },
-    { image: slide27, description: "Фотаздымак без назвы" },
-    { image: slide28, description: "Фотаздымак без назвы" },
-    { image: slide29, description: "Фотаздымак без назвы" },
-    { image: slide30, description: "Фотаздымак без назвы" },
-    { image: slide31, description: "Фотаздымак без назвы" },
-    { image: slide32, description: "Фотаздымак без назвы" },
-    { image: slide33, description: "Фотаздымак без назвы" }],
+    works: [{ image: slide25, description: "Нацыянальная бібліятэка Беларусі" },
+    { image: slide26, description: "Менск. чырвоны касцёл" },
+    { image: slide27, description: "У двух вымярэннях" },
+    { image: slide28, description: "Менск. Плошча Незалежнасці" },
+    { image: slide29, description: "Нацыянальная бібліятэка Беларусі" },
+    { image: slide30, description: "Менск. Маленькая цэркаўка" },
+    { image: slide31, description: "Менск. Оперны тэатр" },
+    { image: slide32, description: "Няміга. Свіслач" },
+    { image: slide33, description: "Вакзальная плошча" }],
     listOfWorks: [
       {
         year: '2000',
@@ -710,10 +715,10 @@ export default [
 
     works: [{ image: slide46, description: "«Індыкі», 1972" },
      { image: slide47, description: "Фотаздымак без назвы" },
-     { image: slide48, description: "Фотаздымак без назвы" },
-      { image: slide49, description: "Фотаздымак без назвы" },
-      { image: slide50, description: "Фотаздымак без назвы" },
-      { image: slide51, description: "Фотаздымак без назвы" }],
+     { image: slide48, description: "«Гэта я, божа»" },
+      { image: slide49, description: "Рыгор Барадулін" },
+      { image: slide50, description: "«Гэта я, божа»" },
+      { image: slide51, description: "Павукі" }],
     listOfWorks: [
       {
         year: '1971-1975',

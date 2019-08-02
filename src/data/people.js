@@ -376,7 +376,12 @@ export default [
           'Ректор Белорусской государственной академии искусств. Кандидат искусствоведения, профессор кафедры истории и теории искусств, доцент. Почётный член Российской академии художеств.',
       },
     ],
-    works: [{ image: slide13, description: "atat"}  , { image: slide14, description: "atat"}  , { image: slide15, description: "atat"}  , { image: slide16, description: "atat"}  , { image: slide17, description: "atat"}  , { image: slide18, description: "atat"}],
+    works: [{ image: slide13, description: "Деревня"}  ,
+     { image: slide14, description: "Тихая обитель"}  ,
+     { image: slide15, description: "Детство"}  ,
+     { image: slide16, description: "Тишина"}  ,
+     { image: slide17, description: "Разруха"}  ,
+     { image: slide18, description: "Над вечным покоем"}],
     listOfWorks: [
       {
         year: '1997',
@@ -645,15 +650,15 @@ export default [
         description: 'В 2000 г. издаёт фотоальбом «Добрый день, Беларусь». В 2001-2006 принимает участие в фотографических и художественных выставках. С 2004 - член Союза Белорусского государственного объединения «Фотоискусство».',
       },
     ],
-    works: [{ image: slide25, description: "Фотография без названия"}  ,
-    { image: slide26, description: "Фотография без названия"}  ,
-    { image: slide27, description: "Фотография без названия"}  ,
-    { image: slide28, description: "Фотография без названия"}  ,
-     { image: slide29, description: "Фотография без названия"}  ,
-     { image: slide30, description: "Фотография без названия"}  ,
-      { image: slide31, description: "Фотография без названия"}  ,
-      { image: slide32, description: "Фотография без названия"}  ,
-       { image: slide33, description: "Фотография без названия"}],
+    works: [{ image: slide25, description: "Национальная библиотека Беларуси"}  ,
+    { image: slide26, description: "Минск. Красный костёл"}  ,
+    { image: slide27, description: "В двух измерениях"}  ,
+    { image: slide28, description: "Минск. Площадь Независимости"}  ,
+     { image: slide29, description: "Национальная библиотека Беларуси"}  ,
+     { image: slide30, description: "Минск. Маленькая церквушка"}  ,
+      { image: slide31, description: "Минск.Оперный театр"}  ,
+      { image: slide32, description: "Немига. Свислочь"}  ,
+       { image: slide33, description: "Вокзальная площадь"}],
     listOfWorks: [
       {
         year: '2000',
@@ -717,10 +722,10 @@ export default [
 
     works: [{ image: slide46, description: "«Индюки», 1972"}  ,
     { image: slide47, description: "Фотография без названия"}  ,
-    { image: slide48, description: "Фотография без названия"}  ,
-    { image: slide49, description: "Фотография без названия"}  ,
-    { image: slide50, description: "Фотография без названия"}  ,
-    { image: slide51, description: "Фотография без названия"}],
+    { image: slide48, description: "«Это я, господи»"}  ,
+    { image: slide49, description: "Григорий Бородулин"}  ,
+    { image: slide50, description: "«Это я, господи»"}  ,
+    { image: slide51, description: "Пауки"}],
     listOfWorks: [
       {
         year: '1971-1975',
