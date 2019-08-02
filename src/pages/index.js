@@ -85,7 +85,7 @@ function MainPage(props) {
             <FormattedMessage id="infoAboutPortal" />
           </h2>
           <FormattedHTMLMessage id="welcome" />
-          <GridGallery />
+          <GridGallery data={profile} />
         </section>
       </div>
       <div className="developers-container"

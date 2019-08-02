@@ -16,7 +16,7 @@ function TimeLine(props) {
           <TimelineItem
             key={index}
             dateText={item.date}
-            dateInnerStyle={{ background: '#009688', color: '#fff' }}
+            dateInnerStyle={{ background: '#e86971', color: '#fff' }}
           >
             <h3>{item.place}</h3>
             <p>{item.description}</p>
