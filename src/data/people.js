@@ -145,7 +145,12 @@ export default [
         description: 'Умер от инсульта в г.Минске.',
       },
     ],
-    works: [{ image: slide1, description: "atat"}  , { image: slide2, description: "atat"}  , { image: slide3, description: "atat"}  , { image: slide4, description: "atat"}  , { image: slide5, description: "atat"}  , { image: slide6, description: "atat"}],
+    works: [{ image: slide1, description: "Работа выставки «Under Ground», 2011.  М.В.Анемподистов объяснил, что белорусы также, как и овощи, прячут самое интересное внутри. Снаружи выглядят обычно, как картошка, измазанная в земле, а внутри под кожурой — «золотое солнце». "}  ,
+    { image: slide2, description: "Работа выставки «Under Ground», 2011"}  ,
+    { image: slide3, description: "Работа выставки «Under Ground», 2011"}  ,
+    { image: slide4, description: "Работа выставки «Under Ground», 2011"}  ,
+    { image: slide5, description: "Работа выставки «Under Ground», 2011" }  ,
+    { image: slide6, description: "Работа выставки «Under Ground», 2011"}],
     listOfWorks: [
       {
         year: '2011',
@@ -203,7 +208,12 @@ export default [
           'Главный редактор, дизайнер и фотокорреспондент газеты «Витебский курьер». Главный редактор специального номера газеты, посвященного Первым Шагаловского дням в Витебске (1991). В середине 80-х возглавлял витебский фотоклуб «Витьба». Центральное место в творчестве занимает репортажная, публицистическая, жанровая фотография. Среди основных работ: серии «Думай, парень!» (1982-2005), «Праздник в православной церкви» (1988), «Армения. Декабрь. 1988 »,«Пионерский лагерь» (1989),«Приметы»(1989),«Чернобыльский натюрморт»(1996),«Париж! Париж! Я не хочу домой!»(2001-2007). На сегодняшний день проживает во Франции.',
       },
     ],
-    works: [{ image: slide7, description: "atat"}  , { image: slide8, description: "atat"}  , { image: slide9, description: "atat"}  , { image: slide10, description: "atat"}  , { image: slide11, description: "atat"}  , { image: slide12, description: "atat"}],
+    works: [{ image: slide7, description: "Прогулка"}  ,
+    { image: slide8, description: "Витебск.Вечер"}  ,
+    { image: slide9, description: "Сад Тюильри"}  ,
+    { image: slide10, description: "Монахи"}  ,
+    { image: slide11, description: "Париж: Avenue du Père Lachaise"}  ,
+     { image: slide12, description: "Вечер"}],
     listOfWorks: [
       {
         year: '1982-2005',
@@ -287,7 +297,12 @@ export default [
         description: 'Реабилитирован.',
       },
     ],
-    works: [{ image: slide34, description: "atat"}  , { image: slide35, description: "atat"}  , { image: slide36, description: "atat"}  , { image: slide37, description: "atat"}  , { image: slide38, description: "atat"}  , { image: slide39, description: "atat"}],
+    works: [{ image: slide34, description: "На улице Вилейки"}  ,
+    { image: slide35, description: "Паводок на улице Пилсудского . 1930 г."}  ,
+     { image: slide36, description: "Синагога"}  ,
+     { image: slide37, description: "Улица Пилсудского, 1930 гг."}  ,
+     { image: slide38, description: "Часовня, 1930"}  ,
+     { image: slide39, description: "Фото из архива краеведческого музея"}],
     listOfWorks: [
       {
         year: '1910—1912 ',
@@ -460,8 +475,14 @@ export default [
       },
     ],
 
-    works: [{ image: slide40, description: "atat"}  , { image: slide41, description: "atat"}  , { image: slide42, description: "atat"}  , { image: slide43, description: "atat"}  , { image: slide44, description: "atat"}  , { image: slide45, description: "atat"}],
-    listOfWorks: [
+    works: [{ image: slide40, description: "Усадьба рода Булгаков в Добосне. Нач. ХХ века."}  ,
+    { image: slide41, description: "Рыбацкие лодки на озере Нарочь. Нач. ХХ века."}  ,
+    { image: slide42, description: "Зимнее утро. Нач. ХХ века."}  ,
+    { image: slide43, description: "Костел в Ишкольди. Нач. ХХ века."}  ,
+    { image: slide44, description: "Гродно. Нач. ХХ века."}  ,
+    { image: slide45, description: "Дорога в окрестностях Порохонска. Нач. ХХ века."}
+    ],
+     listOfWorks: [
       {
         year: '1931',
         work: 'Выпустил серию альбомов „Wędrówki fotografa“',

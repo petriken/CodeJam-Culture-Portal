@@ -143,7 +143,12 @@ export default [
         description: 'Памёр ад інсульту ў г.Мінску.',
       },
     ],
-    works: [{ image: slide1, description: "atata" }, { image: slide2, description: "atata" }, { image: slide3, description: "atata" }, { image: slide4, description: "atata" }, { image: slide5, description: "atata" }, { image: slide6, description: "atata" }],
+    works: [{ image: slide1, description: "Праца выставы «Under Ground», 2011. М.В.Анемпадыстаў патлумачыў, што беларусы таксама, як і гародніна, хаваюць самае цікавае ўнутры. Звонку выглядаюць звычайна, як бульбачка, размаляваная ў зямлі, а ўнутры пад лупінай - «залатое сонца»." },
+    { image: slide2, description: "Праца выставы «Under Ground», 2011" },
+    { image: slide3, description: "Праца выставы «Under Ground», 2011" },
+    { image: slide4, description: "Праца выставы «Under Ground», 2011" },
+    { image: slide5, description: "Праца выставы «Under Ground», 2011" },
+    { image: slide6, description: "Праца выставы «Under Ground», 2011" }],
     listOfWorks: [
       {
         year: '2011',
@@ -201,7 +206,12 @@ export default [
           'Галоўны рэдактар, дызайнер і фотакарэспандэнт газеты «Віцебскі кур"eр». Галоўны рэдактар ​​спецыяльнага нумара газеты, прысвечанага Першым Шагалаўскага днях у Віцебску (1991). У сярэдзіне 80-х узначальваў віцебскі фотаклуб «Віцьба». Цэнтральнае месца ў творчасці займае рэпартажная, публіцыстычная, жанравая фатаграфія. Сярод асноўных работ: серыі «Думай, хлопец!» (1982-2005), «Свята ў праваслаўнай царкве» (1988), «Арменія. Снежань. 1988 »,« Піянерскі лагер »(1989),« Прыкметы »(1989),« Чарнобыльскі нацюрморт »(1996),« Парыж! Парыж! Я не хачу дадому! »(2001-2007). На сённяшні дзень пражывае ў Францыі.',
       },
     ],
-    works: [{ image: slide7, description: "atata" }, { image: slide8, description: "atata" }, { image: slide9, description: "atata" }, { image: slide10, description: "atata" }, { image: slide11, description: "atata" }, { image: slide12, description: "atata" }],
+    works: [{ image: slide7, description: "Шпацыр" },
+    { image: slide8, description: "Віцебск.Вечар" },
+    { image: slide9, description: "Сад Цюільры" },
+    { image: slide10, description: "Манахі" },
+     { image: slide11, description: "Парыж: Avenue du Père Lachaise " },
+     { image: slide12, description: "Вечар" }],
     listOfWorks: [
       {
         year: '1982-2005',
@@ -285,7 +295,12 @@ export default [
         description: 'Рэабілітаваны.',
       },
     ],
-    works: [{ image: slide34, description: "atata" }, { image: slide35, description: "atata" }, { image: slide36, description: "atata" }, { image: slide37, description: "atata" }, { image: slide38, description: "atata" }, { image: slide39, description: "atata" }],
+    works: [{ image: slide34, description: "На вуліцы Вілейкі" },
+    { image: slide35, description: "Паводка на вуліцы Пілсудскага. 1930 г." },
+    { image: slide36, description: "Сінагога" },
+    { image: slide37, description: "Вуліца Пілсудскага, 1930 гг." },
+     { image: slide38, description: "Каплічка, 1930-я гг." },
+     { image: slide39, description: "Фота з архіва краязнаўчага музея" }],
     listOfWorks: [
       {
         year: '1910—1912 ',
@@ -454,7 +469,12 @@ export default [
       },
     ],
 
-    works: [{ image: slide40, description: "atata" }, { image: slide41, description: "atata" }, { image: slide42, description: "atata" }, { image: slide43, description: "atata" }, { image: slide44, description: "atata" }, { image: slide45, description: "atata" }],
+    works: [{ image: slide40, description: "Сядзіба роду Булгакаў у Дабосне. Пач. ХХ стагоддзя." },
+    { image: slide41, description: "Рыбацкія лодкі на возеры Нарач. Пач. ХХ стагоддзя." },
+     { image: slide42, description: "Зімовая раніца. Пач. ХХ стагоддзя." },
+     { image: slide43, description: "Касцёл у Ішкалдзі. Пач. ХХ стагоддзя." },
+     { image: slide44, description: "Гродна. Пач. ХХ стагоддзя." },
+     { image: slide45, description: "Дарога ў ваколіцах Порохонска. Пач. ХХ стагоддзя." }],
     listOfWorks: [
       {
         year: '1931',
