@@ -73,38 +73,41 @@ function MainPage(props) {
           </h2>
           <Grid className="avatar-description">
             <Avatar data={profile} />
-            <Description data={profile} />
-          </Grid>
-          <Grid
-            container
-            direction="row"
-            justify="center"
-            alignItems="center"
-          >
-            <Button variant="contained" className="author-day__btn">
-              <FormattedMessage id="toAuthorPage">
-                {text => (
-                  <Link
-                    to={`/${props.lang}/personalpage/person${authorDay}`}
-                    className="author-day__btn-text"
-                    id={authorDay}
-                    onClick={(e) => {
-                      store.dispatch({
-                        type: 'page',
-                        value: `/${props.lang}/personalpage/person${authorDay}`,
-                      });
-                      localStorage.setItem(
-                        'page',
-                        `/${props.lang}/personalpage/person${authorDay}`,
-                      );
-                      props.onButtonClick(e);
-                    }}
-                  >
-                    {text}
-                  </Link>
-                )}
-              </FormattedMessage>
-            </Button>
+            <Grid>
+              <Description data={profile} />
+              <Grid
+                container
+                direction="row"
+                justify="start"
+                alignItems="center"
+                className="author-day-button"
+              >
+                <Button variant="contained" className="author-day__btn">
+                  <FormattedMessage id="toAuthorPage">
+                    {text => (
+                      <Link
+                        to={`/${props.lang}/personalpage/person${authorDay}`}
+                        className="author-day__btn-text"
+                        id={authorDay}
+                        onClick={(e) => {
+                          store.dispatch({
+                            type: 'page',
+                            value: `/${props.lang}/personalpage/person${authorDay}`,
+                          });
+                          localStorage.setItem(
+                            'page',
+                            `/${props.lang}/personalpage/person${authorDay}`,
+                          );
+                          props.onButtonClick(e);
+                        }}
+                      >
+                        {text}
+                      </Link>
+                    )}
+                  </FormattedMessage>
+                </Button>
+              </Grid>
+            </Grid>
           </Grid>
         </section>
         <section className="description-mainpage" id="project-info">
