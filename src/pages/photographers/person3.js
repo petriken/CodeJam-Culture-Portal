@@ -25,11 +25,13 @@ class PersonalPage extends Component {
   /* eslint-disable camelcase */
   componentWillMount() {
     const data = people[this.props.lang];
-    data.forEach(item => {
-      if (item.id === this.props.person) {
-        this.setState({ profile: item });
-      }
-    });
+    setTimeout(() => {
+      data.forEach(item => {
+        if (item.id === this.props.person) {
+          this.setState({ profile: item });
+        }
+      });
+    }, 200);
   }
 
   componentWillUnmount() {
