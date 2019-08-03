@@ -69,7 +69,7 @@ function MainPage(props) {
           <h2 className="title-author-day">
             <FormattedMessage id="todayAuthor" />
           </h2>
-          <Grid className="">
+          <Grid className="avatar-description">
             <Avatar data={profile} />
             <Description data={profile} />
           </Grid>
