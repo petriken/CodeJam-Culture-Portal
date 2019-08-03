@@ -4,16 +4,24 @@
 }
 
 .developer-container img {
-  height: 220px;
-  width: 220px;
+  width: 195px;
   border: 1px solid #ccc;
   border-radius: 4px;
   margin: 20px;
   transition: .5s;
+  justify-content: space-between;
+}
+
+.developer-container:first-child img {
+  margin-left: 0;
+}
+
+.developer-container:last-child img {
+  margin-right: 0;
 }
 
 .developer-container img:hover {
-  transform: scale(1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
   transition: .5s;
 }
 
