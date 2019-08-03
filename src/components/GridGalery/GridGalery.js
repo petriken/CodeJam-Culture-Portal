@@ -2,77 +2,85 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Gallery from 'react-grid-gallery';
 import { connect } from 'react-redux';
+import messages from '../../translations';
 import './GridGalery.css';
+
+import Slide1 from '../../img/person_2/portfolio/work6.jpg';
+import Slide2 from '../../img/person_3/portfolio/work1.jpg';
+import Slide3 from '../../img/person_5/portfolio/work6.jpg';
+import Slide4 from '../../img/person_8/portfolio/work6.jpg';
+import Slide5 from '../../img/person_2/portfolio/work5.jpg';
+import Slide6 from '../../img/person_5/portfolio/work8.jpg';
 
 class GridGallery extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
     this.IMAGES = [{
-      src: props.data.works[0].image,
-      thumbnail: props.data.works[0].image,
-      thumbnailWidth: 543,
+      src: Slide1,
+      thumbnail: Slide1,
+      thumbnailWidth: 603,
       thumbnailHeight: 300,
-      caption: `${props.data.works[0].description}, ${props.data.name}`,
+      caption: `${messages[this.props.lang].caption1}, ${messages[this.props.lang].name2}`,
       tags: [{
-        value: `${props.data.works[0].description}, ${props.data.name}`,
-        title: `${props.data.works[0].description}, ${props.data.name}`,
+        value: `${messages[this.props.lang].caption1}, ${messages[this.props.lang].name2}`,
+        title: `${messages[this.props.lang].caption1}, ${messages[this.props.lang].name2}`,
       }],
     },
     {
-      src: props.data.works[1].image,
-      thumbnail: props.data.works[1].image,
-      thumbnailWidth: 662,
+      src: Slide2,
+      thumbnail: Slide2,
+      thumbnailWidth: 603,
       thumbnailHeight: 300,
-      caption: `${props.data.works[1].description}, ${props.data.name}`,
+      caption: `${messages[this.props.lang].caption2}, ${messages[this.props.lang].name4}`,
       tags: [{
-        value: `${props.data.works[1].description}, ${props.data.name}`,
-        title: `${props.data.works[1].description}, ${props.data.name}`,
+        value: `${messages[this.props.lang].caption2}, ${messages[this.props.lang].name4}`,
+        title: `${messages[this.props.lang].caption2}, ${messages[this.props.lang].name4}`,
       }],
     },
 
     {
-      src: props.data.works[2].image,
-      thumbnail: props.data.works[2].image,
-      thumbnailWidth: 640,
+      src: Slide3,
+      thumbnail: Slide3,
+      thumbnailWidth: 542,
       thumbnailHeight: 300,
-      caption: `${props.data.works[2].description}, ${props.data.name}`,
+      caption: `${messages[this.props.lang].caption3}, ${messages[this.props.lang].name6}`,
       tags: [{
-        value: `${props.data.works[2].description}, ${props.data.name}`,
-        title: `${props.data.works[2].description}, ${props.data.name}`,
+        value: `${messages[this.props.lang].caption3}, ${messages[this.props.lang].name6}`,
+        title: `${messages[this.props.lang].caption3}, ${messages[this.props.lang].name6}`,
       }],
     },
     {
-      src: props.data.works[3].image,
-      thumbnail: props.data.works[3].image,
-      thumbnailWidth: 566,
+      src: Slide4,
+      thumbnail: Slide4,
+      thumbnailWidth: 664,
       thumbnailHeight: 300,
-      caption: `${props.data.works[3].description}, ${props.data.name}`,
+      caption: `${messages[this.props.lang].caption4}, ${messages[this.props.lang].name8}`,
       tags: [{
-        value: `${props.data.works[3].description}, ${props.data.name}`,
-        title: `${props.data.works[3].description}, ${props.data.name}`,
+        value: `${messages[this.props.lang].caption4}, ${messages[this.props.lang].name8}`,
+        title: `${messages[this.props.lang].caption4}, ${messages[this.props.lang].name8}`,
       }],
     },
     {
-      src: props.data.works[4].image,
-      thumbnail: props.data.works[4].image,
-      thumbnailWidth: 564,
+      src: Slide5,
+      thumbnail: Slide5,
+      thumbnailWidth: 671,
       thumbnailHeight: 300,
-      caption: `${props.data.works[4].description}, ${props.data.name}`,
+      caption: `${messages[this.props.lang].caption5}, ${messages[this.props.lang].name2}`,
       tags: [{
-        value: `${props.data.works[4].description}, ${props.data.name}`,
-        title: `${props.data.works[4].description}, ${props.data.name}`,
+        value: `${messages[this.props.lang].caption5}, ${messages[this.props.lang].name2}`,
+        title: `${messages[this.props.lang].caption5}, ${messages[this.props.lang].name2}`,
       }],
     },
     {
-      src: props.data.works[5].image,
-      thumbnail: props.data.works[5].image,
-      thumbnailWidth: 642,
+      src: Slide6,
+      thumbnail: Slide6,
+      thumbnailWidth: 535,
       thumbnailHeight: 300,
-      caption: `${props.data.works[5].description}, ${props.data.name}`,
+      caption: `${messages[this.props.lang].caption6}, ${messages[this.props.lang].name6}`,
       tags: [{
-        value: `${props.data.works[5].description}, ${props.data.name}`,
-        title: `${props.data.works[5].description}, ${props.data.name}`,
+        value: `${messages[this.props.lang].caption6}, ${messages[this.props.lang].name6}`,
+        title: `${messages[this.props.lang].caption6}, ${messages[this.props.lang].name6}`,
       }],
     }];
   }
@@ -82,7 +90,7 @@ class GridGallery extends React.Component {
       <Gallery
         images={this.IMAGES}
         rowHeight={300}
-        lightboxWidth={1220}
+        lightboxWidth={1206}
         backdropClosesModal={true}
       />
     );
@@ -91,7 +99,6 @@ class GridGallery extends React.Component {
 
 GridGallery.propTypes = {
   lang: PropTypes.string.isRequired,
-  data: PropTypes.object.isRequired,
 };
 
 const mapStateToProps = state => ({ lang: state.locales.lang });

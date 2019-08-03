@@ -65,8 +65,10 @@
 }
 
 .author-day {
+  box-sizing: border-box;
   padding-top: 9vh;
-  min-height: 100vh;
+  min-height: calc(100vh - 60px);
+  width: 100%;
   max-width: 1206px;
   margin: auto;
 }
@@ -92,7 +94,9 @@
 }
 
 .main-page .avatar-container {
-  margin: 40px 0 0 13%;
+  margin: 40px 0;
+  width: 400px;
+  height: 400px;
 }
 
 .main-page .description h1 {
@@ -145,12 +149,13 @@
 }
 
 .developers-container {
+  box-sizing: border-box;
   margin: auto;
+  width: 100%;
   max-width: 1206px;
-  padding-top: 5vh;
+  min-height: calc(100vh - 160px);
+  padding-top: 7vh;
   position: relative;
-  border: 1px solid transparent;
-  min-height: calc(100vh - 136px);
 }
 
 .developers-container span {
@@ -165,15 +170,14 @@
 .developers-container h2 span {
   text-align: center;
   font-size: 44px;
-  margin: 40px auto;
+  margin: 30px auto;
 }
 
 .developers {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 80px;
-  margin: 80px auto;
+  margin: 60px auto 30px;
 }
 
 @media (max-width: 1100px) {
@@ -209,7 +213,7 @@
   }
 
   .description-mainpage {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .description-mainpage span {

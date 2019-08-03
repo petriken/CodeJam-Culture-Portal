@@ -18,8 +18,8 @@ export default function SearchSlider() {
     arrows: false,
     autoplay: true,
     fade: true,
-    speed: 7000,
-    autoplaySpeed: 7000,
+    speed: 1000,
+    autoplaySpeed: 8000,
     pauseOnHover: false,
   };
 
