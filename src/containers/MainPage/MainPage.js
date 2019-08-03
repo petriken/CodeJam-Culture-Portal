@@ -32,12 +32,14 @@ function MainPage(props) {
     data = be;
   }
 
+  let authorDay;
+
   function getProfileRand() {
     const profileRand = Math.random() * 8;
+    authorDay = Math.floor(profileRand);
     return Math.floor(profileRand);
   }
   const profile = data[getProfileRand()];
-  console.log(profile);
 
   return (
     <Grid>
@@ -83,17 +85,17 @@ function MainPage(props) {
               <FormattedMessage id="toAuthorPage">
                 {text => (
                   <Link
-                    to={`/${props.lang}/personalpage/person${profile.id}`}
+                    to={`/${props.lang}/personalpage/person${authorDay}`}
                     className="author-day__btn-text"
-                    id={profile.id}
+                    id={authorDay}
                     onClick={(e) => {
                       store.dispatch({
                         type: 'page',
-                        value: `/${props.lang}/personalpage/person${profile.id}`,
+                        value: `/${props.lang}/personalpage/person${authorDay}`,
                       });
                       localStorage.setItem(
                         'page',
-                        `/${props.lang}/personalpage/person${profile.id}`,
+                        `/${props.lang}/personalpage/person${authorDay}`,
                       );
                       props.onButtonClick(e);
                     }}
