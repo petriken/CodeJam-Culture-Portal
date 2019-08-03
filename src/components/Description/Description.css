@@ -1,7 +1,7 @@
 .description {
   max-width: 745px;
   margin: 20px 0 60px 0;
-  padding: 20px 0 20px 60px;
+  padding: 20px 0 0 60px;
 }
 
 .description h1 {
@@ -9,7 +9,7 @@
 }
 
 .description p {
-  margin: 15px;
+  margin: 15px 15px 15px 0;
 }
 
 .occupation {

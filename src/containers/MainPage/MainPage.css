@@ -64,7 +64,7 @@
 }
 
 .author-day{
-  padding-top: 1%;
+  padding-top: 6vh;
   min-height: 100vh;
 }
 
@@ -120,6 +120,11 @@
 
 .main-page .description {
   margin-top: 0px;
+  margin-bottom: -15px;
+}
+
+.author-day-button {
+  padding-left: 42px;
 }
 
 .description-mainpage {
