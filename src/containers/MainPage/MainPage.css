@@ -63,6 +63,11 @@
   min-height: 100vh;
 }
 
+.author-day{
+  padding-top: 1%;
+  min-height: 100vh;
+}
+
 .avatar-description {
   max-width: 100%;
   display: flex;
