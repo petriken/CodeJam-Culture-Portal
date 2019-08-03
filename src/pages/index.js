@@ -1,6 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { navigate } from "gatsby";
 import PropTypes from 'prop-types';
 import './MainPage.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -11,34 +10,16 @@ import Description from '../components/Description/Description';
 import Developer from '../components/Developer/Developer';
 import MainPageNavigation from '../components/MainPageNavigation/MainPageNavigation';
 import GridGallery from '../components/GridGalery/GridGalery';
-import ru from '../data/people';
-import en from '../data/peopleEN';
-import be from '../data/peopleBE';
 import avatarVitalyMikulich from '../img/developers/VitalyMikulich.jpg';
 import avatarPetriken from '../img/developers/petriken.jpg';
 import avatarIrinainina from '../img/developers/irinainina.jpg';
 import avatarAlexSkir from '../img/developers/AlexSkir.jpg';
 import avatarJulanick from '../img/developers/Julanick.jpg';
 import Layout from "../components/layout";
+import { people } from '../data';
 
 function MainPage(props) {
-  const storedPage = typeof localStorage !== 'undefined' && localStorage.getItem('page') ? localStorage.getItem('page') : '/ru/';
-  const page = storedPage.split('/');
-  page[1] = typeof localStorage !== 'undefined' && localStorage.getItem('lang') ? localStorage.getItem('lang') : 'ru';
-  const redirecTo = page.join('/');
-  if (typeof window !== 'undefined') {
-    navigate(
-      `${redirecTo}`
-    )
-  }
-  let data;
-  if (props.lang === 'ru') {
-    data = ru;
-  } else if (props.lang === 'en') {
-    data = en;
-  } else if (props.lang === 'be') {
-    data = be;
-  }
+  const data = people[props.lang];
   const date = new Date();
   const day = date.getDate();
   const authorDay = day % data.length;

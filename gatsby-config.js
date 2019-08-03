@@ -5,5 +5,16 @@
  */
 
 module.exports = {
-  plugins: [`gatsby-plugin-netlify-cms`]
+  plugins: [
+    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        path: `${__dirname}/src/translations`,
+        languages: [`en`, `ru`, `be`],
+        defaultLanguage: `ru`,
+        redirect: true,
+      },
+    },
+  ]
 }

@@ -1,57 +1,34 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
 import './Header.css';
-import { Link } from "gatsby";
-import { navigate } from "gatsby";
+import { Link, changeLocale } from 'gatsby-plugin-intl';
 import Button from '@material-ui/core/Button';
 import Language from '@material-ui/icons/Language';
 import messages from '../../translations';
 import store from '../../store/store';
+import { PropTypes } from 'prop-types';
+import { connect } from 'react-redux';
 
 class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeLangButton: 'ru',
-      lang: 'ru',
+      activeLangButton: this.props.lang,
       isActiveLangContainer: false,
     };
-    this.page = this.props.page;
     this.toggleLangContainer = this.toggleLangContainer.bind(this);
   }
 
-  /* eslint-disable camelcase */
-  UNSAFE_componentWillMount() {
-    if (typeof localStorage !== 'undefined' && localStorage.getItem('lang')) {
-      this.setState({
-        lang: localStorage.getItem('lang'),
-        activeLangButton: localStorage.getItem('lang'),
-      });
-    }
-  }
-
-  langClickHandler(e, lang, message) {
-    localStorage.setItem('lang', lang);
-    localStorage.setItem('refreshed', false);
+  langClickHandler(e, message) {
     this.setState({
-      lang: e.currentTarget.id,
       activeLangButton: e.currentTarget.id,
     });
     const locales = {
-      lang,
+      lang: e.currentTarget.id,
       messages: message,
     };
     store.dispatch({ type: 'locales', value: locales });
-    const page = this.page.split('/');
-    page[1] = lang;
-    const redirecTo = page.join('/');
-    if (typeof window !== 'undefined') {
-      navigate(
-        `${redirecTo}`
-      )
-    }
+    changeLocale(e.currentTarget.id);
   }
 
   /* eslint-disable class-methods-use-this */
@@ -68,15 +45,8 @@ class Header extends Component {
             <ul>
               <li>
                 <Link
-                  to={`/${this.state.lang}/`}
+                  to={`/`}
                   className="header-link homepage-link"
-                  onClick={() => {
-                    localStorage.setItem('page', `/${this.state.lang}/`);
-                    store.dispatch({
-                      type: 'page',
-                      value: `/${this.state.lang}/`,
-                    });
-                  }}
                 >
                   <Button variant="text" color="inherit">
                     <FormattedMessage id="headerMainLink" />
@@ -102,7 +72,7 @@ class Header extends Component {
                   className={`lang-item ${
                     this.state.activeLangButton === 'ru' ? 'active-lang' : ''
                     }`}
-                  onClick={e => this.langClickHandler(e, 'ru', messages.ru)}
+                  onClick={e => this.langClickHandler(e, messages.ru)}
                 >
                   Русский
                 </li>
@@ -113,7 +83,7 @@ class Header extends Component {
                   className={`lang-item ${
                     this.state.activeLangButton === 'be' ? 'active-lang' : ''
                     }`}
-                  onClick={e => this.langClickHandler(e, 'be', messages.be)}
+                  onClick={e => this.langClickHandler(e, messages.be)}
                 >
                   Беларуская
                 </li>
@@ -124,7 +94,7 @@ class Header extends Component {
                   className={`lang-item ${
                     this.state.activeLangButton === 'en' ? 'active-lang' : ''
                     }`}
-                  onClick={e => this.langClickHandler(e, 'en', messages.en)}
+                  onClick={e => this.langClickHandler(e, messages.en)}
                 >
                   English
                 </li>
@@ -136,18 +106,8 @@ class Header extends Component {
             <ul>
               <li>
                 <Link
-                  to={`/${this.state.lang}/commonpage`}
+                  to={`/photographers/`}
                   className="header-link commonpage-link"
-                  onClick={() => {
-                    localStorage.setItem(
-                      'page',
-                      `/${this.state.lang}/commonpage`,
-                    );
-                    store.dispatch({
-                      type: 'page',
-                      value: `/${this.state.lang}/commonpage`,
-                    });
-                  }}
                 >
                   <Button variant="text" color="inherit">
                     <FormattedMessage id="headerLink" />
@@ -163,8 +123,8 @@ class Header extends Component {
 }
 
 Header.propTypes = {
-  page: PropTypes.string.isRequired,
+  lang: PropTypes.string.isRequired,
 };
 
-const mapStateToProps = state => ({ page: state.page });
+const mapStateToProps = state => ({ lang: state.locales.lang });
 export default connect(mapStateToProps)(Header);

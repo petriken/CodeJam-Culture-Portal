@@ -5,10 +5,13 @@ const initialState = {
   term: '',
   city: '',
   locales: {
-    lang: typeof localStorage !== 'undefined' && localStorage.getItem('lang') ? localStorage.getItem('lang') : 'ru',
-    messages: typeof localStorage !== 'undefined' && localStorage.getItem('lang') ? messages[localStorage.getItem('lang')] : messages['ru'],
+    lang: typeof localStorage !== 'undefined' && localStorage.getItem('gatsby-intl-language') ?
+      localStorage.getItem('gatsby-intl-language') : 'ru',
+    messages: typeof localStorage !== 'undefined' && localStorage.getItem('gatsby-intl-language') ?
+      messages[localStorage.getItem('gatsby-intl-language')] : messages['ru'],
   },
-  page: typeof localStorage !== 'undefined' && localStorage.getItem('page') ? localStorage.getItem('page') : '/ru',
+  person: typeof localStorage !== 'undefined' && localStorage.getItem('person') ?
+    +localStorage.getItem('person') : 0,
 };
 
 function appState(state = initialState, action) {
@@ -25,9 +28,9 @@ function appState(state = initialState, action) {
       return Object.assign({}, state, {
         locales: action.value,
       });
-    case 'page':
+    case 'person':
       return Object.assign({}, state, {
-        page: action.value,
+        person: action.value,
       });
     default:
       return state;

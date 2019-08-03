@@ -26,57 +26,61 @@ export default class PersonalPageNavigation extends Component {
     window.addEventListener('scroll', this.listenScrollEvent);
   }
 
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.listenScrollEvent);
+  }
+
   render() {
     return (
       <div className="page-navigation"
-           style={{ top: this.state.top }}>
+        style={{ top: this.state.top }}>
         <Button variant="contained" className="btn-navigation">
-        <AnchorLink
-          offset='200'
-          href='#avatar'
-          title='avatar'>
-          <Person/>
-        </AnchorLink>
+          <AnchorLink
+            offset='200'
+            href='#avatar'
+            title='avatar'>
+            <Person />
+          </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
-        <AnchorLink
-          offset='40'
-          href='#timeline'
-          title='timeline'>
-          <Event/>
-        </AnchorLink>
+          <AnchorLink
+            offset='40'
+            href='#timeline'
+            title='timeline'>
+            <Event />
+          </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
-        <AnchorLink
-          offset='40'
-          href='#listOfWorks'
-          title='listOfWorks'>
-          <ViewList/>
-        </AnchorLink>
+          <AnchorLink
+            offset='40'
+            href='#listOfWorks'
+            title='listOfWorks'>
+            <ViewList />
+          </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
-        <AnchorLink
-          offset='20'
-          href='#imageGalleryComponent'
-          title='imageGallery'>
-          <Photo/>
-        </AnchorLink>
+          <AnchorLink
+            offset='20'
+            href='#imageGalleryComponent'
+            title='imageGallery'>
+            <Photo />
+          </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
-        <AnchorLink
-          offset='40'
-          href='#videoPlayer'
-          title='video'>
-          <Videocam/>
-        </AnchorLink>
+          <AnchorLink
+            offset='40'
+            href='#videoPlayer'
+            title='video'>
+            <Videocam />
+          </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
-        <AnchorLink
-          offset='700'
-          href='#footer'
-          title='map'>
-          <LocationOn/>
-        </AnchorLink>
+          <AnchorLink
+            offset='700'
+            href='#footer'
+            title='map'>
+            <LocationOn />
+          </AnchorLink>
         </Button>
       </div>
     );
