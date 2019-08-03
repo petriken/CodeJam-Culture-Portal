@@ -69,6 +69,20 @@
   justify-content: center;
 }
 
+
+.author-day__btn{
+  margin-top: 30px !important;
+}
+
+.author-day__btn-text {
+  display: inline-block;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 45px;
+  border: none;
+}
+
 .main-page .avatar-container {
   margin: 40px 0 0 13%;
 }
@@ -105,7 +119,7 @@
 
 .description-mainpage {
   width: 100vw;
-  margin: 40px auto 60px;
+  margin: 40px auto;
   padding: 10px;
   text-align: center;
   font-size: 24px;
@@ -147,7 +161,7 @@
 
 @media (max-width: 1100px) {
   .author-day>div {
-    display: block;
+    /* display: block; */
   }
 
   .main-page .avatar-container {
@@ -175,6 +189,9 @@
   .description-mainpage span {
     display: inline;
   }
+  .author-day__btn-text{
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 450px) {
@@ -186,5 +203,13 @@
 
   .mainpage-navigation-container {
     display: none;
+  }
+
+  .author-day__btn{
+    margin-top: 0;
+  }
+
+  .author-day__btn-text{
+    font-size: 1rem;
   }
 }
