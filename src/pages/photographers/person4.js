@@ -27,10 +27,7 @@ class PersonalPage extends Component {
     const data = people[this.props.lang];
     data.forEach(item => {
       if (item.id === this.props.person) {
-        console.log(item)
         this.setState({ profile: item });
-      } else {
-        this.setState({ profile: data[0] });
       }
     });
   }
