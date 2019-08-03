@@ -61,11 +61,14 @@
 
 .description-mainpage {
   min-height: 100vh;
+  max-width: 1206px;
 }
 
 .author-day {
   padding-top: 9vh;
   min-height: 100vh;
+  max-width: 1206px;
+  margin: auto;
 }
 
 .avatar-description {
@@ -120,12 +123,12 @@
 
 .main-page .description {
   margin-top: 0px;
-  margin-bottom: -15px;
+  margin-bottom: 0px;
 }
 
 .author-day-button {
   padding-left: 42px;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .description-mainpage {
@@ -142,6 +145,8 @@
 }
 
 .developers-container {
+  margin: auto;
+  max-width: 1206px;
   padding-top: 5vh;
   position: relative;
   border: 1px solid transparent;
