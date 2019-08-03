@@ -20,18 +20,24 @@ function getModalStyle() {
   };
 }
 
-const useStyles = makeStyles(theme => ({
-  paper: {
-    position: 'absolute',
-    backgroundColor: '#333',
-    boxShadow: theme.shadows[5],
-    padding: theme.spacing(1),
-    outline: 'none',
-  },
-}));
 
 export default function ModalVideo(props) {
   const { videoId } = props.data;
+
+  const useStyles = makeStyles(theme => ({
+    paper: {
+      position: 'absolute',
+      backgroundColor: videoId ? 'none' : '#c84d57',
+      boxShadow: theme.shadows[5],
+      padding: videoId ? theme.spacing(1) : '50px',
+      outline: 'none',
+      textAlign: 'center',
+      textTransform: 'uppercase',
+      display: 'inline-block',
+      fontSize: window.innerWidth > 720 ? '32px': '24px',
+      color: '#fff',
+    },
+  }));
 
   const videoOpts = {
     height: window.innerWidth > 960 ? '585' : window.innerWidth / 1.641 - '50',
@@ -41,6 +47,7 @@ export default function ModalVideo(props) {
       start: props.data.startVideo ? props.data.startVideo : '0',
     },
   };
+
 
   const classes = useStyles();
   // getModalStyle is not a pure function, we roll the style only on the first render
@@ -55,22 +62,29 @@ export default function ModalVideo(props) {
     setOpen(false);
   };
 
-  return (
-    <div id="ModalVideo" className="ModalVideo">
-      <Modal open={open} onClose={handleClose}>
-        <div className={classes.paper} style={modalStyle}>
-          <YouTube opts={videoOpts} videoId={videoId} />
-        </div>
-      </Modal>
-      <Button
-        variant="contained"
-        className="btn-video"
-        type="button"
-        onClick={handleOpen}
-      >
-        <FormattedMessage id="videoButton" />
-      </Button>
+  function checkVideoId() {
+    if (videoId) {
+      return <YouTube opts={videoOpts} videoId={videoId} />;
+    }
+    return <FormattedMessage id="noVideo" className="ModalVideo__message" />;
+  }
+
+  return (<div id="ModalVideo" className="ModalVideo">
+  <Modal open={open} onClose={handleClose}>
+    <div className={classes.paper} style={modalStyle}>
+     {/* <YouTube opts={videoOpts} videoId={videoId} /> */}
+{checkVideoId()}
     </div>
+  </Modal>
+  <Button
+    variant="contained"
+    className="btn-video"
+    type="button"
+    onClick={handleOpen}
+  >
+    <FormattedMessage id="videoButton" />
+  </Button>
+</div>
   );
 }
 
