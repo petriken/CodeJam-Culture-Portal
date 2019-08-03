@@ -63,8 +63,8 @@
   min-height: 100vh;
 }
 
-.author-day{
-  padding-top: 6vh;
+.author-day {
+  padding-top: 9vh;
   min-height: 100vh;
 }
 
@@ -125,6 +125,7 @@
 
 .author-day-button {
   padding-left: 42px;
+  margin-top: 25px;
 }
 
 .description-mainpage {
@@ -141,6 +142,7 @@
 }
 
 .developers-container {
+  padding-top: 5vh;
   position: relative;
   border: 1px solid transparent;
   min-height: calc(100vh - 136px);
@@ -176,6 +178,15 @@
 
   .main-page .avatar-container {
     margin: 40px auto 0;
+  }
+
+  .author-day-button {
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .author-day {
+    padding-top: 1vh;
   }
 }
 
