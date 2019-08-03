@@ -34,7 +34,7 @@ export default function ModalVideo(props) {
       textAlign: 'center',
       textTransform: 'uppercase',
       display: 'inline-block',
-      fontSize: window.innerWidth > 720 ? '32px': '24px',
+      fontSize: window.innerWidth > 720 ? '32px' : '24px',
       color: '#fff',
     },
   }));
@@ -66,7 +66,7 @@ export default function ModalVideo(props) {
     if (videoId) {
       return <YouTube opts={videoOpts} videoId={videoId} />;
     }
-    return <FormattedMessage id="noVideo" className="ModalVideo__message" />;
+    return <FormattedMessage id="noVideo"/>;
   }
 
   return (<div id="ModalVideo" className="ModalVideo">
