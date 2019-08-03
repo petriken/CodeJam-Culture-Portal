@@ -78,7 +78,7 @@ function MainPage(props) {
               <Grid
                 container
                 direction="row"
-                justify="start"
+                justify="flex-start"
                 alignItems="center"
                 className="author-day-button"
               >
