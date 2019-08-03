@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Gallery from 'react-grid-gallery';
 import { connect } from 'react-redux';
-import messages from '../../translations';
 import './GridGalery.css';
 
 class GridGallery extends React.Component {
