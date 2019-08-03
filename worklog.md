@@ -1,4 +1,4 @@
-*irinainina*
+**irinainina**
 
 | Start time | End time | time spent | feature                                        |
 | ---------- | -------- | ---------- | ---------------------------------------------- |
@@ -11,25 +11,25 @@
 | August 1   | August 1 | 2h         | add navigation and smooth scroll on personal page and main page                              |
 | August 2   | August 2 | 2h       | fix bug with router scroll behavior                      |
 
-*alexskir*
+**alexskir**
 
 | Start time | End time | time spent | feature |
 | ---------- | -------- | ---------- | ------- |
 |            |          |            |         |
 
-*petriken*
+**petriken**
 
 | Start time | End time | time spent | feature |
 | ---------- | -------- | ---------- | ------- |
 |            |          |            |         |
 
-*vitalymikulich*
+**vitalymikulich**
 
 | Start time | End time | time spent | feature |
 | ---------- | -------- | ---------- | ------- |
 |            |          |            |         |
 
-*julanick*
+**julanick**
 
 | Start time | End time | time spent | feature |
 | ---------- | -------- | ---------- | ------- |
