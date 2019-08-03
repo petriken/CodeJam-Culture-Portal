@@ -27,7 +27,16 @@
 
 | Start time | End time | time spent | feature |
 | ---------- | -------- | ---------- | ------- |
-|            |          |            |         |
+| July 26    | July 26  | 2h         | add developer container |
+| July 26    | July 26  | 30min      | change description of portal |
+| July 28    | July 28  | 1h         | fix showing coordinates on map |
+| July 28    | July 28  | 1h         | add logic to years of life block |
+| July 29    | July 29  | 1h         | show language container by click planet icon |
+| July 29    | July 29  | 1h         | correct size of video and image containers |
+| August 2   | August 2 | 2h         | arrange avatar and description in 2 column |
+| August 3   | August 3 | 1h         | fix avatar and description on personalPage |
+| August 3   | August 3 | 1h         | disable clicking hidden langContainer |
+| August 3   | August 3 | 1h         | fix and correct defects on main page |
 
 **julanick**
 
