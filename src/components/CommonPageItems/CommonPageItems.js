@@ -9,7 +9,6 @@ import Avatar from '../Avatar/Avatar';
 import Description from '../Description/Description';
 import { people } from '../../data';
 import store from '../../store/store';
-import * as localStorageMemory from 'localstorage-memory';
 
 class CommonPageItems extends Component {
   constructor(props) {
