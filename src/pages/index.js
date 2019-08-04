@@ -30,6 +30,7 @@ function MainPage(props) {
     authorDay = Math.floor(profileRand);
     return Math.floor(profileRand);
   }
+  localStorage.setItem('person', authorDay)
   const profile = data[getProfileRand()];
   return (
     <Layout>
@@ -81,7 +82,6 @@ function MainPage(props) {
                           className="author-day__btn-text"
                           id={authorDay}
                           onClick={(e) => {
-                            localStorage.setItem('person', authorDay)
                             store.dispatch({ type: 'person', value: authorDay });
                           }}
                         >
