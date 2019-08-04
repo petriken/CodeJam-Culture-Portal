@@ -36,10 +36,6 @@ class MainPage extends Component {
     this.setState({ authorDay: profileRand, profile: this.data[profileRand] });
   }
 
-  componentDidMount() {
-    document.getElementById('avatar').children.src = this.state.profile.avatar
-  }
-
   componentWillUnmount() {
     this.setState(null)
   }
