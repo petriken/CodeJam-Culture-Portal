@@ -20,6 +20,7 @@ import avatarJulanick from '../img/developers/Julanick.jpg';
 import Layout from "../components/layout";
 import { people } from '../data';
 import store from '../store/store';
+import { changeLocale } from 'gatsby-plugin-intl/link';
 
 class MainPage extends Component {
   constructor(props) {
@@ -34,6 +35,7 @@ class MainPage extends Component {
   componentWillMount() {
     const profileRand = Math.floor(Math.random() * 8);
     this.setState({ authorDay: profileRand, profile: this.data[profileRand] });
+    changeLocale(this.props.lang)
   }
 
   componentWillUnmount() {
