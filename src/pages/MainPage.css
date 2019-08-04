@@ -36,24 +36,14 @@
 .mainpage-navigation-container {
   position: absolute;
   z-index: 10;
-<<<<<<< HEAD
-  bottom: -20px !important;
-  left: 10px !important; 
-  right: 10px !important;
-=======
   bottom: -10px;
   left: 10px; right: 10px;
->>>>>>> c991e138d16dd7f093a54bca86ec38faf2aad473
   height: 50px;
   display: flex;
   justify-content: space-around;
   background-color: rgba(0, 0, 0, .6);
   border-top: 1px solid #000;
-<<<<<<< HEAD
-  height: 70px;
-=======
   height: 60px;
->>>>>>> c991e138d16dd7f093a54bca86ec38faf2aad473
   overflow: hidden;
 }
 
