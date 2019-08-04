@@ -45,7 +45,7 @@ export default class SearchPanel extends Component {
             <FormattedMessage id="searchName" />
             <input type="text"
               className="search-input"
-              placeholder="search"
+              placeholder=""
               id="termInput"
               value={this.state.term}
               onChange={e => this.onTermChange(e)} />
@@ -54,14 +54,14 @@ export default class SearchPanel extends Component {
             <FormattedMessage id="searchCity" />
             <input type="text"
               className="search-input"
-              placeholder="search"
+              placeholder=""
               id="cityInput"
               value={this.state.city}
               onChange={e => this.onCityChange(e)} />
           </label>
-          <Button variant="contained" className="btn-search" type="button" onClick={() => this.onClickHandler()}><Search />
+          <Button variant="contained" className="btn-search" type="button" onClick={() => this.onClickHandler()}><Search/>
             <FormattedMessage id="searchButton" />
-          </Button>
+      </Button>
         </form>
       </div>
     );

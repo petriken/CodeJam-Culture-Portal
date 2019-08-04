@@ -5,7 +5,7 @@
   align-content: flex-start;
   width: 100%;
   max-width: 1200px;
-  margin: 40px auto 60px;
+  margin: 40px auto;
   padding: 20px 40px;
   border: 1px solid #ccc;
 }
@@ -72,6 +72,7 @@
   background: linear-gradient(to right, #c84d57, #c84d57);
   transition: .3s;
 }
+
 
 .hidden {
   display: none;

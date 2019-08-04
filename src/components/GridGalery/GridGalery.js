@@ -13,7 +13,6 @@ import Slide5 from '../../img/person_2/portfolio/work5.jpg';
 import Slide6 from '../../img/person_5/portfolio/work8.jpg';
 
 class GridGallery extends React.Component {
-  
   constructor(props) {
     super(props);
     this.state = {};
@@ -33,10 +32,10 @@ class GridGallery extends React.Component {
       thumbnail: Slide2,
       thumbnailWidth: 603,
       thumbnailHeight: 300,
-      caption: `${messages[this.props.lang].caption2}, ${messages[this.props.lang].name3}`,
+      caption: `${messages[this.props.lang].caption2}, ${messages[this.props.lang].name4}`,
       tags: [{
-        value: `${messages[this.props.lang].caption2}, ${messages[this.props.lang].name3}`,
-        title: `${messages[this.props.lang].caption2}, ${messages[this.props.lang].name3}`,
+        value: `${messages[this.props.lang].caption2}, ${messages[this.props.lang].name4}`,
+        title: `${messages[this.props.lang].caption2}, ${messages[this.props.lang].name4}`,
       }],
     },
 
@@ -45,10 +44,10 @@ class GridGallery extends React.Component {
       thumbnail: Slide3,
       thumbnailWidth: 542,
       thumbnailHeight: 300,
-      caption: `${messages[this.props.lang].caption3}, ${messages[this.props.lang].name5}`,
+      caption: `${messages[this.props.lang].caption3}, ${messages[this.props.lang].name6}`,
       tags: [{
-        value: `${messages[this.props.lang].caption3}, ${messages[this.props.lang].name5}`,
-        title: `${messages[this.props.lang].caption3}, ${messages[this.props.lang].name5}`,
+        value: `${messages[this.props.lang].caption3}, ${messages[this.props.lang].name6}`,
+        title: `${messages[this.props.lang].caption3}, ${messages[this.props.lang].name6}`,
       }],
     },
     {
@@ -78,20 +77,20 @@ class GridGallery extends React.Component {
       thumbnail: Slide6,
       thumbnailWidth: 535,
       thumbnailHeight: 300,
-      caption: `${messages[this.props.lang].caption6}, ${messages[this.props.lang].name5}`,
+      caption: `${messages[this.props.lang].caption6}, ${messages[this.props.lang].name6}`,
       tags: [{
-        value: `${messages[this.props.lang].caption6}, ${messages[this.props.lang].name5}`,
-        title: `${messages[this.props.lang].caption6}, ${messages[this.props.lang].name5}`,
+        value: `${messages[this.props.lang].caption6}, ${messages[this.props.lang].name6}`,
+        title: `${messages[this.props.lang].caption6}, ${messages[this.props.lang].name6}`,
       }],
     }];
   }
 
-  render() {    
+  render() {
     return (
       <Gallery
         images={this.IMAGES}
         rowHeight={300}
-        lightboxWidth={1220}
+        lightboxWidth={1206}
         backdropClosesModal={true}
       />
     );

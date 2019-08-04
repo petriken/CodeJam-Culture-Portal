@@ -8,8 +8,9 @@ function ImageGalleryComponent(props) {
   const images = [];
   props.data.works.forEach((item) => {
     const obj = {
-      original: item,
-      thumbnail: item,
+      original: item.image,
+      thumbnail: item.image,
+      description: item.description,
     };
     images.push(obj);
   });
@@ -19,7 +20,7 @@ function ImageGalleryComponent(props) {
       <h2 style={{
         textAlign: 'center', fontSize: '44px', marginTop: 60,
       }}>
-        <FormattedMessage id="imageGalery" />
+        <FormattedMessage id="imageGalery"/>
       </h2>
       <ImageGallery items={images} className="images"/>
     </div>

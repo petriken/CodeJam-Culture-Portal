@@ -38,7 +38,7 @@ export default class PersonalPageNavigation extends Component {
           <AnchorLink
             offset='200'
             href='#avatar'
-            title='avatar'>
+          >
             <Person />
           </AnchorLink>
         </Button>
@@ -46,7 +46,7 @@ export default class PersonalPageNavigation extends Component {
           <AnchorLink
             offset='40'
             href='#timeline'
-            title='timeline'>
+          >
             <Event />
           </AnchorLink>
         </Button>
@@ -54,7 +54,7 @@ export default class PersonalPageNavigation extends Component {
           <AnchorLink
             offset='40'
             href='#listOfWorks'
-            title='listOfWorks'>
+          >
             <ViewList />
           </AnchorLink>
         </Button>
@@ -62,7 +62,7 @@ export default class PersonalPageNavigation extends Component {
           <AnchorLink
             offset='20'
             href='#imageGalleryComponent'
-            title='imageGallery'>
+          >
             <Photo />
           </AnchorLink>
         </Button>
@@ -70,7 +70,7 @@ export default class PersonalPageNavigation extends Component {
           <AnchorLink
             offset='40'
             href='#videoPlayer'
-            title='video'>
+          >
             <Videocam />
           </AnchorLink>
         </Button>
@@ -78,7 +78,7 @@ export default class PersonalPageNavigation extends Component {
           <AnchorLink
             offset='700'
             href='#footer'
-            title='map'>
+          >
             <LocationOn />
           </AnchorLink>
         </Button>

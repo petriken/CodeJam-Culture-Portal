@@ -1,8 +1,7 @@
 .description {
-  max-width: 800px;
-  margin: 20px auto 60px;
-  text-align: center;
-  padding: 20px;
+  max-width: 745px;
+  margin: 20px 0 60px 0;
+  padding: 20px 0 0 60px;
 }
 
 .description h1 {
@@ -10,7 +9,7 @@
 }
 
 .description p {
-  margin: 15px;
+  margin: 15px 15px 15px 0;
 }
 
 .occupation {
@@ -30,6 +29,15 @@
   font-weight: 400;
 }
 
+@media (max-width: 1100px){
+  .description {
+    max-width: 800px;
+    margin: 20px auto 60px;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
 @media (max-width: 720px){
   .description {
     margin: 10px auto;
@@ -43,6 +51,6 @@
   .occupation,
   .years,
   .birth-place{
-    font-size: 18px;
+    font-size: 24px;
   }
 }

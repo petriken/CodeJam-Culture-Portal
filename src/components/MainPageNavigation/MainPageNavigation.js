@@ -40,7 +40,7 @@ export default class MainPageNavigation extends Component {
         <Button variant="contained" className="btn-navigation">
           <AnchorLink
             href='#home'
-            title='home'>
+            >
             <Home />
           </AnchorLink>
         </Button>
@@ -48,7 +48,7 @@ export default class MainPageNavigation extends Component {
           <AnchorLink
             offset='40px'
             href='#author'
-            title='author'>
+           >
             <Person />
           </AnchorLink>
         </Button>
@@ -56,7 +56,7 @@ export default class MainPageNavigation extends Component {
           <AnchorLink
             offset='40px'
             href='#project-info'
-            title='info'>
+            >
             <Info />
           </AnchorLink>
         </Button>
@@ -64,7 +64,7 @@ export default class MainPageNavigation extends Component {
           <AnchorLink
             offset='0px'
             href='#developers'
-            title='developers'>
+            >
             <People />
           </AnchorLink>
         </Button>
