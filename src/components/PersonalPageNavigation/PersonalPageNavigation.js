@@ -37,48 +37,42 @@ export default class PersonalPageNavigation extends Component {
         <Button variant="contained" className="btn-navigation">
           <AnchorLink
             offset='200'
-            href='#avatar'
-            title='avatar'>
+            href='#avatar'>
             <Person />
           </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
           <AnchorLink
             offset='40'
-            href='#timeline'
-            title='timeline'>
+            href='#timeline'>
             <Event />
           </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
           <AnchorLink
             offset='40'
-            href='#listOfWorks'
-            title='listOfWorks'>
+            href='#listOfWorks'>
             <ViewList />
           </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
           <AnchorLink
             offset='20'
-            href='#imageGalleryComponent'
-            title='imageGallery'>
+            href='#imageGalleryComponent'>
             <Photo />
           </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
           <AnchorLink
             offset='40'
-            href='#videoPlayer'
-            title='video'>
+            href='#videoPlayer'>
             <Videocam />
           </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
           <AnchorLink
             offset='700'
-            href='#footer'
-            title='map'>
+            href='#footer'>
             <LocationOn />
           </AnchorLink>
         </Button>

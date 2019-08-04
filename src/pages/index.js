@@ -20,10 +20,15 @@ import { people } from '../data';
 
 function MainPage(props) {
   const data = people[props.lang];
-  const date = new Date();
-  const day = date.getDate();
-  const authorDay = day % data.length;
-  const profile = data[authorDay];
+  let authorDay;
+
+  function getProfileRand() {
+    const profileRand = Math.random() * 8;
+    authorDay = Math.floor(profileRand);
+    return Math.floor(profileRand);
+  }
+  const profile = data[getProfileRand()];
+  
   return (
     <Layout>
       <div className="main-page"
@@ -45,7 +50,7 @@ function MainPage(props) {
               <FormattedMessage id="infoAboutPortal" />
             </AnchorLink>
             <AnchorLink
-              offset='0px'
+              offset='40px'
               href='#developers'>
               <FormattedMessage id="developers" />
             </AnchorLink>

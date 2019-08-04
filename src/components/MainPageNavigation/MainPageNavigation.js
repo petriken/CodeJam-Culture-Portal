@@ -39,32 +39,28 @@ export default class MainPageNavigation extends Component {
         style={{ display: `${this.state.display ? this.state.display : 'none'}` }}>
         <Button variant="contained" className="btn-navigation">
           <AnchorLink
-            href='#home'
-            title='home'>
+            href='#home'>
             <Home />
           </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
           <AnchorLink
             offset='40px'
-            href='#author'
-            title='author'>
+            href='#author'>
             <Person />
           </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
           <AnchorLink
             offset='40px'
-            href='#project-info'
-            title='info'>
+            href='#project-info'>
             <Info />
           </AnchorLink>
         </Button>
         <Button variant="contained" className="btn-navigation">
           <AnchorLink
-            offset='0px'
-            href='#developers'
-            title='developers'>
+            offset='40px'
+            href='#developers'>
             <People />
           </AnchorLink>
         </Button>

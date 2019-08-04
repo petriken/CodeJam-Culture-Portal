@@ -9,6 +9,8 @@
   left: 0;
   right: 0;
   z-index: 1;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .main-page-title p {
@@ -34,7 +36,7 @@
 .mainpage-navigation-container {
   position: absolute;
   z-index: 10;
-  bottom: -10px !important;
+  bottom: -20px !important;
   left: 10px !important; 
   right: 10px !important;
   height: 50px;
@@ -42,6 +44,8 @@
   justify-content: space-around;
   background-color: rgba(0, 0, 0, .6);
   border-top: 1px solid #000;
+  height: 70px;
+  overflow: hidden;
 }
 
 .mainpage-navigation-container a {
@@ -116,6 +120,10 @@
   position: relative;
   border: 1px solid transparent;
   min-height: calc(100vh - 136px);
+  width: 100%;
+  max-width: 1206px;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .developers-container span {
@@ -155,7 +163,7 @@
   }
 
   .description-mainpage {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .description-mainpage span {
