@@ -20,6 +20,7 @@ import avatarJulanick from '../img/developers/Julanick.jpg';
 import Layout from "../components/layout";
 import { people } from '../data';
 import store from '../store/store';
+import DatePickers from './../components/calendar/DatePickers';
 
 class MainPage extends Component {
   constructor(props) {
@@ -73,6 +74,7 @@ class MainPage extends Component {
                 <FormattedMessage id="todayAuthor" />
               </h2>
               <Grid className="avatar-description">
+                {/* <DatePickers /> */}
                 <Avatar data={this.state.profile} />
                 <Grid>
                   <Description data={this.state.profile} />
