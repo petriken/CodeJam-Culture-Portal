@@ -24,15 +24,13 @@ import store from '../store/store';
 function MainPage(props) {
   const data = people[props.lang];
   let authorDay;
-  let authorID;
-  const profileRand = Math.floor(Math.random() * 8);
-  for (let i = 0; i < data.length; i++) {
-    if (data[i].id === profileRand) {
-      authorDay = i;
-      authorID = data[i].id;
-    }
+
+  function getProfileRand() {
+    const profileRand = Math.random() * 8;
+    authorDay = Math.floor(profileRand);
+    return Math.floor(profileRand);
   }
-  const profile = data[authorDay];
+  const profile = data[getProfileRand()];
   return (
     <Layout>
       <Grid>
@@ -79,12 +77,12 @@ function MainPage(props) {
                     <FormattedMessage id="toAuthorPage">
                       {text => (
                         <Link
-                          to={`/photographers/person${authorID}`}
+                          to={`/photographers/person${authorDay}`}
                           className="author-day__btn-text"
                           id={authorDay}
                           onClick={(e) => {
-                            localStorage.setItem('person', authorID)
-                            store.dispatch({ type: 'person', value: authorID });
+                            localStorage.setItem('person', authorDay)
+                            store.dispatch({ type: 'person', value: authorDay });
                           }}
                         >
                           {text}
