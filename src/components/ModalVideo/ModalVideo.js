@@ -34,7 +34,7 @@ export default function ModalVideo(props) {
       textAlign: 'center',
       textTransform: 'uppercase',
       display: 'inline-block',
-      fontSize: window.innerWidth > 720 ? '32px' : '24px',
+      fontSize: typeof window !== 'undefined' ? window.innerWidth > 720 ? '32px' : '24px' : '24px',
       color: '#fff',
     },
   }));
@@ -66,25 +66,25 @@ export default function ModalVideo(props) {
     if (videoId) {
       return <YouTube opts={videoOpts} videoId={videoId} />;
     }
-    return <FormattedMessage id="noVideo"/>;
+    return <FormattedMessage id="noVideo" />;
   }
 
   return (<div id="ModalVideo" className="ModalVideo">
-  <Modal open={open} onClose={handleClose}>
-    <div className={classes.paper} style={modalStyle}>
-     {/* <YouTube opts={videoOpts} videoId={videoId} /> */}
-{checkVideoId()}
-    </div>
-  </Modal>
-  <Button
-    variant="contained"
-    className="btn-video"
-    type="button"
-    onClick={handleOpen}
-  >
-    <FormattedMessage id="videoButton" />
-  </Button>
-</div>
+    <Modal open={open} onClose={handleClose}>
+      <div className={classes.paper} style={modalStyle}>
+        {/* <YouTube opts={videoOpts} videoId={videoId} /> */}
+        {checkVideoId()}
+      </div>
+    </Modal>
+    <Button
+      variant="contained"
+      className="btn-video"
+      type="button"
+      onClick={handleOpen}
+    >
+      <FormattedMessage id="videoButton" />
+    </Button>
+  </div>
   );
 }
 
