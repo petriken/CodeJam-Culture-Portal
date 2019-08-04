@@ -25,20 +25,15 @@ class MainPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      profile: ''
+      profile: '',
+      authorDay: ''
     };
     this.data = people[this.props.lang];
-    this.authorDay = ''
   }
 
   componentWillMount() {
-    this.setState({ profile: this.data[this.getProfileRand()] })
-  }
-
-  getProfileRand() {
-    const profileRand = Math.random() * 8;
-    this.authorDay = Math.floor(profileRand);
-    return Math.floor(profileRand);
+    const profileRand = Math.floor(Math.random() * 8);
+    this.setState({ authorDay: profileRand, profile: this.data[profileRand] });
   }
 
   render() {
@@ -88,11 +83,11 @@ class MainPage extends Component {
                       <FormattedMessage id="toAuthorPage">
                         {text => (
                           <Link
-                            to={`/photographers/person${this.authorDay}`}
+                            to={`/photographers/person${this.state.authorDay}`}
                             className="author-day__btn-text"
-                            id={this.authorDay}
+                            id={this.state.authorDay}
                             onClick={(e) => {
-                              store.dispatch({ type: 'person', value: this.authorDay });
+                              store.dispatch({ type: 'person', value: this.state.authorDay });
                             }}
                           >
                             {text}
@@ -152,8 +147,9 @@ class MainPage extends Component {
 }
 
 MainPage.propTypes = {
+  person: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   lang: PropTypes.string.isRequired,
 };
 
-const mapStateToProps = state => ({ lang: state.locales.lang });
+const mapStateToProps = state => ({ lang: state.locales.lang, person: state.person });
 export default connect(mapStateToProps)(MainPage);
