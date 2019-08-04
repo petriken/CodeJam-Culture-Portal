@@ -34,10 +34,10 @@ class MainPage extends Component {
   componentWillMount() {
     const profileRand = Math.floor(Math.random() * 8);
     this.setState({ authorDay: profileRand, profile: this.data[profileRand] });
-    typeof window !== 'undefined' && window ? window.addEventListener('beforeunload', () => {
-      this.setState(null)
-    }) : this.setState(null);
-    this.setState({ authorDay: profileRand, profile: this.data[profileRand] });
+  }
+
+  componentDidMount() {
+    document.getElementById('avatar').children.src = this.state.profile.avatar
   }
 
   componentWillUnmount() {
