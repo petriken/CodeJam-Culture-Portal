@@ -79,7 +79,7 @@ function MainPage(props) {
                     <FormattedMessage id="toAuthorPage">
                       {text => (
                         <Link
-                          to={`/photographers/person${authorDay}`}
+                          to={`/photographers/person${authorID}`}
                           className="author-day__btn-text"
                           id={authorDay}
                           onClick={(e) => {
