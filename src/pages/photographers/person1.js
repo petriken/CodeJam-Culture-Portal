@@ -34,7 +34,7 @@ class PersonalPage extends Component {
 
   /* eslint-disable class-methods-use-this */
   componentWillMount() {
-    window.scrollTo(0, 0);
+    typeof window !== 'undefined' ? window.scrollTo(0, 0) : this.scrollTo(0, 0);
   }
 
   render() {
