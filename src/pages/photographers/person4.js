@@ -25,11 +25,11 @@ class PersonalPage extends Component {
   /* eslint-disable camelcase */
   componentWillMount() {
     const data = people[this.props.lang];
-    data.forEach(item => {
-      if (item.id === this.props.person) {
-        this.setState({ profile: item });
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].id === this.props.person) {
+        this.setState({ profile: data[i] });
       }
-    });
+    }
   }
 
   /* eslint-disable class-methods-use-this */

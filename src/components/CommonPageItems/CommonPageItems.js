@@ -56,7 +56,6 @@ class CommonPageItems extends Component {
               <FormattedMessage id="more">
                 {text => <Link
                   to={`/photographers/person${item.id}`}
-                  // to={`/personalpage/person${index}/`}
                   className="read-more-button"
                   id={item.id}
                   onClick={() => {
