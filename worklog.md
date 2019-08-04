@@ -21,7 +21,15 @@
 
 | Start time | End time | time spent | feature |
 | ---------- | -------- | ---------- | ------- |
-|            |          |            |         |
+|  July 26   | July 26  |   1h       |  add eslint config      |
+|  July 26   | July 26  |   3h       |  fix eslint error       |                   
+|  July 24   | July 31  |   3h       |  merge pull requests everyone members team, resolve conflicts   |
+|  August 1  | August 4 |   1h       |  approve PR's everyone members team       |
+|  August 1  | August 1 |   2h       |  add modal video component       |
+|  August 1  | August 1 |   2h       |  change static modal video to youtube       |
+|  August 2  | August 2 |   2h       |  jump to author page from main page      |
+|  August 3  | August 3 |   1h       |  fix bugs with button and video       |
+|  August 3  | August 3 |   0.5h     |  add notice when there is no video      |
 
 **vitalymikulich**
 
