@@ -8,8 +8,9 @@ function ImageGalleryComponent(props) {
   const images = [];
   props.data.works.forEach((item) => {
     const obj = {
-      original: item,
-      thumbnail: item,
+      original: item.image,
+      thumbnail: item.image,
+      description: item.description
     };
     images.push(obj);
   });
