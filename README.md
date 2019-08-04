@@ -1,4 +1,4 @@
-# CodeJam-5_Dream-Team
+# CodeJam-Culture-Portal
 
 ## Installation:
 ``` bash
