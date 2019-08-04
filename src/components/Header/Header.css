@@ -5,7 +5,6 @@
   position: relative;
   z-index: 2;
   padding: 10px 0;
-  border-bottom: 1px solid #000;
   min-height: 40px;
   width: 100%;
   margin: 0;
@@ -98,6 +97,7 @@
 }
 
 .lang-nav {
+  visibility: hidden;
   display: flex;
   align-content: space-around;
   align-items: center;
@@ -105,7 +105,7 @@
   transform: translateY(-2px);
   transition: 1s;
   position: absolute;
-  z-index: 20;
+  z-index: -1;
   top: 60px;
   left: 180px;
   width: 180px;
@@ -119,6 +119,8 @@
 }
 
 .show-lang-nav {
+  visibility: visible;
+  z-index: 20;
   opacity: 1;
   transition: 1s;
   transform: translateY(15px);
