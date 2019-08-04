@@ -25,16 +25,16 @@ class PersonalPage extends Component {
 
   /* eslint-disable camelcase */
   componentDidMount() {
+    typeof window !== 'undefined' ? window.scrollTo(0, 0) : this.setState({ scroll: 0 });
+  }
+
+  /* eslint-disable class-methods-use-this */
+  componentWillMount() {
     for (let i = 0; i < this.data.length; i++) {
       if (this.data[i].id === this.props.person) {
         this.setState({ profile: this.data[i] });
       }
     }
-  }
-
-  /* eslint-disable class-methods-use-this */
-  componentWillMount() {
-    typeof window !== 'undefined' ? window.scrollTo(0, 0) : this.setState({ scroll: 0 });
   }
 
   render() {
