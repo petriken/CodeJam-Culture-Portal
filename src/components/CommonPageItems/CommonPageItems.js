@@ -56,14 +56,14 @@ class CommonPageItems extends Component {
             <Button variant="contained">
               <FormattedMessage id="more">
                 {text => <Link
-                  to={`/photographers/person${item.id}`}
+                  to={`/photographers/person${index}`}
                   className="read-more-button"
                   id={item.id}
                   onClick={() => {
-                    localStorage.setItem('person', item.id)
+                    localStorage.setItem('person', index)
                     store.dispatch({ type: 'term', value: '' });
                     store.dispatch({ type: 'city', value: '' });
-                    store.dispatch({ type: 'person', value: item.id });
+                    store.dispatch({ type: 'person', value: index });
                   }}>
                   {text}
                 </Link>}

@@ -36,7 +36,7 @@ class PersonalPage extends Component {
     //     this.person = i;
     //   }
     // }
-    this.setState({ profile: this.data[3] });
+    this.setState({ profile: this.data[4] });
   }
 
   render() {
