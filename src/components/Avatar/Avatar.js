@@ -1,14 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Avatar.css';
 import PropTypes from 'prop-types';
 
-function Avatar(props) {
-  console.log(props.data)
-  return (
-    <div className="avatar-container" id="avatar">
-      <img src={props.data.avatar} alt={props.data.name} />
-    </div>
-  );
+class Avatar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      avatar: props.data.avatar,
+      name: props.data.name
+    }
+  }
+
+  render() {
+    return (
+      <div className="avatar-container" id="avatar">
+        <img src={this.state.avatar} alt={this.state.name} />
+      </div>
+    );
+  }
 }
 
 Avatar.propTypes = {
