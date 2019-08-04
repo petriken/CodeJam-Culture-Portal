@@ -34,9 +34,10 @@ class MainPage extends Component {
   componentWillMount() {
     const profileRand = Math.floor(Math.random() * 8);
     this.setState({ authorDay: profileRand, profile: this.data[profileRand] });
-    window.addEventListener('beforeunload', () => {
+    typeof window !== 'undefined' && window ? window.addEventListener('beforeunload', () => {
       this.setState(null)
-    })
+    }) : this.setState(null);
+    this.setState({ authorDay: profileRand, profile: this.data[profileRand] });
   }
 
   componentWillUnmount() {
