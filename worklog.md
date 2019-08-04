@@ -89,9 +89,8 @@ Maximum points - **240**/**240**
 - [x] **20** contentful / netlify cms is used for content management
 - [x] **10** Portal has third language;
 
-### Fines
-- **-100** if there are less than 5 commits from each active team member. Everyone should merge their own PRs. 
-- up to **-50** points for violations
-[stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md)
-- **-40** if there is no worklog for team
-- **-20** too primitive (ugly for 2019) design / UX
+
+- There are more than 5 commits from each active team member. Everyone merged their own PRs. 
+- Commits and PRs requirements have been met [stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md)
+- There is worklog for team
+- Nice design / UX
