@@ -42,5 +42,12 @@
 
 | Start time | End time | time spent | feature |
 | ---------- | -------- | ---------- | ------- |
-|            |          |            |         |
-
+| July 27    | July 27  | 2h         | analys base structure of the project  |
+| July 29    | July 29  | 1h         | add .json files for translating content |
+| July 29    | July 29  | 2h         | changed .json file structure  |
+| July 30    | July 30  | 1h         | add files for main content |
+| July 30    | July 30  | 3h         | filled with content |
+| July 31    | July 31  | 3h         | translate pages  |
+| August 1   | August 1 | 1h         | fix issue with react grid gallery view |
+| August 3   | August 3 | 1h         | expand image models with description |
+| August 3   | August 3 | 1h         | add pictures to the search page and to the main page |
