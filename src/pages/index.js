@@ -27,18 +27,25 @@ class MainPage extends Component {
     super(props);
     this.state = {
       profile: '',
-      authorDay: ''
+      authorDay: '',
+      day: ''
     };
     this.data = people[this.props.lang];
   }
 
   componentWillMount() {
-    const profileRand = Math.floor(Math.random() * 8);
-    this.setState({ authorDay: profileRand, profile: this.data[profileRand] });
+    const day = new Date().toISOString().substring(0, 10).split('-')[2] % 8;
+    this.setState({ profile: this.data[day], authorDay: day })
   }
 
   componentWillUnmount() {
     this.setState(null)
+  }
+
+  onChange(event) {
+    const day = event.target.value.split('-')[2] % 8;
+    console.log(day)
+    this.setState({ day, authorDay: day, profile: this.data[day] });
   }
 
   render() {
@@ -74,8 +81,10 @@ class MainPage extends Component {
                 <FormattedMessage id="todayAuthor" />
               </h2>
               <Grid className="avatar-description">
-                {/* <DatePickers /> */}
-                <Avatar data={this.state.profile} />
+                <div>
+                  <Avatar src={this.state.profile.avatar} data={this.state.profile} />
+                  <DatePickers onChange={e => this.onChange(e)} />
+                </div>
                 <Grid>
                   <Description data={this.state.profile} />
                   <Grid
