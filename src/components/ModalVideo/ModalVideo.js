@@ -40,8 +40,8 @@ export default function ModalVideo(props) {
   }));
 
   const videoOpts = {
-    height: window.innerWidth > 960 ? '585' : window.innerWidth / 1.641 - '50',
-    width: window.innerWidth > 960 ? '960' : window.innerWidth - '50',
+    height: typeof window !== 'undefined' && window.innerWidth > 960 ? '585' : window.innerWidth / 1.641 - '50',
+    width: typeof window !== 'undefined' && window.innerWidth > 960 ? '960' : window.innerWidth - '50',
     playerVars: {
       autoplay: 1,
       start: props.data.startVideo ? props.data.startVideo : '0',
