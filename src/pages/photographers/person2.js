@@ -31,12 +31,12 @@ class PersonalPage extends Component {
 
   /* eslint-disable class-methods-use-this */
   componentWillMount() {
-    for (let i = 0; i < this.data.length; i++) {
-      if (this.data[i].id === this.props.person) {
-        this.person = i;
-      }
-    }
-    this.setState({ profile: this.data[this.person] });
+    // for (let i = 0; i < this.data.length; i++) {
+    //   if (this.data[i].id === this.props.person) {
+    //     this.person = i;
+    //   }
+    // }
+    this.setState({ profile: this.data[1] });
   }
 
   render() {

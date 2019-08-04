@@ -440,7 +440,7 @@ export default [
   },
 
   {
-    id: 7,
+    id: 5,
     name: 'Jan Bulhak',
     avatar: avatar7,
     occupation: 'Ethnographer, folklorist, writer, photographer',
@@ -531,7 +531,7 @@ export default [
     ],
   },
   {
-    id: 5,
+    id: 6,
     name: 'Lev Urbanovich Dashkevich',
     avatar: avatar4,
     occupation:
@@ -633,7 +633,7 @@ export default [
     ],
   },
   {
-    id: 6,
+    id: 7,
     name: 'Georgii Leonardovich Likhtarovich',
     avatar: avatar5,
     occupation: 'Belarusian photographer, talented writer, poet, public figure',

@@ -437,7 +437,7 @@ export default [
     ],
   },
   {
-    id: 7,
+    id: 5,
     name: 'Ян Булгак',
     avatar: avatar7,
     occupation: 'Этнограф, фалькларыст, пісьменнік, фатограф.',
@@ -528,7 +528,7 @@ export default [
     ],
   },
   {
-    id: 5,
+    id: 6,
     name: 'Леў Урбановіч Дашкевіч',
     avatar: avatar4,
     occupation: 'Беларускі фатограф, навуковец, даследчык, публіцыст, педагог',
@@ -628,7 +628,7 @@ export default [
     ],
   },
   {
-    id: 6,
+    id: 7,
     name: 'Георгій Леанардавіч Ліхтаровіч',
     avatar: avatar5,
     occupation:

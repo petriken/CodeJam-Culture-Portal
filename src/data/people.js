@@ -444,7 +444,7 @@ export default [
     ],
   },
   {
-    id: 7,
+    id: 5,
     name: 'Ян Булгак',
     avatar: avatar7,
     occupation: 'Этнограф, фольклорист, писатель, фотограф.',
@@ -536,7 +536,7 @@ export default [
     ],
   },
   {
-    id: 5,
+    id: 6,
     name: 'Лев Урбанович Дашкевич',
     avatar: avatar4,
     occupation:
@@ -637,7 +637,7 @@ export default [
     ],
   },
   {
-    id: 6,
+    id: 7,
     name: 'Георгий Леонардович Лихтарович',
     avatar: avatar5,
     occupation:
