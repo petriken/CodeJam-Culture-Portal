@@ -90,6 +90,7 @@ Maximum points - **240**/**240**
 - [x] **10** Portal has third language;
 
 
+***
 - There are more than 5 commits from each active team member. Everyone merged their own PRs. 
 - Commits and PRs requirements have been met [stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/ru/stage2-tasks-requirements.md)
 - There is worklog for team
