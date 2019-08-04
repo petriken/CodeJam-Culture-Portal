@@ -24,10 +24,12 @@ import store from '../store/store';
 function MainPage(props) {
   const data = people[props.lang];
   let authorDay;
+  let authorID;
   const profileRand = Math.floor(Math.random() * 8);
   for (let i = 0; i < data.length; i++) {
     if (data[i].id === profileRand) {
       authorDay = i;
+      authorID = data[i].id;
     }
   }
   const profile = data[authorDay];
@@ -81,8 +83,8 @@ function MainPage(props) {
                           className="author-day__btn-text"
                           id={authorDay}
                           onClick={(e) => {
-                            localStorage.setItem('person', authorDay)
-                            store.dispatch({ type: 'person', value: authorDay });
+                            localStorage.setItem('person', authorID)
+                            store.dispatch({ type: 'person', value: authorID });
                           }}
                         >
                           {text}
