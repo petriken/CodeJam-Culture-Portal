@@ -23,6 +23,7 @@ class PersonalPage extends Component {
     };
     this.data = people[this.props.lang];
     this.profile = '';
+    this.media = ''
   }
 
   /* eslint-disable camelcase */
@@ -35,6 +36,13 @@ class PersonalPage extends Component {
     for (let i = 0; i < this.data.length; i++) {
       if (this.data[i].id === this.props.person) {
         this.profile = this.data[i];
+        this.media = {
+          avatar: this.profile.avatar,
+          name: this.profile.name,
+          works: this.profile.works,
+          videoSrc: this.profile.videoSrc,
+          video: this.profile.video
+        }
       }
     }
   }
@@ -44,12 +52,12 @@ class PersonalPage extends Component {
       <Layout>
         <div className="personal-page">
           <PersonalPageNavigation />
-          <Avatar data={this.profile} />
+          <Avatar data={this.media} />
           <Description data={this.profile} id="description" />
           <Timeline data={this.profile} />
           <ListOfWorks data={this.profile} />
-          <ImageGalleryComponent data={this.profile} />
-          <VideoPlayer data={this.profile} />
+          <ImageGalleryComponent data={this.media} />
+          <VideoPlayer data={this.media} />
           <ModalVideo data={this.profile} />
           <MapContainer data={this.profile} />
         </div>
