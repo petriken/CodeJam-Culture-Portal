@@ -21,6 +21,7 @@ class PersonalPage extends Component {
       profile: ''
     };
     this.data = people[this.props.lang];
+    this.person = ''
   }
 
   /* eslint-disable camelcase */
@@ -30,12 +31,12 @@ class PersonalPage extends Component {
 
   /* eslint-disable class-methods-use-this */
   componentWillMount() {
-    // for (let i = 0; i < this.data.length; i++) {
-    //   if (this.data[i].id === this.props.person) {
-    //     this.setState({ profile: this.data[i] });
-    //   }
-    // }
-    this.setState({ profile: this.data[2] });
+    for (let i = 0; i < this.data.length; i++) {
+      if (this.data[i].id === this.props.person) {
+        this.person = i;
+      }
+    }
+    this.setState({ profile: this.data[this.person] });
   }
 
   render() {

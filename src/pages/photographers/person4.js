@@ -18,12 +18,10 @@ class PersonalPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      profile: '',
-      media: ''
+      profile: ''
     };
     this.data = people[this.props.lang];
-    this.profile = '';
-    this.media = ''
+    this.person = ''
   }
 
   /* eslint-disable camelcase */
@@ -35,16 +33,10 @@ class PersonalPage extends Component {
   componentWillMount() {
     for (let i = 0; i < this.data.length; i++) {
       if (this.data[i].id === this.props.person) {
-        this.profile = this.data[i];
-        this.media = {
-          avatar: this.profile.avatar,
-          name: this.profile.name,
-          works: this.profile.works,
-          videoSrc: this.profile.videoSrc,
-          video: this.profile.video
-        }
+        this.person = i;
       }
     }
+    this.setState({ profile: this.data[this.person] });
   }
 
   render() {
@@ -52,14 +44,14 @@ class PersonalPage extends Component {
       <Layout>
         <div className="personal-page">
           <PersonalPageNavigation />
-          <Avatar data={this.media} />
-          <Description data={this.profile} id="description" />
-          <Timeline data={this.profile} />
-          <ListOfWorks data={this.profile} />
-          <ImageGalleryComponent data={this.media} />
-          <VideoPlayer data={this.media} />
-          <ModalVideo data={this.profile} />
-          <MapContainer data={this.profile} />
+          <Avatar data={this.state.profile} />
+          <Description data={this.state.profile} id="description" />
+          <Timeline data={this.state.profile} />
+          <ListOfWorks data={this.state.profile} />
+          <ImageGalleryComponent data={this.state.profile} />
+          <VideoPlayer data={this.state.profile} />
+          <ModalVideo data={this.state.profile} />
+          <MapContainer data={this.state.profile} />
         </div>
       </Layout>
     );
