@@ -11,7 +11,7 @@ const initialState = {
       messages[localStorage.getItem('gatsby-intl-language')] : messages['ru'],
   },
   person: typeof localStorage !== 'undefined' && localStorage.getItem('person') ?
-    +localStorage.getItem('person') : 1,
+    +localStorage.getItem('person') : 2,
 };
 
 function appState(state = initialState, action) {
