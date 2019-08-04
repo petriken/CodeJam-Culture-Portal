@@ -20,21 +20,21 @@ class PersonalPage extends Component {
     this.state = {
       profile: ''
     };
+    this.data = people[this.props.lang];
   }
 
   /* eslint-disable camelcase */
-  componentWillMount() {
-    const data = people[this.props.lang];
-    for (let i = 0; i < data.length; i++) {
-      if (data[i].id === this.props.person) {
-        this.setState({ profile: data[i] });
+  componentDidMount() {
+    for (let i = 0; i < this.data.length; i++) {
+      if (this.data[i].id === this.props.person) {
+        this.setState({ profile: this.data[i] });
       }
     }
   }
 
   /* eslint-disable class-methods-use-this */
-  componentDidMount() {
-    window.scrollTo(0, 0);
+  componentWillMount() {
+    typeof window !== 'undefined' ? window.scrollTo(0, 0) : this.setState({ scroll: 0 });
   }
 
   render() {
