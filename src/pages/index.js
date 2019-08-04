@@ -36,6 +36,10 @@ class MainPage extends Component {
     this.setState({ authorDay: profileRand, profile: this.data[profileRand] });
   }
 
+  componentWillUnmount() {
+    this.setState(null)
+  }
+
   render() {
     return (
       <Layout>
