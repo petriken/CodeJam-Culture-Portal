@@ -13,9 +13,12 @@
 
 **alexskir**
 
-| Start time | End time | time spent | feature |
-| ---------- | -------- | ---------- | ------- |
-|            |          |            |         |
+| Start time | End time | time spent | feature                            |
+| ---------- | -------- | ---------- | ---------------------------------- |
+| July 26    | July 26  | 8  h       | search function                    |
+| July 27    | July 28  | 10 h       | internationalization-framework     |
+| July 30    | July 31  | 15 h       | wrap in gatsby                     |
+| August 1   | August 4 | 25 h       | deploy to netlify                  |
 
 **petriken**
 
