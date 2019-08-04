@@ -391,19 +391,11 @@ export default [
       },
     ],
     works: [{ image: slide13, description: 'Деревня' },
-<<<<<<< HEAD
     { image: slide14, description: 'Тихая обитель' },
     { image: slide15, description: 'Детство' },
     { image: slide16, description: 'Тишина' },
     { image: slide17, description: 'Разруха' },
     { image: slide18, description: 'Над вечным покоем' }],
-=======
-      { image: slide14, description: 'Тихая обитель' },
-      { image: slide15, description: 'Детство' },
-      { image: slide16, description: 'Тишина' },
-      { image: slide17, description: 'Разруха' },
-      { image: slide18, description: 'Над вечным покоем' }],
->>>>>>> a24921bf185fcd580da9cbb02c6fd48d59393155
     listOfWorks: [
       {
         year: '1997',
@@ -516,19 +508,11 @@ export default [
     ],
 
     works: [{ image: slide40, description: 'Усадьба рода Булгаков в Добосне. Нач. ХХ века.' },
-<<<<<<< HEAD
     { image: slide41, description: 'Рыбацкие лодки на озере Нарочь. Нач. ХХ века.' },
     { image: slide42, description: 'Зимнее утро. Нач. ХХ века.' },
     { image: slide43, description: 'Костел в Ишкольди. Нач. ХХ века.' },
     { image: slide44, description: 'Гродно. Нач. ХХ века.' },
     { image: slide45, description: 'Дорога в окрестностях Порохонска. Нач. ХХ века.' },
-=======
-      { image: slide41, description: 'Рыбацкие лодки на озере Нарочь. Нач. ХХ века.' },
-      { image: slide42, description: 'Зимнее утро. Нач. ХХ века.' },
-      { image: slide43, description: 'Костел в Ишкольди. Нач. ХХ века.' },
-      { image: slide44, description: 'Гродно. Нач. ХХ века.' },
-      { image: slide45, description: 'Дорога в окрестностях Порохонска. Нач. ХХ века.' },
->>>>>>> a24921bf185fcd580da9cbb02c6fd48d59393155
     ],
     listOfWorks: [
       {
@@ -617,19 +601,11 @@ export default [
       },
     ],
     works: [{ image: slide19, description: 'Фоторабота выставки «Свет и тень» ' },
-<<<<<<< HEAD
     { image: slide20, description: 'Фоторабота выставки «Свет и тень» ' },
     { image: slide21, description: 'Фоторабота выставки «Свет и тень» ' },
     { image: slide22, description: 'Фоторабота выставки «Свет и тень» ' },
     { image: slide23, description: 'Фоторабота выставки «Свет и тень» ' },
     { image: slide24, description: 'Фоторабота выставки «Свет и тень» ' }],
-=======
-      { image: slide20, description: 'Фоторабота выставки «Свет и тень» ' },
-      { image: slide21, description: 'Фоторабота выставки «Свет и тень» ' },
-      { image: slide22, description: 'Фоторабота выставки «Свет и тень» ' },
-      { image: slide23, description: 'Фоторабота выставки «Свет и тень» ' },
-      { image: slide24, description: 'Фоторабота выставки «Свет и тень» ' }],
->>>>>>> a24921bf185fcd580da9cbb02c6fd48d59393155
     listOfWorks: [
       {
         year: '1924',
@@ -715,7 +691,6 @@ export default [
       },
     ],
     works: [{ image: slide25, description: 'Национальная библиотека Беларуси' },
-<<<<<<< HEAD
     { image: slide26, description: 'Минск. Красный костёл' },
     { image: slide27, description: 'В двух измерениях' },
     { image: slide28, description: 'Минск. Площадь Независимости' },
@@ -724,16 +699,6 @@ export default [
     { image: slide31, description: 'Минск.Оперный театр' },
     { image: slide32, description: 'Немига. Свислочь' },
     { image: slide33, description: 'Вокзальная площадь' }],
-=======
-      { image: slide26, description: 'Минск. Красный костёл' },
-      { image: slide27, description: 'В двух измерениях' },
-      { image: slide28, description: 'Минск. Площадь Независимости' },
-      { image: slide29, description: 'Национальная библиотека Беларуси' },
-      { image: slide30, description: 'Минск. Маленькая церквушка' },
-      { image: slide31, description: 'Минск.Оперный театр' },
-      { image: slide32, description: 'Немига. Свислочь' },
-      { image: slide33, description: 'Вокзальная площадь' }],
->>>>>>> a24921bf185fcd580da9cbb02c6fd48d59393155
     listOfWorks: [
       {
         year: '2000',
@@ -798,19 +763,11 @@ export default [
     ],
 
     works: [{ image: slide46, description: '«Индюки», 1972' },
-<<<<<<< HEAD
     { image: slide47, description: 'Фотография без названия' },
     { image: slide48, description: '«Это я, господи»' },
     { image: slide49, description: 'Григорий Бородулин' },
     { image: slide50, description: '«Это я, господи»' },
     { image: slide51, description: 'Пауки' }],
-=======
-      { image: slide47, description: 'Фотография без названия' },
-      { image: slide48, description: '«Это я, господи»' },
-      { image: slide49, description: 'Григорий Бородулин' },
-      { image: slide50, description: '«Это я, господи»' },
-      { image: slide51, description: 'Пауки' }],
->>>>>>> a24921bf185fcd580da9cbb02c6fd48d59393155
     listOfWorks: [
       {
         year: '1971-1975',
