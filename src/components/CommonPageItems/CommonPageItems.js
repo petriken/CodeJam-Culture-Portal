@@ -59,7 +59,7 @@ class CommonPageItems extends Component {
                   className="read-more-button"
                   id={item.id}
                   onClick={() => {
-                    localStorage.setItem('person', index)
+                    // localStorage.setItem('person', index)
                     store.dispatch({ type: 'term', value: '' });
                     store.dispatch({ type: 'city', value: '' });
                     store.dispatch({ type: 'person', value: index });

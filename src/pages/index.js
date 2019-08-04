@@ -30,7 +30,7 @@ function MainPage(props) {
     authorDay = Math.floor(profileRand);
     return Math.floor(profileRand);
   }
-  localStorage.setItem('person', authorDay)
+  // typeof localStorage !== 'undefined' ? localStorage.setItem('person', authorDay)
   const profile = data[getProfileRand()];
   return (
     <Layout>

@@ -29,6 +29,7 @@ function appState(state = initialState, action) {
         locales: action.value,
       });
     case 'person':
+      localStorage.setItem('person', action.value);
       return Object.assign({}, state, {
         person: action.value,
       });
