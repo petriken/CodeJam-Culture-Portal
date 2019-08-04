@@ -82,7 +82,7 @@ class MainPage extends Component {
               </h2>
               <Grid className="avatar-description">
                 <div>
-                  <Avatar src={this.state.profile.avatar} data={this.state.profile} />
+                  <Avatar data={this.state.profile} />
                   <DatePickers onChange={e => this.onChange(e)} />
                 </div>
                 <Grid>

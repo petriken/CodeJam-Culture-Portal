@@ -7,33 +7,31 @@ class Avatar extends Component {
     super(props);
     this.state = {
       avatar: '',
-      name: '',
-      src: ''
+      name: ''
     }
   }
 
   componentDidMount() {
-    this.setState({ avatar: this.props.data.avatar, name: this.props.data.name, src: this.props.src })
+    this.setState({ avatar: this.props.data.avatar, name: this.props.data.name })
   }
 
   componentWillReceiveProps(nextProp) {
-    if (nextProp.src !== this.state.src) {
-      this.setState({ src: nextProp.src })
+    if (nextProp.data.avatar !== this.state.avatar) {
+      this.setState({ avatar: nextProp.data.avatar })
     }
   }
 
   render() {
     return (
       <div className="avatar-container" id="avatar">
-        <img src={this.state.src || this.state.avatar} alt={this.state.name} />
+        <img src={this.state.avatar} alt={this.state.name} />
       </div>
     );
   }
 }
 
 Avatar.propTypes = {
-  data: PropTypes.object.isRequired,
-  src: PropTypes.string.isRequired
+  data: PropTypes.object.isRequired
 };
 
 export default Avatar;
