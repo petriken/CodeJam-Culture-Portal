@@ -144,17 +144,17 @@ export default [
         description: 'He died of a stroke in Minsk.',
       },
     ],
-    works: [{ image: slide1, description: 'The work of the exhibition «Under Ground», 2011. M.V. Anempodistov explained that Belarusians, as well as vegetables, hide the most interesting things inside. Outside, they usually look like potatoes smeared in the ground, and inside under the peel is the “golden sun”.' },
-      { image: slide2, description: 'The work of the exhibition «Under Ground», 2011' },
-      { image: slide3, description: 'The work of the exhibition «Under Ground», 2011' },
-      { image: slide4, description: 'The work of the exhibition «Under Ground», 2011' },
-      { image: slide5, description: 'The work of the exhibition «Under Ground», 2011' },
-      { image: slide6, description: 'The work of the exhibition «Under Ground», 2011' }],
+    works: [{ image: slide1, description: 'The work of the exhibition «Under Ground», 2011.' },
+    { image: slide2, description: 'The work of the exhibition «Under Ground», 2011' },
+    { image: slide3, description: 'The work of the exhibition «Under Ground», 2011' },
+    { image: slide4, description: 'The work of the exhibition «Under Ground», 2011' },
+    { image: slide5, description: 'The work of the exhibition «Under Ground», 2011' },
+    { image: slide6, description: 'The work of the exhibition «Under Ground», 2011' }],
     listOfWorks: [
       {
         year: '2011',
         work:
-          'Photo exhibition “Under Ground”: in photos focused on Belarusian vegetables. The choice of topics was explained by the fact that Belarusians, like vegetables, hide interesting things in themselves, do not show them outside - a nation of people buried in themselves: they usually look, but inside they are fantastic - the golden sun is hidden under the skin of potatoes, soiled (from the soil)',
+          'Photo exhibition “Under Ground”',
       },
       {
         year: '2012',
@@ -210,11 +210,11 @@ export default [
       },
     ],
     works: [{ image: slide7, description: 'Stroll' },
-      { image: slide8, description: 'Vitebsk.Evening' },
-      { image: slide9, description: 'Tuileries Garden' },
-      { image: slide10, description: 'The monks' },
-      { image: slide11, description: 'Paris: Avenue du Père Lachaise' },
-      { image: slide12, description: 'Evening' }],
+    { image: slide8, description: 'Vitebsk.Evening' },
+    { image: slide9, description: 'Tuileries Garden' },
+    { image: slide10, description: 'The monks' },
+    { image: slide11, description: 'Paris: Avenue du Père Lachaise' },
+    { image: slide12, description: 'Evening' }],
     listOfWorks: [
       {
         year: '1982-2005',
@@ -308,11 +308,11 @@ export default [
       },
     ],
     works: [{ image: slide34, description: 'On Vileika street' },
-      { image: slide35, description: 'High water on Pilsudsky Street, 1930' },
-      { image: slide36, description: 'Synagogue' },
-      { image: slide37, description: 'Pilsudski Street, 1930' },
-      { image: slide38, description: 'Chapel, 1930' },
-      { image: slide39, description: 'Photo from the archive of the museum of local lore' }],
+    { image: slide35, description: 'High water on Pilsudsky Street, 1930' },
+    { image: slide36, description: 'Synagogue' },
+    { image: slide37, description: 'Pilsudski Street, 1930' },
+    { image: slide38, description: 'Chapel, 1930' },
+    { image: slide39, description: 'Photo from the archive of the museum of local lore' }],
     listOfWorks: [
       {
         year: '1910—1912 ',
@@ -391,17 +391,12 @@ export default [
       },
     ],
     works: [{ image: slide13, description: 'Village' },
-      { image: slide14, description: 'Quiet abode' },
-      { image: slide15, description: 'Childhood' },
-      { image: slide16, description: 'Silence' },
-      { image: slide17, description: 'Devastation' },
-      { image: slide18, description: 'Over eternal peace' }],
+    { image: slide14, description: 'Quiet abode' },
+    { image: slide15, description: 'Childhood' },
+    { image: slide16, description: 'Silence' },
+    { image: slide17, description: 'Devastation' },
+    { image: slide18, description: 'Over eternal peace' }],
     listOfWorks: [
-      {
-        year: '1997',
-        work:
-          '"Alone in the city." Museum of the Belarusian State Academy of Arts, Minsk ',
-      },
       {
         year: '1997',
         work:
@@ -443,7 +438,7 @@ export default [
     id: 7,
     name: 'Jan Bulhak',
     avatar: avatar7,
-    occupation: 'Ethnographer, folklorist, writer, photographer',
+    occupation: 'Belarusian and polish photographer, "the father of holish photography", one of the pioneers of art photography.',
     birthDate: '06.10.1876',
     birthPlace: 'Ostashino, Novogrudok',
     deathDate: '04.02.1950',
@@ -504,11 +499,11 @@ export default [
     ],
 
     works: [{ image: slide40, description: 'The estate of the Bulgakov clan in Dobosn. Early Twentieth century.' },
-      { image: slide41, description: 'Fishing boats on the lake Naroch. Early Twentieth century.' },
-      { image: slide42, description: 'Winter morning. Early Twentieth century.' },
-      { image: slide43, description: 'Church in Ishkoldi. Early Twentieth century.' },
-      { image: slide44, description: 'Grodno. Early Twentieth century.' },
-      { image: slide45, description: 'The road in the vicinity of Porokhonsk. Early Twentieth century.' }],
+    { image: slide41, description: 'Fishing boats on the lake Naroch. Early Twentieth century.' },
+    { image: slide42, description: 'Winter morning. Early Twentieth century.' },
+    { image: slide43, description: 'Church in Ishkoldi. Early Twentieth century.' },
+    { image: slide44, description: 'Grodno. Early Twentieth century.' },
+    { image: slide45, description: 'The road in the vicinity of Porokhonsk. Early Twentieth century.' }],
     listOfWorks: [
       {
         year: '1931',
@@ -596,11 +591,11 @@ export default [
       },
     ],
     works: [{ image: slide19, description: 'Photowork of the exhibition «Light and Shadow»' },
-      { image: slide20, description: 'Photowork of the exhibition «Light and Shadow»' },
-      { image: slide21, description: 'Photowork of the exhibition «Light and Shadow»' },
-      { image: slide22, description: 'Photowork of the exhibition «Light and Shadow»' },
-      { image: slide23, description: 'Photowork of the exhibition «Light and Shadow»' },
-      { image: slide24, description: 'Photowork of the exhibition «Light and Shadow»' }],
+    { image: slide20, description: 'Photowork of the exhibition «Light and Shadow»' },
+    { image: slide21, description: 'Photowork of the exhibition «Light and Shadow»' },
+    { image: slide22, description: 'Photowork of the exhibition «Light and Shadow»' },
+    { image: slide23, description: 'Photowork of the exhibition «Light and Shadow»' },
+    { image: slide24, description: 'Photowork of the exhibition «Light and Shadow»' }],
     listOfWorks: [
       {
         year: '1924',
@@ -760,11 +755,11 @@ export default [
     ],
 
     works: [{ image: slide46, description: '«Turkeys», 1972' },
-      { image: slide47, description: 'Untitled photo' },
-      { image: slide48, description: 'This is me, Lord' },
-      { image: slide49, description: 'Untitled photo' },
-      { image: slide50, description: 'This is me, Lord' },
-      { image: slide51, description: 'Spiders' }],
+    { image: slide47, description: 'Untitled photo' },
+    { image: slide48, description: 'This is me, Lord' },
+    { image: slide49, description: 'Untitled photo' },
+    { image: slide50, description: 'This is me, Lord' },
+    { image: slide51, description: 'Spiders' }],
     listOfWorks: [
       {
         year: '1971-1975',

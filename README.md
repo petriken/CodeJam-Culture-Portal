@@ -1,10 +1,2 @@
-# CodeJam-Culture-Portal
-
-## Installation:
-``` bash
-# install dependencies
-npm install
-
-# runs the app in development mode.
+# gatsbyNetlify
 npm run start
-```
